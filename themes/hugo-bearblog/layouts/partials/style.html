@@ -1,15 +1,41 @@
 <style>
+  :root {
+    --text-color: #444;
+    --header-color: #222;
+    --bg-color: #fff;
+    --link-color: #3273dc;
+    --code-bg-color: #f2f2f2;
+    --pre-code-color: #222;
+    --block-quote-color: #222;
+    --help-text-color: #777;
+  }
+
+  .dark-theme {
+    --text-color: #ddd;
+    --header-color: #eee;
+    --bg-color: #333;
+    --link-color: #8cc2dd;
+    --code-bg-color: #777;
+    --pre-code-color: #ddd;
+    --block-quote-color: #ccc;
+    --help-text-color: #aaa;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font-family: Verdana, sans-serif;
     margin: auto;
     padding: 20px;
     max-width: 720px;
     text-align: left;
-    background-color: #fff;
+    background-color: var(--bg-color);
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
-    color: #444;
+    color: var(--text-color);
   }
 
   h1,
@@ -20,11 +46,11 @@
   h6,
   strong,
   b {
-    color: #222;
+    color: var(--header-color);
   }
 
   a {
-    color: #3273dc;
+    color: var(--link-color);
     /*color: #ff5e6c;*/
   }
 
@@ -64,11 +90,11 @@
 
   code {
     padding: 2px 5px;
-    background-color: #f2f2f2;
+    background-color: var(--code-bg-color);
   }
 
   pre code {
-    color: #222;
+    color: var(--pre-code-color);
     display: block;
     padding: 20px;
     white-space: pre-wrap;
@@ -76,19 +102,24 @@
     overflow-x: auto;
   }
 
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
+  /* div.highlight pre { */
+  /*   background-color: initial; */
+  /*   color: initial; */
+  /* } */
+  /**/
+  /* div.highlight code { */
+  /*   background-color: unset; */
+  /*   color: unset; */
+  /* } */
 
-  div.highlight code {
-    background-color: unset;
-    color: unset;
+  .chroma code {
+    background-color: #24283b;
+    color: #f5a97f;
   }
 
   blockquote {
     border-left: 1px solid #999;
-    color: #222;
+    color: var(--block-quote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -99,7 +130,7 @@
   }
 
   .helptext {
-    color: #777;
+    color: var(--help-text-color);
     font-size: small;
   }
 
@@ -126,48 +157,31 @@
     color: #8b6fcb;
   }
 
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
+  .float-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    width: min-content;
+    border-radius: 5px;
+    background: rgba(34, 247, 80, 0.4);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 10px;
   }
 
+  .float-menu__item {
+    display: flex;
+    place-items: center;
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  .float-menu__item:first-of-type {
+    border-bottom: 1px solid #909090;
+    padding: 10px;
+  }
 </style>
