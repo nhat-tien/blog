@@ -3,7 +3,7 @@
   your local /layouts/partials-directory -->
 
 <div class="float-menu">
-    <div class="float-menu__item" id="toggle-theme-button">
+    <div class="float-menu__item" id="toggle-theme-button" onclick="toggleTheme()">
         <svg width="20px" height="20px" aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg" fill="var(--text-color)" viewBox="0 0 20 20">
             <path
@@ -51,6 +51,5 @@ function changeIconTheme(theme, element) {
         `
     }
 }
-$toggleButton.addEventListener("click", toggleTheme);
 </script>
 
