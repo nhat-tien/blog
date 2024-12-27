@@ -1,9 +1,10 @@
 +++
 title = "My Awesome List"
 date = "2024-12-03"
+lastmod = "2024-12-03"
 description = "List of awesome softwares/tools"
 tags = []
 +++
 
-
-- [NoiseTorch](https://github.com/noisetorch/NoiseTorch)
+## Tools
+- [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Noise supression app

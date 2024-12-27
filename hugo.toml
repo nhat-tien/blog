@@ -9,7 +9,7 @@ assetDir='assets'
 
 # Basic metadata configuration for your blog.
 # title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
-title = "/ᐠ. .ᐟ\\ฅ Tien's Cozy Corner"
+title = "/ᐠ. .ᐟ\\ฅ Nhat Tien"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
