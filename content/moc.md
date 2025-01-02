@@ -5,5 +5,5 @@ menu = "main"
 
 # Map Of Content
 
-- [Awesome List](/blog/my-awesome-list)
-- [Idea List](/blog/my-idea)
+- [Awesome List](/my-awesome-list)
+- [Idea List](/my-idea)
