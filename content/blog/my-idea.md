@@ -4,7 +4,7 @@ date = "2024-12-27"
 lastmod = "2024-12-27"
 description = "My list of idea for software development"
 tags = []
-draft = true
+draft = false 
 +++
 
 ## List
