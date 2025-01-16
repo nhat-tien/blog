@@ -6,8 +6,7 @@ menu = "main"
 # About
 
 <div align="center">
-
-![alt text](/images/favicon.svg) 
+    <img width="40%" src="/images/bluemouseSmall.png" />
 </div>
 
 ## Me
