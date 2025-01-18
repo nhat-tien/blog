@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://tienblog.netlify.app"
+baseURL = "https://tienldn.site"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
