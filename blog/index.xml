@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienblog.netlify.app/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienblog.netlify.app/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Book recommendation from Nam .NET</title><link>https://tienblog.netlify.app/book-recommendation-from-nam-.net/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/book-recommendation-from-nam-.net/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
+&lt;p>📕 OOP và phân tích thiết kế:&lt;/p>
+&lt;ul>
+&lt;li>Clean Architecture, Robert Martin: Cuốn sách này mang lại cho bạn một tập kiến thức chi tiết về mọi khía cạnh liên quan đến OOP, tuy tiêu đề mang tên là Clean Architecture nhưng phần nói về nó tương đối ngắn, chỉ đâu đó khoảng 10 trang, và thực tế là nếu đã hiểu rõ OOP và các khái niệm liên quan thì chỉ cần chừng đó là bạn đủ hiểu về Clean Architecture rồi.&lt;/li>
+&lt;li>Object-Oriented Analysis and Design with Applications, Grady Booch, Ivar Jacobson, and James Rumbaugh. Nếu biết tác giả của cuốn sách này chính là những người tạo ra UML, có lẽ bạn sẽ chẳng nghi ngờ gì về tính chính xác của nội dung cuốn sách, OOAD là phương pháp mà mình tin rằng cho tới bây giờ vẫn còn giữ nguyên giá trị.&lt;/li>
+&lt;li>Domain-Driven Design, Eric Evans: Cuốn này còn được gọi là &amp;ldquo;The blue book&amp;rdquo;, được viết bởi chính tác giả của DDD, tuy nhiên vì DDD vốn là một chủ đề phức tạp, đòi hỏi bạn đã có kinh nghiệm nên lời khuyên là chỉ nên đọc khi bạn thực sự muốn tìm hiểu, nếu không sẽ không thấm được.&lt;/li>
+&lt;li>Patterns of Enterprise Application Architecture, (Martin Fowler và nhiều tác giả khác): Hãy đọc cuốn này nếu bạn quan tâm đến việc xây dựng các ứng dụng lớn, nhiều người dùng, nó không chỉ có các design pattern mà còn cho bạn thấy nhiều vấn đề bạn sẽ gặp phải.&lt;/li>
+&lt;li>System Design Interview, Alex Xu: Thú thật là mình cũng chỉ đọc sơ qua thôi, vì nhiều kiến thức trong đây thì mình đã biết rồi, nhưng nếu bạn là người mới với system design thì nên đọc.&lt;/li>
+&lt;/ul>
+&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>Todo list</title><link>https://tienblog.netlify.app/todo-list/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/todo-list/</guid><description>&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> About Authentication with JWT&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> About 4 charateristics of OOP&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> React Redux&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Vim/Neovim as a productive tool&lt;/li>
+&lt;/ul></description></item><item><title>My Idea</title><link>https://tienblog.netlify.app/my-idea/</link><pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/my-idea/</guid><description>&lt;h2 id="list">List&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#bandzto">Bandzto&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ocr-service">OCR Service used for integration&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="bandzto">Bandzto&lt;/h2>
+&lt;ul>
+&lt;li>Nextjs&lt;/li>
+&lt;li>A online store for indie artist&lt;/li>
+&lt;/ul>
+&lt;h2 id="ocr-service">OCR Service&lt;/h2>
+&lt;ul>
+&lt;li>AI&lt;/li>
+&lt;li>Python&lt;/li>
+&lt;li>Rust&lt;/li>
+&lt;li>Parse, extract infomation from PDF, image and send back JSON data&lt;/li>
+&lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienblog.netlify.app/my-awesome-list/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/my-awesome-list/</guid><description>&lt;h2 id="tools">Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/noisetorch/NoiseTorch">NoiseTorch&lt;/a>: Noise supression app&lt;/li>
+&lt;/ul></description></item></channel></rss>
