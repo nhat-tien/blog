@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://tienblog.netlify.app/sitemap.xml
+Sitemap: https://tienldn.site/sitemap.xml

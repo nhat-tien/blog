@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Nhat Tien</title><link>https://tienblog.netlify.app/</link><description>Recent content in Home on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienblog.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>Book recommendation from Nam .NET</title><link>https://tienblog.netlify.app/book-recommendation-from-nam-.net/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/book-recommendation-from-nam-.net/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Nhat Tien</title><link>https://tienldn.site/</link><description>Recent content in Home on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/index.xml" rel="self" type="application/rss+xml"/><item><title>Book recommendation from Nam .NET</title><link>https://tienldn.site/book-recommendation-from-nam-.net/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/book-recommendation-from-nam-.net/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
 &lt;p>📕 OOP và phân tích thiết kế:&lt;/p>
 &lt;ul>
 &lt;li>Clean Architecture, Robert Martin: Cuốn sách này mang lại cho bạn một tập kiến thức chi tiết về mọi khía cạnh liên quan đến OOP, tuy tiêu đề mang tên là Clean Architecture nhưng phần nói về nó tương đối ngắn, chỉ đâu đó khoảng 10 trang, và thực tế là nếu đã hiểu rõ OOP và các khái niệm liên quan thì chỉ cần chừng đó là bạn đủ hiểu về Clean Architecture rồi.&lt;/li>
@@ -7,12 +7,12 @@
 &lt;li>Patterns of Enterprise Application Architecture, (Martin Fowler và nhiều tác giả khác): Hãy đọc cuốn này nếu bạn quan tâm đến việc xây dựng các ứng dụng lớn, nhiều người dùng, nó không chỉ có các design pattern mà còn cho bạn thấy nhiều vấn đề bạn sẽ gặp phải.&lt;/li>
 &lt;li>System Design Interview, Alex Xu: Thú thật là mình cũng chỉ đọc sơ qua thôi, vì nhiều kiến thức trong đây thì mình đã biết rồi, nhưng nếu bạn là người mới với system design thì nên đọc.&lt;/li>
 &lt;/ul>
-&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>Todo list</title><link>https://tienblog.netlify.app/todo-list/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/todo-list/</guid><description>&lt;ul>
+&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>Todo list</title><link>https://tienldn.site/todo-list/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/todo-list/</guid><description>&lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> About Authentication with JWT&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> About 4 charateristics of OOP&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> React Redux&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Vim/Neovim as a productive tool&lt;/li>
-&lt;/ul></description></item><item><title>My Idea</title><link>https://tienblog.netlify.app/my-idea/</link><pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/my-idea/</guid><description>&lt;h2 id="list">List&lt;/h2>
+&lt;/ul></description></item><item><title>My Idea</title><link>https://tienldn.site/my-idea/</link><pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/my-idea/</guid><description>&lt;h2 id="list">List&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="#bandzto">Bandzto&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#ocr-service">OCR Service used for integration&lt;/a>&lt;/li>
@@ -28,12 +28,12 @@
 &lt;li>Python&lt;/li>
 &lt;li>Rust&lt;/li>
 &lt;li>Parse, extract infomation from PDF, image and send back JSON data&lt;/li>
-&lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienblog.netlify.app/my-awesome-list/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/my-awesome-list/</guid><description>&lt;h2 id="tools">Tools&lt;/h2>
+&lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienldn.site/my-awesome-list/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/my-awesome-list/</guid><description>&lt;h2 id="tools">Tools&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/noisetorch/NoiseTorch">NoiseTorch&lt;/a>: Noise supression app&lt;/li>
-&lt;/ul></description></item><item><title>About</title><link>https://tienblog.netlify.app/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/about/</guid><description>&lt;h1 id="about">About&lt;/h1>
+&lt;/ul></description></item><item><title>About</title><link>https://tienldn.site/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tienldn.site/about/</guid><description>&lt;h1 id="about">About&lt;/h1>
 &lt;div align="center">
- &lt;img width="40%" src="https://tienblog.netlify.app/images/bluemouseSmall.png" />
+ &lt;img width="40%" src="https://tienldn.site/images/bluemouseSmall.png" />
 &lt;/div>
 &lt;h2 id="me">Me&lt;/h2>
 &lt;p>I&amp;rsquo;m a nerd&lt;/p>
@@ -41,9 +41,9 @@
 &lt;h3 id="why-this-blog-exist">Why this blog exist&lt;/h3>
 &lt;p>This blog is a place where I can share my thoughts, and learn English by writing.&lt;/p>
 &lt;h3 id="why-the-website-look-so-boring">Why the website look so boring&lt;/h3>
-&lt;p>Well&amp;hellip;there are a few reasons why I didn&amp;rsquo;t put much effort into designing this website. The main reason is that I want to focus more on writing. The last time I built a blog, I spent a lot of time designing the UI to make it look perfect. But at the end of the day, I didn&amp;rsquo;t write any posts. This time I&amp;rsquo;m determined not to make that mistake again.&lt;/p></description></item><item><title>MOC</title><link>https://tienblog.netlify.app/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tienblog.netlify.app/moc/</guid><description>&lt;h1 id="map-of-content">Map Of Content&lt;/h1>
+&lt;p>Well&amp;hellip;there are a few reasons why I didn&amp;rsquo;t put much effort into designing this website. The main reason is that I want to focus more on writing. The last time I built a blog, I spent a lot of time designing the UI to make it look perfect. But at the end of the day, I didn&amp;rsquo;t write any posts. This time I&amp;rsquo;m determined not to make that mistake again.&lt;/p></description></item><item><title>MOC</title><link>https://tienldn.site/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tienldn.site/moc/</guid><description>&lt;h1 id="map-of-content">Map Of Content&lt;/h1>
 &lt;ul>
-&lt;li>&lt;a href="https://tienblog.netlify.app/my-awesome-list">Awesome List&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://tienblog.netlify.app/todo-list">Todo&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://tienblog.netlify.app/my-idea">Idea List&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tienldn.site/my-awesome-list">Awesome List&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tienldn.site/todo-list">Todo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tienldn.site/my-idea">Idea List&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
