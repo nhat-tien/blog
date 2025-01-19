@@ -4,4 +4,4 @@ title = "Home"
 
 # Hi
 
-Wellcome to my small corner in the Internet. Here, you will find my notes, thoughts about my life, technology, and things interest me.
+Welcome to my small corner on the Internet. Here, you'll find my notes on technology, and the things that interest me.
