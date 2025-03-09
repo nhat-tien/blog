@@ -108,6 +108,18 @@
         `
       }
     }
+
+    function setIconDefault() {
+      let $html = document.querySelector("html");
+
+      if ($html.classList.contains("dark-theme")) {
+        changeIconTheme("night", $toggleButton);
+      } else {
+        changeIconTheme("day", $toggleButton);
+      }
+    }
+
+    setIconDefault();
   </script>
 
 </body>
