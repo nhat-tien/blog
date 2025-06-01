@@ -1,5 +1,6 @@
 +++
 title = "Home"
+description = "personal blog of Nhat Tien"
 +++
 
 # Hi
