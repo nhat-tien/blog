@@ -1,0 +1,4 @@
+const searchBox=document.getElementById("search-query"),searchResult=document.getElementById("search-results");var index={};const options={keys:["title"]};function executeSearch(){const e=new Fuse(index,options),t=e.search(searchBox.value);render(t)}function render(e){let t="";for(result of e)t+=`
+      <a class="post" href="${result.item.permalink}">
+          <h3 class="search-item">${result.item.title}</h3>
+		  </a>`;searchResult.innerHTML=t}fetch("/index.json").then(e=>e.json()).then(e=>index=e).catch(e=>console.error("Something went wrong with search feature")),searchBox.addEventListener("input",()=>executeSearch())

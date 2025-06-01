@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reactjs on Nhat Tien</title><link>https://tienldn.site/tags/reactjs/</link><description>Recent content in Reactjs on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 15 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/reactjs/index.xml" rel="self" type="application/rss+xml"/><item><title>React.js</title><link>https://tienldn.site/blogs/react.js/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react.js/</guid><description>&lt;h2 id="concept">Concept&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://tienldn.site/garden/react-server-component">
+ React Server Component
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul></description></item><item><title>React Server Component</title><link>https://tienldn.site/blogs/react-server-component/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-server-component/</guid><description>&lt;h2 id="server-component">Server Component&lt;/h2>&lt;p>&lt;strong>Có các đặc điểm sau:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Không có state, nên không sử dụng các hook như &lt;code>useState&lt;/code> và &lt;code>useReducer&lt;/code>&lt;/li>
+&lt;li>Không re-rendering, nên không sử dụng các hook life-cycle như &lt;code>useEffect&lt;/code> và &lt;code>useLayoutEffect&lt;/code>&lt;/li>
+&lt;li>Không chạy trong máy khách, nên không thể sử dụng &lt;code>useContext&lt;/code>&lt;/li>
+&lt;li>Không thể sử dụng được những API chỉ có sẵn ở Browser (DOM và API Web)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Mục tiêu:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Giảm kích thước gói tải.&lt;/li>
+&lt;/ul>
+&lt;h2 id="server-side-rendering-ssr">Server Side Rendering (SSR)&lt;/h2>&lt;ul>
+&lt;li>Gửi HTML String chưa có js tới trình duyệt -&amp;gt; sau đó nhận file js -&amp;gt; quá trình &lt;code>hydrate&lt;/code>-&amp;gt; lúc này Cilent đã có code React javascript, các component có State, Event Listener. &lt;strong>Và sau lần khởi tạo này, web sẽ hoạt động y như một React Single Page Application.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://zenn.dev/g4rds/articles/287c53498d17a1" target="_blank" rel="noopener">
+ React Server Components Roundup (zenn.dev)
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
