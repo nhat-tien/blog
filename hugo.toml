@@ -15,6 +15,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
   favicon = "/images/favicon.png"
   dateFormat = "02-01-2006"
+  description = "personal blog of Nhat Tien"
 
 
 [markup]
