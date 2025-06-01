@@ -1,0 +1,41 @@
+{{ define "main" }}
+<main>
+{{ if not .Params.main }}
+  <article>
+  <h1>{{ .Title }}</h1>
+  {{ if isset .Params "stage"}}
+  <div class="frontmatter-wrapper">
+    {{end}}
+    <div class="frontmatter">
+      <div class="frontmatter__key">Published</div>
+      <div class="frontmatter__value">
+          <time datetime='{{ .Date.Format "02/01/2006" }}' pubdate style="font-weight: 600;">
+            {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
+          </time>
+      </div>
+    </div>
+    <div class="frontmatter">
+      <div class="frontmatter__key">Updated</div>
+      <div class="frontmatter__value">
+          <time datetime='{{ .Lastmod.Format "02/01/2006" }}' pubdate style="font-weight: 600;">
+            {{ .Lastmod.Format (default "02/01/2006" .Site.Params.dateFormat) }}
+          </time>
+      </div>
+    </div>
+    <div class="frontmatter frontmatter--tags">
+        <div class="frontmatter__key"></div>
+        <div class="frontmatter__value">
+        {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}" class="tag {{ if eq .Page.Title "Moc"}}tag--moc{{end}}">
+            {{ .LinkTitle }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ partial "toc.html" . }}
+  {{ .Content }}
+  </article>
+</main>
+{{ end }}

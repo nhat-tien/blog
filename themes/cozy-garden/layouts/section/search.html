@@ -1,0 +1,11 @@
+{{define "main"}}
+<main>
+<div class="search-container">
+    <input type="search" id="search-query" placeholder="Start typing to search...." />
+    <div id="search-results"></div>
+</div>
+{{ $fuseUrl := resources.Get "js/fuse.js" | minify | fingerprint}}
+<script defer src="{{ $fuseUrl.Permalink }}"></script>
+{{ $searchScriptUrl := resources.Get "js/search.js" | minify | fingerprint}}
+<script src="{{ $searchScriptUrl.Permalink }}"></script>
+{{ end }}

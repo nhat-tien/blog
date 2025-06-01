@@ -8,3 +8,6 @@ tags = []
 
 ## Tools
 - [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Noise supression app
+
+## Blog/Articles
+- [ThinhNotes](https://thinhnotes.com/): Business Analytics
