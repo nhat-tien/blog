@@ -2,6 +2,7 @@ baseURL = "https://tienldn.site"
 theme = 'cozy-garden'
 languageCode = "en-US"
 assetDir='assets'
+description = "personal blog of Nhat Tien"
 
 title = "Nhat Tien"
 
