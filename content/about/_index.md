@@ -6,11 +6,11 @@ main = true
 
 # About Me
 
-<div align="center">
-    <img width="40%" src="/images/bluemouseSmall.png" />
+<div class="about-image__wrapper" align="center">
+    <img class="about-image" src="/images/nhat-tien.webp" />
 </div>
 
-I'm a nerd
+<p style="text-align: center">I'm a nerd</p>
 
 ## This website
 I built it with Hugo. The repo link [here](https://github.com/nhat-tien/blog)

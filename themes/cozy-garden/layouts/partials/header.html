@@ -2,7 +2,8 @@
 <!--   <img class="header-img" src="/images/head-image.webp" /> -->
 <!-- </div> -->
 <nav class="header">
-  <a href="{{ "" | relURL }}" class="header__home">
+  <a class="header__home" href="{{ "" | relURL }}" >
+    <img alt="logo" src="{{ .Site.Params.logo }}" class="logo" />
     {{ .Site.Title }}
   </a>
   <div class="top-menu">

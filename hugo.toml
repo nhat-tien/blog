@@ -13,9 +13,11 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
-  favicon = "/images/favicon.png"
+  favicon = "/favicon.ico"
   dateFormat = "02-01-2006"
+  logo = "/images/blue-mouse.webp"
   description = "personal blog of Nhat Tien"
+  
 
 
 [markup]

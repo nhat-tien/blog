@@ -102,6 +102,7 @@ body {
   background-color: var(--background_color);
   color: var(--text_color);
   min-height: 100vh;
+  transition: background-color 0.3s ease-in-out;
 }
 
 h1,
@@ -318,6 +319,10 @@ header {
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--heading_color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -738,6 +743,11 @@ footer a {
 .logo {
   width: 30px;
   height: 30px;
+  transition: all .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.logo:hover {
+  transform: rotate(350deg);
 }
 
 .header-img {
@@ -749,4 +759,18 @@ footer a {
     position: absolute;
     left: 0;
   }
+}
+
+.about-image__wrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 90%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-image {
+  width: 400px;
+  transform: translateX(-100px) translateY(-60px);
 }

@@ -40,10 +40,12 @@ function setTheme(theme) {
     case "light":
       $html.classList.remove("dark-theme");
       sessionStorage.setItem("theme", "light");
+      toggleOpen();
       break;
     case "dark":
       $html.classList.add("dark-theme");
       sessionStorage.setItem("theme", "dark");
+      toggleOpen();
       break;
     case "system":
       const darkTheme = isSystemPreferDarkTheme();
@@ -53,6 +55,7 @@ function setTheme(theme) {
         $html.classList.remove("dark-theme");
       }
       sessionStorage.setItem("theme", "system");
+      toggleOpen();
       break;
   }
 }
