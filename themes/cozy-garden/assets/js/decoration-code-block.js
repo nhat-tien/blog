@@ -1,4 +1,4 @@
-const codeBlocks = document.querySelectorAll(".chroma");
+const codeBlocks = document.querySelectorAll(".highlight");
 
 codeBlocks.forEach(e => {
   const language = e.querySelector("code").getAttribute("data-lang");

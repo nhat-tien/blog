@@ -216,7 +216,6 @@ code {
   padding: 30px 12px 12px 12px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  position: relative;
 }
 
 .chroma code {
@@ -227,6 +226,7 @@ code {
 
 .highlight {
   margin: 1em auto;
+  position: relative;
 }
 
 .decoration-language {
