@@ -89,7 +89,6 @@ html {
   font-size: 16px;
   scroll-padding-top: 80px;
   scroll-behavior: smooth;
-  min-height: 100vh;
 }
 
 body {
@@ -140,6 +139,7 @@ h1 {
 p {
   margin-top: 1em;
   line-height: 1.5em;
+  text-align: justify;
 }
 
 hr {
@@ -158,6 +158,7 @@ ul li,
 ol li {
   margin-top: 0.5em;
   word-wrap: break-word;
+  text-align: justify;
 }
 
 a {
@@ -172,6 +173,7 @@ a {
 main {
   flex: 1;
 }
+
 /*
 *  --------     TABLE   -------
 */
@@ -211,9 +213,10 @@ code {
 .chroma {
   width: 100%;
   overflow-x: auto;
-  padding: 12px;
+  padding: 30px 12px 12px 12px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
 }
 
 .chroma code {
@@ -224,6 +227,16 @@ code {
 
 .highlight {
   margin: 1em auto;
+}
+
+.decoration-language {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background-color: var(--code_background_color);
+  color: var(--text_color);
+  font-size: 0.8rem;
 }
 
 /*
@@ -374,7 +387,7 @@ header {
   transition: all 0.3s ease-in-out;
   background-color: var(--background_color);
   width: 100vw;
-  right: -20px;
+  right: -.7rem;
   z-index: -10;
   display: flex;
   flex-direction: column;
@@ -387,11 +400,11 @@ header {
   position: absolute;
   display: none;
   opacity: 0;
-  width: 100vw;
+  width: 110vw;
   height: 100vh;
   z-index: -20;
   transition: opacity 5s linear;
-  right: -20px;   
+  right: -.7rem;
   top: 20px;
 }
 
@@ -590,6 +603,7 @@ footer a {
 }
 
 .frontmatter__value {
+  margin-left: 0.2em;
   display: inline-block;
 }
 

@@ -38,4 +38,6 @@
   {{ .Content }}
   </article>
 </main>
+{{ $decorationCodeBlock := resources.Get "js/decoration-code-block.js" | minify | fingerprint}}
+<script src="{{ $decorationCodeBlock.Permalink }}"></script>
 {{ end }}
