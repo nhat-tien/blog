@@ -7,7 +7,7 @@ main = true
 # About Me
 
 <div class="about-image__wrapper" align="center">
-    <img class="about-image" src="/images/nhat-tien.webp" />
+    <img width="400px" class="about-image" src="/images/nhat-tien.webp" alt="photo about me"/>
 </div>
 
 <p style="text-align: center">I'm a nerd</p>

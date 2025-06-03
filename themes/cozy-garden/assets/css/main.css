@@ -37,7 +37,7 @@
   --text_color: #171D31;
   --icon_floatmenu_color: #474747;
   --heading_color: #183e22;
-  --link_color: #278501;
+  --link_color: #1E6501;
   --sharp_symbol_color: #c7c7c7;
   --table_border_color: #adadad;
   --table_even_row_background_color: #d3d1d1;
@@ -768,9 +768,9 @@ footer a {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  transition: all .1s ease-in-out;
 }
 
 .about-image {
-  width: 400px;
   transform: translateX(-100px) translateY(-60px);
 }
