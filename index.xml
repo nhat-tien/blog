@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Nhat Tien</title><link>https://tienldn.site/</link><description>Recent content in Home on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/index.xml" rel="self" type="application/rss+xml"/><item><title>Book recommendation from Nam .NET</title><link>https://tienldn.site/blogs/book-recommendation-from-nam-.net/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/book-recommendation-from-nam-.net/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
+&lt;!-- more -->
 &lt;p>📕 OOP và phân tích thiết kế:&lt;/p>
 &lt;ul>
 &lt;li>Clean Architecture, Robert Martin: Cuốn sách này mang lại cho bạn một tập kiến thức chi tiết về mọi khía cạnh liên quan đến OOP, tuy tiêu đề mang tên là Clean Architecture nhưng phần nói về nó tương đối ngắn, chỉ đâu đó khoảng 10 trang, và thực tế là nếu đã hiểu rõ OOP và các khái niệm liên quan thì chỉ cần chừng đó là bạn đủ hiểu về Clean Architecture rồi.&lt;/li>
@@ -65,7 +66,17 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>React hook for check when component is visible</title><link>https://tienldn.site/blogs/react-hook-for-check-when-component-is-visible/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-hook-for-check-when-component-is-visible/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-jsx" data-lang="jsx">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">useEffect&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">useState&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s2">&amp;#34;react&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/ul></description></item><item><title>React hook for check when component is visible</title><link>https://tienldn.site/blogs/react-hook-for-check-when-component-is-visible/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-hook-for-check-when-component-is-visible/</guid><description>&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="nf nf-dev-jsx">&lt;/i>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-jsx" data-lang="jsx">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">useEffect&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">useState&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s2">&amp;#34;react&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="kd">function&lt;/span> &lt;span class="nx">useIsVisible&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">ref&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="nx">isIntersecting&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">setIntersecting&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">useState&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="p">);&lt;/span>
@@ -83,15 +94,29 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="nx">ref&lt;/span>&lt;span class="p">]);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">isIntersecting&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue&lt;/h2>&lt;ul>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure></description></item><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue&lt;/h2>&lt;ul>
 &lt;li>Laravel save timestamp in database with wrong timezone&lt;/li>
 &lt;li>Laravel return resource json with wrong timestamp&lt;/li>
 &lt;/ul>
 &lt;h2 id="solution">Solution&lt;/h2>&lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
 &lt;p>Follow below steps:&lt;/p>
 &lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code>&lt;/h3>&lt;p>&lt;em>Example&lt;/em>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-php" data-lang="php">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="nf nf-dev-php">&lt;/i>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__side">
+ hello.php
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-php" data-lang="php">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">return&lt;/span> &lt;span class="p">[&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cm">/*
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> |--------------------------------------------------------------------------
@@ -107,17 +132,30 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">// &amp;#39;timezone&amp;#39; =&amp;gt; &amp;#39;UTC&amp;#39;,
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">// After
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="s1">&amp;#39;timezone&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Asia/Ho_Chi_Minh&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan config:clear
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">php artisan config:cache
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>/dev/null trong linux</title><link>https://tienldn.site/blogs/dev/null-trong-linux/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/dev/null-trong-linux/</guid><description>&lt;h2 id="1-what-is-devnull">1. What is &lt;code>/dev/null&lt;/code>?&lt;/h2>&lt;p>Trong hệ thống Linux, device được lưu trữ trong thư mục &lt;code>/dev&lt;/code>. Có hai loại file device là physical và virtual. &lt;code>/dev/null&lt;/code> là một virtual null devices &lt;strong>được dùng để loại bỏ bất kì output nào ta redirect tới nó&lt;/strong>.&lt;/p>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure>
+&lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache&lt;/h3>&lt;figure class="highlight">
+ &lt;pre tabindex="0" class="chroma non-lang">&lt;code data-lang="">php artisan config:clear
+php artisan config:cache&lt;/code>&lt;/pre>
+&lt;/figure>
+&lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>/dev/null trong linux</title><link>https://tienldn.site/blogs/dev/null-trong-linux/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/dev/null-trong-linux/</guid><description>&lt;h2 id="1-what-is-devnull">1. What is &lt;code>/dev/null&lt;/code>?&lt;/h2>&lt;p>Trong hệ thống Linux, device được lưu trữ trong thư mục &lt;code>/dev&lt;/code>. Có hai loại file device là physical và virtual. &lt;code>/dev/null&lt;/code> là một virtual null devices &lt;strong>được dùng để loại bỏ bất kì output nào ta redirect tới nó&lt;/strong>.&lt;/p>
 &lt;h2 id="2-how-to-use">2. How to use&lt;/h2>&lt;p>output can be &lt;code>stdout&lt;/code> or &lt;code>stderr&lt;/code>&lt;/p>
 &lt;h3 id="21-with-stdout">2.1 With &lt;code>stdout&lt;/code>&lt;/h3>&lt;p>This will discard &lt;code>echo&lt;/code> message&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;Hello from JournalDev&amp;#39;&lt;/span> &amp;gt; /dev/null
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code>&lt;/h3>&lt;p>Discard error output&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cat --INCORRECT_OPTION &amp;gt; /dev/null 2&amp;gt;/dev/null
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Another way:
-&lt;code>2&amp;gt;&amp;amp;1&lt;/code>: redirect stderr(2) to stdout(1). We use &amp;amp;1 to mention to the shell that the destination file is a file descriptor and not a file name.&lt;/p></description></item><item><title>Rust</title><link>https://tienldn.site/blogs/rust/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/rust/</guid><description>&lt;ul>
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="nf nf-dev-bash">&lt;/i>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;Hello from JournalDev&amp;#39;&lt;/span> &amp;gt; /dev/null&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure>
+&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code>&lt;/h3>&lt;p>Discard error output&lt;/p></description></item><item><title>Rust</title><link>https://tienldn.site/blogs/rust/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/rust/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.rustvn.com/" target="_blank" rel="noopener">
  Rustvn
  
@@ -213,10 +251,22 @@
 &lt;/ul></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</guid><description>&lt;h2 id="solution">Solution&lt;/h2>&lt;ul>
 &lt;li>Add below script to &lt;code>/etc/pulse/default.pa&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="nf nf-dev-txt">&lt;/i>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-source noechosource
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-sink noechosink
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-sink noechosink&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure>
+&lt;blockquote>
 &lt;p>the &lt;code>noechosource&lt;/code> and &lt;code>noechosink&lt;/code> are just name, you can rename it to whatever you want&lt;/p>
 &lt;/blockquote>
 &lt;ul>
@@ -637,20 +687,4 @@
  &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
  
 &lt;/a>
-&lt;/p></description></item><item><title>MOC</title><link>https://tienldn.site/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tienldn.site/moc/</guid><description>&lt;h1 id="map-of-content">Map Of Content&lt;/h1>&lt;ul>
-&lt;li>&lt;a class="link" href="https://tienldn.site/my-awesome-list">
- Awesome List
- 
-&lt;/a>
-&lt;/li>
-&lt;li>&lt;a class="link" href="https://tienldn.site/todo-list">
- Todo
- 
-&lt;/a>
-&lt;/li>
-&lt;li>&lt;a class="link" href="https://tienldn.site/my-idea">
- Idea List
- 
-&lt;/a>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/p></description></item></channel></rss>

@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fix on Nhat Tien</title><link>https://tienldn.site/tags/fix/</link><description>Recent content in Fix on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/fix/index.xml" rel="self" type="application/rss+xml"/><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</guid><description>&lt;h2 id="solution">Solution&lt;/h2>&lt;ul>
 &lt;li>Add below script to &lt;code>/etc/pulse/default.pa&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="nf nf-dev-txt">&lt;/i>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-source noechosource
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-sink noechosink
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-sink noechosink&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure>
+&lt;blockquote>
 &lt;p>the &lt;code>noechosource&lt;/code> and &lt;code>noechosink&lt;/code> are just name, you can rename it to whatever you want&lt;/p>
 &lt;/blockquote>
 &lt;ul>

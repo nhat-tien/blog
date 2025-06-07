@@ -1,1 +1,0 @@
-const codeBlocks=document.querySelectorAll(".highlight");codeBlocks.forEach(e=>{const n=e.querySelector("code").getAttribute("data-lang"),t=document.createElement("div");t.className="decoration-language",t.innerText=n,e.appendChild(t)})
