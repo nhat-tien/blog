@@ -23,7 +23,6 @@
       </div>
     </div>
     <div class="frontmatter frontmatter--tags">
-        <div class="frontmatter__key"></div>
         <div class="frontmatter__value">
         {{ range (.GetTerms "tags") }}
           <a href="{{ .Permalink }}" class="tag {{ if eq .Page.Title "Moc"}}tag--moc{{end}}">
@@ -38,6 +37,4 @@
   {{ .Content }}
   </article>
 </main>
-{{ $decorationCodeBlock := resources.Get "js/decoration-code-block.js" | minify | fingerprint}}
-<script src="{{ $decorationCodeBlock.Permalink }}"></script>
 {{ end }}

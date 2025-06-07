@@ -10,6 +10,8 @@ tags = [
 
 Cre: Nam .NET (youtube: hoc lap trinh cung Nam)
 
+<!-- more -->
+
 📕 OOP và phân tích thiết kế:
 - Clean Architecture, Robert Martin: Cuốn sách này mang lại cho bạn một tập kiến thức chi tiết về mọi khía cạnh liên quan đến OOP, tuy tiêu đề mang tên là Clean Architecture nhưng phần nói về nó tương đối ngắn, chỉ đâu đó khoảng 10 trang, và thực tế là nếu đã hiểu rõ OOP và các khái niệm liên quan thì chỉ cần chừng đó là bạn đủ hiểu về Clean Architecture rồi.
 - Object-Oriented Analysis and Design with Applications, Grady Booch, Ivar Jacobson, and James Rumbaugh. Nếu biết tác giả của cuốn sách này chính là những người tạo ra UML, có lẽ bạn sẽ chẳng nghi ngờ gì về tính chính xác của nội dung cuốn sách, OOAD là phương pháp mà mình tin rằng cho tới bây giờ vẫn còn giữ nguyên giá trị.

@@ -1,6 +1,8 @@
 {{ if .Params.toc }}
-<aside class="toc">
-  <div class="toc__heading">Table of Content</div>
+<aside>
+  <details class="toc">
+    <summary class="toc__heading">Table of Content</summary>
   {{ .TableOfContents }}
+  </details>
 </aside>
 {{ end }}

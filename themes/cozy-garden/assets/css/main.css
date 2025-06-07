@@ -2,6 +2,8 @@
 *  --------     FONT      -------
 */
 
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
 @font-face {
   font-family: "Cascadia Code";
   src: url("../fonts/CascadiaCode.ttf");
@@ -33,6 +35,7 @@
 :root {
   --body-text-font: "Inter";
   --heading-text-font: "Lora";
+  --code-text-font: "Cascadia Code";
   --background_color: #f9f9f9;
   --text_color: #171D31;
   --icon_floatmenu_color: #474747;
@@ -40,7 +43,7 @@
   --link_color: #1E6501;
   --sharp_symbol_color: #c7c7c7;
   --table_border_color: #adadad;
-  --table_even_row_background_color: #d3d1d1;
+  --table_even_row_background_color: #e3e1e1;
   --table_heading_background_color: #c3eac1;
   --table_heading_text_color: #303030;
   --hr_color: #afafaf;
@@ -139,7 +142,7 @@ h1 {
 
 p {
   margin-top: 1em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   text-align: justify;
 }
 
@@ -159,6 +162,7 @@ ul li,
 ol li {
   margin-top: 0.5em;
   word-wrap: break-word;
+  line-height: 1.4em;
   text-align: justify;
 }
 
@@ -203,20 +207,24 @@ table th {
 *  --------     HIGHLIGHT   -------
 */
 code {
-  font-family: "Cascadia Code", monospace;
+  font-family: var(--code-text-font), monospace;
   display: inline-block;
   padding: 0 0.3em;
   background-color: var(--code_background_color);
-  font-size: 0.85em;
+  font-size: 0.9rem;
   border-radius: 3px;
 }
 
 .chroma {
   width: 100%;
   overflow-x: auto;
-  padding: 30px 12px 12px 12px;
+  padding: 50px 12px 12px 12px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.chroma.non-lang {
+  padding: 12px 12px 12px 12px;
 }
 
 .chroma code {
@@ -230,14 +238,37 @@ code {
   position: relative;
 }
 
-.decoration-language {
+.decoration-codeblock-wrapper {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 5px;
-  background-color: var(--code_background_color);
-  color: var(--text_color);
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #cad3f5;
+  font-family: var(--code-text-font);
   font-size: 0.8rem;
+  border-bottom: 1px solid #91d7e3;
+}
+.decoration-codeblock__language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.decoration-codeblock__title {
+  font-size: 0.9rem;
+}
+
+.decoration-codeblock__side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5em;
 }
 
 /*
@@ -262,8 +293,10 @@ a {
 }
 
 .link {
-  text-decoration: underline;
   color: var(--link_color);
+}
+.link svg {
+  transform: translateY(0.13rem);
 }
 
 /*
@@ -281,6 +314,7 @@ figcaption {
   font-size: 0.8rem;
   text-align: center;
   font-style: italic;
+  margin-top: 0.5em;
 }
 
 /*
@@ -466,7 +500,7 @@ header {
 *  --------     FOOTER      -------
 */
 footer {
-  padding: 3em 0 1em 0;
+  padding: 7em 0 1em 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -575,6 +609,7 @@ footer a {
   border-radius: 0.5em;
   border: 1px solid var(--tag_border_color);
   margin-bottom: 5px;
+  margin-right: 3px;
 }
 
 .tag--moc {
@@ -709,7 +744,9 @@ footer a {
 
 .toc__heading {
   font-weight: 600;
+  cursor: pointer;
 }
+
 /*
 *    ----- SEARCH -----
 */

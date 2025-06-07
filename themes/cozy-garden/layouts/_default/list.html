@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>  
 	{{ if .Data.Singular }}
-	<h3 style="margin-bottom:10px">Notes have tag <span class="tag {{ if eq .Title "Moc"}} tag--moc{{end}}">{{ .Title }}</span></h3>
+	<h3 style="margin-bottom:10px">Posts have tag <span class="tag {{ if eq .Title "Moc"}} tag--moc{{end}}">{{ .Title }}</span></h3>
 	{{ if eq .Title "Moc"}}
 	<dfn>It's mean Map Of Content</dfn>
 	{{end}}
@@ -17,7 +17,7 @@
     </a>
   </div>
   {{else}}
-  <h2>My Garden</h2>
+  <h2>Archive</h2>
   {{ end }}
   <div class="blog-posts">
     {{ range .Pages.ByLastmod.Reverse }}
@@ -26,7 +26,7 @@
 						<h3>
 							{{.Title}}
 						</h3>
-		</a>
+		  </a>
 					<div class="post__update">
 						<svg width="18" style="position:relative;top:3px;z-index:-9;" fill="var(--heading_color)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M6,22H18a3,3,0,0,0,3-3V7a2,2,0,0,0-2-2H17V3a1,1,0,0,0-2,0V5H9V3A1,1,0,0,0,7,3V5H5A2,2,0,0,0,3,7V19A3,3,0,0,0,6,22ZM5,12.5a.5.5,0,0,1,.5-.5h13a.5.5,0,0,1,.5.5V19a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1Z"></path></g></svg>
 							<time datetime='{{ .Lastmod.Format "02/01/2006" }}' pubdate>
