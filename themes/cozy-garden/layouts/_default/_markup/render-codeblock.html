@@ -2,9 +2,11 @@
   {{- if transform.CanHighlight .Type }}
   <div class="decoration-codeblock-wrapper">
     <div class="decoration-codeblock__side">
+      {{- with .Attributes.icon }}
       <div class="decoration-codeblock__language">
-        <i class="devicon-{{ .Type }}-plain"></i>
+        <i class="devicon-{{ . }}-plain"></i>
       </div>
+      {{- end }}
       {{- with .Attributes.title }}
       <div class="decoration-codeblock__side">
         {{ . }}

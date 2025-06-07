@@ -10,7 +10,7 @@ toc: false
 tags:
 ---
 
-```jsx
+```jsx { icon = "react" }
 import { useEffect, useState } from "react";
 
 export function useIsVisible(ref) {

@@ -22,7 +22,7 @@ Follow below steps:
 ### 1. Replace `UTC` by your timezone in `config/app.php`
 
 *Example*
-```php {title = "hello.php"}
+```php {icon = "php", title = "hello.php"}
 <?php
 return [
     /*
@@ -44,7 +44,7 @@ return [
 
 ### 2. Try to refresh your config cache
 
-```bash
+```bash { icon = "bash"}
 php artisan config:clear
 php artisan config:cache
 ```
