@@ -70,7 +70,7 @@
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="nf nf-dev-jsx">&lt;/i>
+ &lt;i class="devicon-jsx-plain">&lt;/i>
  &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
@@ -107,7 +107,7 @@
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="nf nf-dev-php">&lt;/i>
+ &lt;i class="devicon-php-plain">&lt;/i>
  &lt;/div>
  &lt;div class="decoration-codeblock__side">
  hello.php
@@ -136,8 +136,18 @@
  &lt;/pre>
 &lt;/figure>
 &lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache&lt;/h3>&lt;figure class="highlight">
- &lt;pre tabindex="0" class="chroma non-lang">&lt;code data-lang="">php artisan config:clear
-php artisan config:cache&lt;/code>&lt;/pre>
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="devicon-bash-plain">&lt;/i>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan config:clear
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">php artisan config:cache&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
 &lt;/figure>
 &lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>/dev/null trong linux</title><link>https://tienldn.site/blogs/dev/null-trong-linux/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/dev/null-trong-linux/</guid><description>&lt;h2 id="1-what-is-devnull">1. What is &lt;code>/dev/null&lt;/code>?&lt;/h2>&lt;p>Trong hệ thống Linux, device được lưu trữ trong thư mục &lt;code>/dev&lt;/code>. Có hai loại file device là physical và virtual. &lt;code>/dev/null&lt;/code> là một virtual null devices &lt;strong>được dùng để loại bỏ bất kì output nào ta redirect tới nó&lt;/strong>.&lt;/p>
 &lt;h2 id="2-how-to-use">2. How to use&lt;/h2>&lt;p>output can be &lt;code>stdout&lt;/code> or &lt;code>stderr&lt;/code>&lt;/p>
@@ -146,7 +156,7 @@ php artisan config:cache&lt;/code>&lt;/pre>
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="nf nf-dev-bash">&lt;/i>
+ &lt;i class="devicon-bash-plain">&lt;/i>
  &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
@@ -155,7 +165,22 @@ php artisan config:cache&lt;/code>&lt;/pre>
  &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;Hello from JournalDev&amp;#39;&lt;/span> &amp;gt; /dev/null&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
-&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code>&lt;/h3>&lt;p>Discard error output&lt;/p></description></item><item><title>Rust</title><link>https://tienldn.site/blogs/rust/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/rust/</guid><description>&lt;ul>
+&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code>&lt;/h3>&lt;p>Discard error output&lt;/p>
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="devicon-bash-plain">&lt;/i>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cat --INCORRECT_OPTION &amp;gt; /dev/null 2&amp;gt;/dev/null&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure>
+&lt;p>Another way:
+&lt;code>2&amp;gt;&amp;amp;1&lt;/code>: redirect stderr(2) to stdout(1). We use &amp;amp;1 to mention to the shell that the destination file is a file descriptor and not a file name.&lt;/p></description></item><item><title>Rust</title><link>https://tienldn.site/blogs/rust/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/rust/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.rustvn.com/" target="_blank" rel="noopener">
  Rustvn
  
@@ -255,7 +280,7 @@ php artisan config:cache&lt;/code>&lt;/pre>
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="nf nf-dev-txt">&lt;/i>
+ &lt;i class="devicon-txt-plain">&lt;/i>
  &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>

@@ -5,7 +5,7 @@
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="nf nf-dev-bash">&lt;/i>
+ &lt;i class="devicon-bash-plain">&lt;/i>
  &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
@@ -14,14 +14,29 @@
  &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;Hello from JournalDev&amp;#39;&lt;/span> &amp;gt; /dev/null&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
-&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code>&lt;/h3>&lt;p>Discard error output&lt;/p></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</guid><description>&lt;h2 id="solution">Solution&lt;/h2>&lt;ul>
+&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code>&lt;/h3>&lt;p>Discard error output&lt;/p>
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock-wrapper">
+ &lt;div class="decoration-codeblock__side">
+ &lt;div class="decoration-codeblock__language">
+ &lt;i class="devicon-bash-plain">&lt;/i>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cat --INCORRECT_OPTION &amp;gt; /dev/null 2&amp;gt;/dev/null&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure>
+&lt;p>Another way:
+&lt;code>2&amp;gt;&amp;amp;1&lt;/code>: redirect stderr(2) to stdout(1). We use &amp;amp;1 to mention to the shell that the destination file is a file descriptor and not a file name.&lt;/p></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-on-ubuntu/</guid><description>&lt;h2 id="solution">Solution&lt;/h2>&lt;ul>
 &lt;li>Add below script to &lt;code>/etc/pulse/default.pa&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="nf nf-dev-txt">&lt;/i>
+ &lt;i class="devicon-txt-plain">&lt;/i>
  &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>

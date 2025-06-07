@@ -5,7 +5,7 @@
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="nf nf-dev-txt">&lt;/i>
+ &lt;i class="devicon-txt-plain">&lt;/i>
  &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
