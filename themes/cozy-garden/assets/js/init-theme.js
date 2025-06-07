@@ -5,7 +5,7 @@ function isSystemPreferDarkTheme() {
 }
 
 let $html = document.querySelector("html");
-const theme = sessionStorage.getItem("theme");
+const theme = localStorage.getItem("theme");
 switch (theme) {
   case "light":
     $html.classList.remove("dark-theme");

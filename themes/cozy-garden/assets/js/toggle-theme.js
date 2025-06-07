@@ -3,7 +3,7 @@ let $toggleButton = document.querySelector("#toggle-theme-button");
 setIconDependCurrentTheme();
 
 function setIconDependCurrentTheme() {
-const theme = sessionStorage.getItem("theme");
+const theme = localStorage.getItem("theme");
   switch (theme) {
     case "light":
       changeIconTheme("day", $toggleButton);
@@ -39,12 +39,12 @@ function setTheme(theme) {
   switch (theme) {
     case "light":
       $html.classList.remove("dark-theme");
-      sessionStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "light");
       toggleOpen();
       break;
     case "dark":
       $html.classList.add("dark-theme");
-      sessionStorage.setItem("theme", "dark");
+      localStorage.setItem("theme", "dark");
       toggleOpen();
       break;
     case "system":
@@ -54,7 +54,7 @@ function setTheme(theme) {
       } else {
         $html.classList.remove("dark-theme");
       }
-      sessionStorage.setItem("theme", "system");
+      localStorage.setItem("theme", "system");
       toggleOpen();
       break;
   }
