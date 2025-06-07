@@ -88,7 +88,7 @@ Nhat Tien</a><div class=top-menu><a class=top-menu__child href=/about>About</a>
   </pre></figure><h3 id=2-try-to-refresh-your-config-cache>2. Try to refresh your config cache</h3><figure class=highlight><div class=decoration-codeblock-wrapper><div class=decoration-codeblock__side><div class=decoration-codeblock__language><i class=devicon-bash-plain></i></div></div><div class=decoration-codeblock__right></div></div><pre tabindex=0 class=chroma>
     <code class=language-bash data-lang=bash><span class=line><span class=cl>php artisan config:clear
 </span></span><span class=line><span class=cl>php artisan config:cache</span></span></code>
-  </pre></figure><p>if you can not delete config cache, try using <code>rm</code> command remove <code>bootstrap/cache/config.php</code>, <code>bootstrap/cache/packages.php</code>, <code>bootstrap/cache/services.php</code>.</p><h3 id=3-add-method-to-your-models-which-use-time-datetime>3. Add method to your models which use time, datetime</h3><figure class=highlight><div class=decoration-codeblock-wrapper><div class=decoration-codeblock__side><div class=decoration-codeblock__language><i class=devicon-php-plain></i></div></div><div class=decoration-codeblock__right></div></div><pre tabindex=0 class=chroma>
+  </pre></figure><p>if you can not delete config cache, try using <code>rm</code> command remove <code>bootstrap/cache/config.php</code>, <code>bootstrap/cache/packages.php</code>, <code>bootstrap/cache/services.php</code>.</p><h3 id=3-add-method-to-your-models-which-use-time-datetime>3. Add method to your models which use time, datetime</h3><figure class=highlight><div class=decoration-codeblock-wrapper><div class=decoration-codeblock__side></div><div class=decoration-codeblock__right></div></div><pre tabindex=0 class=chroma>
     <code class=language-php data-lang=php><span class=line><span class=cl><span class=o>&lt;?</span><span class=nx>php</span>
 </span></span><span class=line><span class=cl><span class=k>use</span> <span class=nx>DateTimeInterface</span><span class=p>;</span> <span class=c1>// &lt;--- remember add this line
 </span></span></span><span class=line><span class=cl><span class=c1></span>
@@ -102,7 +102,7 @@ Nhat Tien</a><div class=top-menu><a class=top-menu__child href=/about>About</a>
 </span></span></span><span class=line><span class=cl><span class=c1></span>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span></span></span></code>
-  </pre></figure><p>Now in Resource, you use that method:</p><figure class=highlight><div class=decoration-codeblock-wrapper><div class=decoration-codeblock__side><div class=decoration-codeblock__language><i class=devicon-php-plain></i></div></div><div class=decoration-codeblock__right></div></div><pre tabindex=0 class=chroma>
+  </pre></figure><p>Now in Resource, you use that method:</p><figure class=highlight><div class=decoration-codeblock-wrapper><div class=decoration-codeblock__side></div><div class=decoration-codeblock__right></div></div><pre tabindex=0 class=chroma>
     <code class=language-php data-lang=php><span class=line><span class=cl><span class=o>&lt;?</span><span class=nx>php</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>    <span class=k>public</span> <span class=k>function</span> <span class=nf>toArray</span><span class=p>(</span><span class=nx>Request</span> <span class=nv>$request</span><span class=p>)</span><span class=o>:</span> <span class=k>array</span>

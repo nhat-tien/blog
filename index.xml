@@ -70,7 +70,7 @@
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
- &lt;i class="devicon-jsx-plain">&lt;/i>
+ &lt;i class="devicon-react-plain">&lt;/i>
  &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
@@ -155,9 +155,6 @@
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
- &lt;div class="decoration-codeblock__language">
- &lt;i class="devicon-bash-plain">&lt;/i>
- &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
  &lt;/div>
@@ -169,9 +166,6 @@
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
- &lt;div class="decoration-codeblock__language">
- &lt;i class="devicon-bash-plain">&lt;/i>
- &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
  &lt;/div>
@@ -279,9 +273,6 @@
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
- &lt;div class="decoration-codeblock__language">
- &lt;i class="devicon-txt-plain">&lt;/i>
- &lt;/div>
  &lt;/div>
  &lt;div class="decoration-codeblock__right">&lt;/div>
  &lt;/div>
