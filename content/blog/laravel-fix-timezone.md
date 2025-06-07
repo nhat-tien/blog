@@ -44,7 +44,7 @@ return [
 
 ### 2. Try to refresh your config cache
 
-```
+```bash
 php artisan config:clear
 php artisan config:cache
 ```
@@ -63,7 +63,7 @@ class YourModel extends Model {
 
     public function serializeDate(DateTimeInterface $date): string
     {
-        return $date->format('Y-m-d H:i:s'); // <- you can modify this template
+        return $date->format('Y-m-d H:i:s'); // <- you can modify this template knckds kncskd kncksd kcsd k kncksd kncsdk ckndsdsc
     }
 
 }

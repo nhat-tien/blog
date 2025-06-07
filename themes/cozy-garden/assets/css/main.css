@@ -2,8 +2,6 @@
 *  --------     FONT      -------
 */
 
-@import "https://www.nerdfonts.com/assets/css/webfont.css";
-
 @font-face {
   font-family: "Cascadia Code";
   src: url("../fonts/CascadiaCode.ttf");
