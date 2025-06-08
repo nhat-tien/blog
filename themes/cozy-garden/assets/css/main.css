@@ -140,7 +140,7 @@ h1 {
 
 p {
   margin-top: 1em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   text-align: justify;
 }
 
@@ -158,9 +158,9 @@ ol {
 
 ul li,
 ol li {
-  margin-top: 0.5em;
+  margin-top: 0.2em;
   word-wrap: break-word;
-  line-height: 1.4em;
+  line-height: 1.5em;
   text-align: justify;
 }
 
@@ -503,7 +503,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.2em;
+  font-size: 0.9rem;
 }
 footer p {
   margin-top: 0;

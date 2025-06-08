@@ -13,7 +13,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   favicon = "/favicon.ico"
-  dateFormat = "02-01-2006"
+  dateFormat = "02/01/2006"
   logo = "/images/blue-mouse.webp"
   description = "personal blog of Nhat Tien"
   

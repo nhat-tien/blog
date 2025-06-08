@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main>
+  {{ .Content }}
+</main>
+<h2>Recent Posts</h2>
+<ul>
+  {{ range .Site.RegularPages.ByDate.Reverse.Limit 5 }}
+  <li>
+    <span>
+      {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
+    </span>
+    <a class="link" href="{{ .Permalink }}">
+      {{.Title}}
+    </a>
+  </li>
+  {{ else }}
+  <li>
+    No posts yet
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
