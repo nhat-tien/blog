@@ -39,8 +39,7 @@
  &lt;/pre>
 &lt;/figure>
 &lt;blockquote>
-&lt;p>the &lt;code>noechosource&lt;/code> and &lt;code>noechosink&lt;/code> are just name, you can rename it to whatever you want&lt;/p>
-&lt;/blockquote>
+&lt;p>the &lt;code>noechosource&lt;/code> and &lt;code>noechosink&lt;/code> are just name, you can rename it to whatever you want&lt;/p>&lt;/blockquote>
 &lt;ul>
 &lt;li>Reload pulseAudio by &lt;code>pulseaudio -k&lt;/code>&lt;/li>
 &lt;li>Choose new device in settings of pulseAudio&lt;/li>

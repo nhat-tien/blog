@@ -8,12 +8,7 @@
 &lt;li>Patterns of Enterprise Application Architecture, (Martin Fowler và nhiều tác giả khác): Hãy đọc cuốn này nếu bạn quan tâm đến việc xây dựng các ứng dụng lớn, nhiều người dùng, nó không chỉ có các design pattern mà còn cho bạn thấy nhiều vấn đề bạn sẽ gặp phải.&lt;/li>
 &lt;li>System Design Interview, Alex Xu: Thú thật là mình cũng chỉ đọc sơ qua thôi, vì nhiều kiến thức trong đây thì mình đã biết rồi, nhưng nếu bạn là người mới với system design thì nên đọc.&lt;/li>
 &lt;/ul>
-&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>Todo list</title><link>https://tienldn.site/blogs/todo-list/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/todo-list/</guid><description>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> About Authentication with JWT&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> About 4 charateristics of OOP&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> React Redux&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Vim/Neovim as a productive tool&lt;/li>
-&lt;/ul></description></item><item><title>About Authentication with JWT</title><link>https://tienldn.site/blogs/about-authentication-with-jwt/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/about-authentication-with-jwt/</guid><description>&lt;h2 id="token-based-vs-session-based">Token based vs Session based&lt;/h2>&lt;h2 id="what-is-jwt">What is JWT&lt;/h2>&lt;h2 id="access-token">Access token&lt;/h2>&lt;h3 id="save-at-localstorage">Save at localstorage&lt;/h3>&lt;h2 id="refresh-token">Refresh token&lt;/h2>&lt;h3 id="in-client-save-in-httponly-cookies">In client save in httponly cookies&lt;/h3>&lt;h3 id="in-backend-save-in-database">In backend save in database&lt;/h3>&lt;h4 id="sql">SQL&lt;/h4>&lt;h4 id="redis">Redis&lt;/h4>&lt;h3 id="how-to-handle-refresh-token">How to handle refresh token&lt;/h3></description></item><item><title>My Idea</title><link>https://tienldn.site/blogs/my-idea/</link><pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/my-idea/</guid><description>&lt;h2 id="list">List&lt;/h2>&lt;ul>
+&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>About Authentication with JWT</title><link>https://tienldn.site/blogs/about-authentication-with-jwt/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/about-authentication-with-jwt/</guid><description>&lt;h2 id="token-based-vs-session-based">Token based vs Session based&lt;/h2>&lt;h2 id="what-is-jwt">What is JWT&lt;/h2>&lt;h2 id="access-token">Access token&lt;/h2>&lt;h3 id="save-at-localstorage">Save at localstorage&lt;/h3>&lt;h2 id="refresh-token">Refresh token&lt;/h2>&lt;h3 id="in-client-save-in-httponly-cookies">In client save in httponly cookies&lt;/h3>&lt;h3 id="in-backend-save-in-database">In backend save in database&lt;/h3>&lt;h4 id="sql">SQL&lt;/h4>&lt;h4 id="redis">Redis&lt;/h4>&lt;h3 id="how-to-handle-refresh-token">How to handle refresh token&lt;/h3></description></item><item><title>My Idea</title><link>https://tienldn.site/blogs/my-idea/</link><pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/my-idea/</guid><description>&lt;h2 id="list">List&lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/#bandzto">
  Bandzto
  
@@ -283,8 +278,7 @@
  &lt;/pre>
 &lt;/figure>
 &lt;blockquote>
-&lt;p>the &lt;code>noechosource&lt;/code> and &lt;code>noechosink&lt;/code> are just name, you can rename it to whatever you want&lt;/p>
-&lt;/blockquote>
+&lt;p>the &lt;code>noechosource&lt;/code> and &lt;code>noechosink&lt;/code> are just name, you can rename it to whatever you want&lt;/p>&lt;/blockquote>
 &lt;ul>
 &lt;li>Reload pulseAudio by &lt;code>pulseaudio -k&lt;/code>&lt;/li>
 &lt;li>Choose new device in settings of pulseAudio&lt;/li>
