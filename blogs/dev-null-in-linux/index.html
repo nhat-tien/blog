@@ -23,7 +23,7 @@
   
 
 Another way:
-2>&amp;1: redirect stderr(2) to stdout(1). We use &amp;1 to mention to the shell that the destination file is a file descriptor and not a file name."><meta name=keywords content="linux,"><meta property="og:url" content="https://tienldn.site/blogs/dev/null-trong-linux/"><meta property="og:site_name" content="Nhat Tien"><meta property="og:title" content="/dev/null trong linux"><meta property="og:description" content="1. What is /dev/null?Trong hệ thống Linux, device được lưu trữ trong thư mục /dev. Có hai loại file device là physical và virtual. /dev/null là một virtual null devices được dùng để loại bỏ bất kì output nào ta redirect tới nó.
+2>&amp;1: redirect stderr(2) to stdout(1). We use &amp;1 to mention to the shell that the destination file is a file descriptor and not a file name."><meta name=keywords content="linux,"><meta property="og:url" content="https://tienldn.site/blogs/dev-null-in-linux/"><meta property="og:site_name" content="Nhat Tien"><meta property="og:title" content="/dev/null trong linux"><meta property="og:description" content="1. What is /dev/null?Trong hệ thống Linux, device được lưu trữ trong thư mục /dev. Có hai loại file device là physical và virtual. /dev/null là một virtual null devices được dùng để loại bỏ bất kì output nào ta redirect tới nó.
 2. How to useoutput can be stdout or stderr
 2.1 With stdoutThis will discard echo message
 echo 'Hello from JournalDev' > /dev/null 2.2 With stderrDiscard error output
