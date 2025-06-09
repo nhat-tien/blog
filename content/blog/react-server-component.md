@@ -7,7 +7,7 @@ stage: seedling
 draft: false
 toc: false
 tags:
-  - javascipt
+  - javascript
   - reactjs
 ---
 ## Server Component

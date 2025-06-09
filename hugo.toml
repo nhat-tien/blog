@@ -2,12 +2,9 @@ baseURL = "https://tienldn.site"
 theme = 'cozy-garden'
 languageCode = "en-US"
 assetDir='assets'
-
 title = "Nhat Tien"
-
 enableRobotsTXT = true
 enableEmoji = true
-
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
@@ -16,8 +13,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   dateFormat = "02/01/2006"
   logo = "/images/blue-mouse.webp"
   description = "personal blog of Nhat Tien"
-  
-
 
 [markup]
   [markup.highlight]
@@ -30,7 +25,7 @@ ignoreErrors = ["error-disable-taxonomy"]
         unsafe = true
 
 [permalinks]
-  blog = "/blogs/:slug/"
+  blog = "/blogs/:contentbasename/"
   tags = "/tags/:slug"
   [permalinks.section]
     blog = '/blogs/'

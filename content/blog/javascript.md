@@ -8,7 +8,7 @@ draft: false
 toc: true
 tags:
   - moc
-  - javascipt
+  - javascript
 ---
 ## Khái niệm
 - Closures
