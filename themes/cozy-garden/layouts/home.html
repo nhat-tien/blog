@@ -9,6 +9,7 @@
     <span>
       {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
     </span>
+    <span>-</span>
     <a class="link" href="{{ .Permalink }}">
       {{.Title}}
     </a>

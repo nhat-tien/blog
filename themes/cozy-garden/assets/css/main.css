@@ -10,20 +10,6 @@
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Regular.ttf");
-  font-family: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter Bold";
-  src: url("../fonts/Inter-Bold.ttf");
-  font-family: 500;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Lora";
   src: url("../fonts/Lora-Medium.ttf");
   font-family: 500;
@@ -31,7 +17,7 @@
 }
 
 :root {
-  --body-text-font: "Inter";
+  --body-text-font: Arial, Helvatica, sans-serif;
   --heading-text-font: "Lora";
   --code-text-font: "Cascadia Code";
   --background_color: #f9f9f9;
@@ -98,8 +84,8 @@ body {
   font-family: var(--body-text-font), sans-serif;
   max-width: 75ch;
   margin: 0 auto;
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: var(--background_color);
   color: var(--text_color);
   min-height: 100vh;

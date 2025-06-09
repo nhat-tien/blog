@@ -27,7 +27,7 @@ Here's a list of facts about me (*will be more in the future*):
 ### Why this blog exist
 This blog is a place where I can share my thoughts and learn English by writing.
 
-### How I made this website
+### How do you make this website
 I built this website using [Hugo](https://gohugo.io/) with a home-made theme called *Cozy Garden* (I customized the [Hugo Bear Blog theme](https://github.com/janraasch/hugo-bearblog) and added my own features --- but in the end, it turn out to be a completely different theme 😅). It's hosted on Github Pages with a custom domain. [The link to this website repository on Github](https://github.com/nhat-tien/blog).
 
 ### Why the website look so boring
