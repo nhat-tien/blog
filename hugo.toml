@@ -7,6 +7,7 @@ enableRobotsTXT = true
 enableEmoji = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+buildFuture = true
 
 [params]
   favicon = "/favicon.ico"
