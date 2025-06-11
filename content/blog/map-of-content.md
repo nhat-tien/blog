@@ -22,4 +22,5 @@ tags = [
 </div>
 
 - [Hi!, How have you been?](/blogs/how-have-you-been)
+- [My digital notebook](https://nhat-tien.github.io/notes)
 
