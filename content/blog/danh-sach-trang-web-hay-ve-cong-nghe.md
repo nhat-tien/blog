@@ -15,7 +15,6 @@ tags:
 
 - [React Typescript](https://react-typescript-cheatsheet.netlify.app/)
 
-
 ## Algorithms
 
 - [VietCodes](https://vietcodes.github.io/)
@@ -29,6 +28,7 @@ tags:
 - [asciinema](https://asciinema.org/): CLI tool to record terminal, *interesting*  
 - [Github README stats](https://github.com/anuraghazra/github-readme-stats) 
 - [TablePlus](https://tableplus.com/) 
+- [NoiseTorch](https://github.com/noisetorch/NoiseTorch): Noise supression app
 
 ### CSS
 - [https://www.shapedivider.app/](https://www.shapedivider.app/)  
@@ -39,6 +39,7 @@ tags:
 - [https://quantonganh.com/](https://quantonganh.com/)
 - [https://datvu2k.netlify.app/](https://datvu2k.netlify.app/)
 - [https://manhhomienbienthuy.github.io/](https://manhhomienbienthuy.github.io/)
+- [ThinhNotes](https://thinhnotes.com/): Business Analytics
 
 ## Chia sẻ kiến thức
 - [https://blog.haposoft.com/](https://blog.haposoft.com/)
@@ -50,3 +51,14 @@ tags:
 
 ## Weeb
 - [https://yuna0x0.com/](https://yuna0x0.com/)
+
+## Bookmark hay ho
+- [https://code.pepega.club/33KK](https://code.pepega.club/33KK) 
+- [https://sr.ht/~delthas/senpai/](https://sr.ht/~delthas/senpai/) 
+- [https://protiumx.dev/](https://protiumx.dev/)
+- [https://www.server-world.info/en](https://www.server-world.info/en)
+- [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
+
+## Pixel editor
+- Pixelorama
+- Libresprite
