@@ -31,45 +31,7 @@
 &lt;li>Patterns of Enterprise Application Architecture, (Martin Fowler và nhiều tác giả khác): Hãy đọc cuốn này nếu bạn quan tâm đến việc xây dựng các ứng dụng lớn, nhiều người dùng, nó không chỉ có các design pattern mà còn cho bạn thấy nhiều vấn đề bạn sẽ gặp phải.&lt;/li>
 &lt;li>System Design Interview, Alex Xu: Thú thật là mình cũng chỉ đọc sơ qua thôi, vì nhiều kiến thức trong đây thì mình đã biết rồi, nhưng nếu bạn là người mới với system design thì nên đọc.&lt;/li>
 &lt;/ul>
-&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>About Authentication with JWT</title><link>https://tienldn.site/blogs/about-authentication-with-jwt/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/about-authentication-with-jwt/</guid><description>&lt;h2 id="token-based-vs-session-based">Token based vs Session based&lt;/h2>&lt;h2 id="what-is-jwt">What is JWT&lt;/h2>&lt;h2 id="access-token">Access token&lt;/h2>&lt;h3 id="save-at-localstorage">Save at localstorage&lt;/h3>&lt;h2 id="refresh-token">Refresh token&lt;/h2>&lt;h3 id="in-client-save-in-httponly-cookies">In client save in httponly cookies&lt;/h3>&lt;h3 id="in-backend-save-in-database">In backend save in database&lt;/h3>&lt;h4 id="sql">SQL&lt;/h4>&lt;h4 id="redis">Redis&lt;/h4>&lt;h3 id="how-to-handle-refresh-token">How to handle refresh token&lt;/h3></description></item><item><title>My Idea</title><link>https://tienldn.site/blogs/my-idea/</link><pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/my-idea/</guid><description>&lt;h2 id="list">List&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://tienldn.site/#bandzto">
- Bandzto
- 
-&lt;/a>
-&lt;/li>
-&lt;li>&lt;a class="link" href="https://tienldn.site/#ocr-service">
- OCR Service used for integration
- 
-&lt;/a>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="bandzto">Bandzto&lt;/h2>&lt;ul>
-&lt;li>Nextjs&lt;/li>
-&lt;li>A online store for indie artist&lt;/li>
-&lt;/ul>
-&lt;h2 id="ocr-service">OCR Service&lt;/h2>&lt;ul>
-&lt;li>AI&lt;/li>
-&lt;li>Python&lt;/li>
-&lt;li>Rust&lt;/li>
-&lt;li>Parse, extract infomation from PDF, image and send back JSON data&lt;/li>
-&lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienldn.site/blogs/my-awesome-list/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/my-awesome-list/</guid><description>&lt;h2 id="tools">Tools&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://github.com/noisetorch/NoiseTorch" target="_blank" rel="noopener">
- NoiseTorch
- 
- &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
- 
-&lt;/a>
-: Noise supression app&lt;/li>
-&lt;/ul>
-&lt;h2 id="blogarticles">Blog/Articles&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://thinhnotes.com/" target="_blank" rel="noopener">
- ThinhNotes
- 
- &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
- 
-&lt;/a>
-: Business Analytics&lt;/li>
-&lt;/ul></description></item><item><title>Spring</title><link>https://tienldn.site/blogs/spring/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/spring/</guid><description>&lt;ul>
+&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>About Authentication with JWT</title><link>https://tienldn.site/blogs/about-authentication-with-jwt/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/about-authentication-with-jwt/</guid><description>&lt;h2 id="token-based-vs-session-based">Token based vs Session based&lt;/h2>&lt;h2 id="what-is-jwt">What is JWT&lt;/h2>&lt;h2 id="access-token">Access token&lt;/h2>&lt;h3 id="save-at-localstorage">Save at localstorage&lt;/h3>&lt;h2 id="refresh-token">Refresh token&lt;/h2>&lt;h3 id="in-client-save-in-httponly-cookies">In client save in httponly cookies&lt;/h3>&lt;h3 id="in-backend-save-in-database">In backend save in database&lt;/h3>&lt;h4 id="sql">SQL&lt;/h4>&lt;h4 id="redis">Redis&lt;/h4>&lt;h3 id="how-to-handle-refresh-token">How to handle refresh token&lt;/h3></description></item><item><title>Spring</title><link>https://tienldn.site/blogs/spring/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/spring/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.baeldung.com/" target="_blank" rel="noopener">
  Baeldung.com
  
@@ -207,16 +169,7 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Some things cool</title><link>https://tienldn.site/blogs/some-things-cool/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/some-things-cool/</guid><description>&lt;p>Bookmark của tôi về thứ những thứ gì đó mà tôi thấy hay trên mạng.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a class="link" href="https://code.pepega.club/33KK" target="_blank" rel="noopener">
- https://code.pepega.club/33KK
- 
- &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
- 
-&lt;/a>
-&lt;/p></description></item><item><title>Neovim</title><link>https://tienldn.site/blogs/neovim/</link><pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/neovim/</guid><description>&lt;ul>
+&lt;/ul></description></item><item><title>Neovim</title><link>https://tienldn.site/blogs/neovim/</link><pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/neovim/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.trackawesomelist.com/rockerBOO/awesome-neovim/readme/" target="_blank" rel="noopener">
  Neovim Awesome
  
@@ -231,7 +184,7 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Things I would do before I die</title><link>https://tienldn.site/blogs/things-i-would-do-before-i-die/</link><pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/things-i-would-do-before-i-die/</guid><description/></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security&lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.stackhawk.com/blog/laravel-csrf-protection-guide/" target="_blank" rel="noopener">
  https://www.stackhawk.com/blog/laravel-csrf-protection-guide/
  
@@ -321,8 +274,6 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>List of things I want to learn about</title><link>https://tienldn.site/blogs/list-of-thing-i-want-to-learn-about/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/list-of-thing-i-want-to-learn-about/</guid><description>&lt;ul>
-&lt;li>hyper-v&lt;/li>
 &lt;/ul></description></item><item><title>Bookmark những trang web hay</title><link>https://tienldn.site/blogs/danh-sach-trang-web-hay-ve-cong-nghe/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/danh-sach-trang-web-hay-ve-cong-nghe/</guid><description>&lt;h2 id="languages">Languages&lt;/h2>&lt;h3 id="typescript">Typescript&lt;/h3>&lt;ul>
 &lt;li>&lt;a class="link" href="https://react-typescript-cheatsheet.netlify.app/" target="_blank" rel="noopener">
  React Typescript
@@ -391,6 +342,13 @@
  
 &lt;/a>
 &lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/noisetorch/NoiseTorch" target="_blank" rel="noopener">
+ NoiseTorch
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+: Noise supression app&lt;/li>
 &lt;/ul>
 &lt;h3 id="css">CSS&lt;/h3>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.shapedivider.app/" target="_blank" rel="noopener">
@@ -430,6 +388,13 @@
  
 &lt;/a>
 &lt;/li>
+&lt;li>&lt;a class="link" href="https://thinhnotes.com/" target="_blank" rel="noopener">
+ ThinhNotes
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+: Business Analytics&lt;/li>
 &lt;/ul>
 &lt;h2 id="chia-sẻ-kiến-thức">Chia sẻ kiến thức&lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://blog.haposoft.com/" target="_blank" rel="noopener">
@@ -471,6 +436,47 @@
  
 &lt;/a>
 &lt;/li>
+&lt;/ul>
+&lt;h2 id="bookmark-hay-ho">Bookmark hay ho&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://code.pepega.club/33KK" target="_blank" rel="noopener">
+ https://code.pepega.club/33KK
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://sr.ht/~delthas/senpai/" target="_blank" rel="noopener">
+ https://sr.ht/~delthas/senpai/
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://protiumx.dev/" target="_blank" rel="noopener">
+ https://protiumx.dev/
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.server-world.info/en" target="_blank" rel="noopener">
+ https://www.server-world.info/en
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://ssl-config.mozilla.org/" target="_blank" rel="noopener">
+ https://ssl-config.mozilla.org/
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="pixel-editor">Pixel editor&lt;/h2>&lt;ul>
+&lt;li>Pixelorama&lt;/li>
+&lt;li>Libresprite&lt;/li>
 &lt;/ul></description></item><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept&lt;/h2>&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/react-server-component">
  React Server Component
