@@ -1,3 +1,4 @@
+let $toggleIcon = document.querySelector("#toggle-theme-icon");
 let $toggleButton = document.querySelector("#toggle-theme-button");
 
 setIconDependCurrentTheme();
@@ -6,13 +7,13 @@ function setIconDependCurrentTheme() {
 const theme = localStorage.getItem("theme");
   switch (theme) {
     case "light":
-      changeIconTheme("day", $toggleButton);
+      changeIconTheme("day", $toggleIcon);
       break;
     case "dark":
-      changeIconTheme("night", $toggleButton);
+      changeIconTheme("night", $toggleIcon);
       break;
     case "system":
-      changeIconTheme("system", $toggleButton);
+      changeIconTheme("system", $toggleIcon);
       break;
   }
 }
@@ -27,7 +28,7 @@ function toggleOpen() {
     }, 100);
   } else {
     themeSelector.style.animationName = "show-theme-selector";
-    changeIconTheme("hide", $toggleButton);
+    changeIconTheme("hide", $toggleIcon);
     setTimeout(() => {
       themeSelector.classList.add("show")
     }, 100);

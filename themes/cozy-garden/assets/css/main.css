@@ -18,8 +18,8 @@
 
 :root {
   --body-text-font: Arial, Helvatica, sans-serif;
-  --heading-text-font: "Lora";
-  --code-text-font: "Cascadia Code";
+  --heading-text-font: "Lora", serif;
+  --code-text-font: "Cascadia Code", Consolas;
   --background_color: #f9f9f9;
   --text_color: #171D31;
   --icon_floatmenu_color: #474747;
@@ -512,14 +512,6 @@ footer {
 footer p {
   margin-top: 0;
 }
-
-.footer__right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 /*
 *  --------     FLOAT MENU   -------
 */
