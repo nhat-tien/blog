@@ -1,51 +1,68 @@
 {{ define "main" }}
-<main>  
-	{{ if .Data.Singular }}
-	<h3 style="margin-bottom:10px">Posts have tag <span class="tag {{ if eq .Title "Moc"}} tag--moc{{end}}">{{ .Title }}</span></h3>
-	{{ if eq .Title "Moc"}}
-	<dfn>It's mean Map Of Content</dfn>
-	{{end}}
+<main>
+  {{ if .Data.Singular }}
+  <h3 style="margin-bottom:10px">Posts have tag <span class="tag {{ if eq .Title " Moc"}} tag--moc{{end}}">{{ .Title
+      }}</span></h3>
+  {{ if eq .Title "Moc"}}
+  <dfn>It's mean Map Of Content</dfn>
+  {{end}}
   <div style="margin-bottom:10px;margin-top:10px">
-    <a href="{{ "all-tags" | relURL }}" style="display: flex; flex-direction: row; align-items: center; gap: 5px;">
-			<div class="outline-button">
-      <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M17 12C17 11.4477 16.5523 11 16 11H8C7.44772 11 7 11.4477 7 12C7 12.5523 7.44771 13 8 13H16C16.5523 13 17 12.5523 17 12Z" fill="var(--text_color)"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM12 20.9932C7.03321 20.9932 3.00683 16.9668 3.00683 12C3.00683 7.03321 7.03321 3.00683 12 3.00683C16.9668 3.00683 20.9932 7.03321 20.9932 12C20.9932 16.9668 16.9668 20.9932 12 20.9932Z" fill="var(--text_color)"/>
-      </svg>
+    <a href="{{ " all-tags" | relURL }}" style="display: flex; flex-direction: row; align-items: center; gap: 5px;">
+      <div class="outline-button">
+        <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17 12C17 11.4477 16.5523 11 16 11H8C7.44772 11 7 11.4477 7 12C7 12.5523 7.44771 13 8 13H16C16.5523 13 17 12.5523 17 12Z"
+            fill="var(--text_color)" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM12 20.9932C7.03321 20.9932 3.00683 16.9668 3.00683 12C3.00683 7.03321 7.03321 3.00683 12 3.00683C16.9668 3.00683 20.9932 7.03321 20.9932 12C20.9932 16.9668 16.9668 20.9932 12 20.9932Z"
+            fill="var(--text_color)" />
+        </svg>
         Remove filter
-      </div> 
+      </div>
     </a>
   </div>
   {{else}}
   <h2>Archive</h2>
   {{ end }}
   <div class="blog-posts">
-    {{ range .Pages.ByDate.Reverse }}
-		<div class="post">
-			<a href="{{ .Permalink }}">
-						<h3>
-							{{.Title}}
-						</h3>
-		  </a>
-					<div class="post__update">
-						<svg width="18" style="position:relative;top:3px;z-index:-9;" fill="var(--heading_color)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M6,22H18a3,3,0,0,0,3-3V7a2,2,0,0,0-2-2H17V3a1,1,0,0,0-2,0V5H9V3A1,1,0,0,0,7,3V5H5A2,2,0,0,0,3,7V19A3,3,0,0,0,6,22ZM5,12.5a.5.5,0,0,1,.5-.5h13a.5.5,0,0,1,.5.5V19a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1Z"></path></g></svg>
-							<time datetime='{{ .Date.Format "02/01/2006" }}' pubdate>
-								{{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
-							</time>
-					</div>
-					<div style="margin-top: 10px;">
-						{{ range (.GetTerms "tags") }}
-							<a href="{{ .Permalink }}" class="tag {{ if eq .LinkTitle "Moc" }}tag--moc{{end}}">
-								{{ .LinkTitle }}
-							</a>
-						{{ end }}
-					</div>
-				</div>
+    {{ $paginator := .Paginate .Pages.ByDate.Reverse 7 }}
+    {{ range $paginator.Pages }}
+    <div class="post">
+      <a href="{{ .Permalink }}">
+        <h3>
+          {{.Title}}
+        </h3>
+      </a>
+      <div class="post__update">
+        <svg width="18" style="position:relative;top:3px;z-index:-9;" fill="var(--heading_color)" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M6,22H18a3,3,0,0,0,3-3V7a2,2,0,0,0-2-2H17V3a1,1,0,0,0-2,0V5H9V3A1,1,0,0,0,7,3V5H5A2,2,0,0,0,3,7V19A3,3,0,0,0,6,22ZM5,12.5a.5.5,0,0,1,.5-.5h13a.5.5,0,0,1,.5.5V19a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1Z">
+            </path>
+          </g>
+        </svg>
+        <time datetime='{{ .Date.Format "02/01/2006" }}' pubdate>
+          {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
+        </time>
+      </div>
+      <div style="margin-top: 10px;">
+        {{ range (.GetTerms "tags") }}
+        <a href="{{ .Permalink }}" class="tag {{ if eq .LinkTitle " Moc" }}tag--moc{{end}}">
+          {{ .LinkTitle }}
+        </a>
+        {{ end }}
+      </div>
+
+    </div>
     {{ else }}
     <div>
       No posts yet
     </div>
     {{ end }}
+    {{- partial "pagination.html" . -}}
   </div>
 </main>
 {{ end }}
