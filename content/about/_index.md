@@ -22,7 +22,6 @@ Here's a list of facts about me (*will be more in the future*):
 - Just a freaky guy from Vietnam
 - A shy person trying to be more social
 - Love programming and music --- listening, playing, and writing
-
 ### Why does this blog exist?
 This blog is a place where I can share my thoughts and learn English by writing.
 
@@ -38,6 +37,8 @@ Well...there are a few reasons why I didn't put much effort into designing this 
 
 ## Social links
 - [Github](https://github.com/nhat-tien/) 
+- [Linkedin](https://www.linkedin.com/in/ledntien/)
+- [Youtube channel for music](https://www.youtube.com/@bluemouse9259)
 
 
 
