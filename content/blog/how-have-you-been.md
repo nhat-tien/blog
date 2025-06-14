@@ -9,5 +9,6 @@ tags = []
 This page is a log of my life
 
 ## Now
-
+I have a freelance gig for my friend project rn, it's a job in web development. I also have a side project for professor in university. I will try my best. 
 ## Plan
+Currently find a idea for side project, I think I will use it for my final year prject. But now, I run out of good idea.
