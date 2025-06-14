@@ -14,7 +14,7 @@ main = true
 ## TL;DR 
 I'm a happy nerd
 
-## Q&A
+## FAQs
 ### Who are you?
 An undergradute student at an ordinary university, who is pursuing an bachelor's degree in Information Teachnology. 
 

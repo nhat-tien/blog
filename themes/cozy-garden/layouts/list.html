@@ -25,7 +25,7 @@
   <h2>Archive</h2>
   {{ end }}
   <div class="blog-posts">
-    {{ $paginator := .Paginate .Pages.ByDate.Reverse 7 }}
+    {{ $paginator := .Paginate .Pages.ByDate.Reverse 8 }}
     {{ range $paginator.Pages }}
     <div class="post">
       <a href="{{ .Permalink }}">
