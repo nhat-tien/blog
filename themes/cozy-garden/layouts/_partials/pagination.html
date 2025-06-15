@@ -24,6 +24,7 @@
     {{ end }}
     <!-- Previous page. -->
     {{ if $paginator.HasPrev }}
+    <!--
     <li class="page-item">
       <a class="page-link" href="{{ $paginator.Prev.URL }}" rel="next">
         <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -32,6 +33,7 @@
         </svg>
       </a>
     </li>
+    -->
     {{ end }}
     <!-- Page numbers. -->
     {{ range $paginator.Pagers }}
@@ -74,6 +76,7 @@
     {{ end }}
     <!-- Next page. -->
     {{ if $paginator.HasNext }}
+    <!--
     <li class="page-item">
       <a class="page-link" href="{{ $paginator.Next.URL }}">
         <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -82,6 +85,7 @@
         </svg>
       </a>
     </li>
+    -->
     {{ end }}
     <!-- Last page. -->
     {{ if ne $paginator.PageNumber $paginator.TotalPages }}
