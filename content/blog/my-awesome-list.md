@@ -1,7 +1,7 @@
 +++
 title = "My Awesome List"
 date = "2023-11-20"
-lastmod = "2025-06-14"
+lastmod = "2025-06-17"
 description= ""
 draft= false
 toc= true
@@ -69,9 +69,17 @@ tags= []
 - Pixelorama
 - Libresprite
 
-## Design
+## UI/UX/Design
 
 ### Fonts
 
 - [https://www.dafont.com](https://www.dafont.com) 
+
+### Color palettes
+
+- [https://www.supaui.io/](https://www.supaui.io/) 
+
+## Linux
+
+- [Makefile cook book](https://makefiletutorial.com/)
 
