@@ -5,7 +5,7 @@ main = true
 
 # About Me
 
-<div class="about-image__wrapper" align="center">
+<div class="about-image__wrapper" align="center" style="margin:20px auto 0px;">
     <img width="400px" class="about-image" src="/images/nhat-tien.webp" alt="photo about me"/>
 </div>
 

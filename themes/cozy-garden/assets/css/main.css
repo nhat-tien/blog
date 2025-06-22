@@ -549,6 +549,7 @@ footer p {
   gap: 2px;
   background: rgba(34, 247, 80, 0.4);
   backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   padding: 0.2em;
   border-radius: 10px;
   animation-duration: 0.2s;

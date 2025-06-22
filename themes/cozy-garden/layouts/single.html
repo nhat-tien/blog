@@ -28,15 +28,21 @@
     </div>
     <div class="frontmatter frontmatter--tags">
         <div class="frontmatter__value">
+        {{ if (.GetTerms "tags") }}
+        {{- partial "icon/tag.html" -}}
         {{ range (.GetTerms "tags") }}
           <a href="{{ .Permalink }}" class="tag {{ if eq .Page.Title "Moc"}}tag--moc{{end}}">
             {{ .LinkTitle }}
           </a>
         {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
   {{ end }}
+  {{ with .Params.image }}
+    <img src="{{ . }}" />
+    {{ end }}
   {{ partial "toc.html" . }}
   {{ .Content }}
   </article>

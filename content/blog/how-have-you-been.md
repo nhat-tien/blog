@@ -6,7 +6,7 @@ description = ""
 tags = []
 +++
 
-This page is a log of my life
+This page is where I update my status 
 
 ## Now
 I have a freelance gig for my friend project rn, it's a job in web development. I also have a side project for professor in university. I will try my best. 

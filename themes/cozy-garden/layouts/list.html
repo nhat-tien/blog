@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
   {{ if .Data.Singular }}
-  <h3 style="margin-bottom:10px">Posts have tag <span class="tag {{ if eq .Title " Moc"}} tag--moc{{end}}">{{ .Title
+  <h3 style="margin-bottom:10px">Posts have tag <span class="tag {{ if eq .Title "Moc"}} tag--moc{{end}}">{{ .Title
       }}</span></h3>
   {{ if eq .Title "Moc"}}
   <dfn>It's mean Map Of Content</dfn>
@@ -34,25 +34,19 @@
         </h3>
       </a>
       <div class="post__update">
-        <svg width="18" style="position:relative;top:3px;z-index:-9;" fill="var(--heading_color)" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-          <g id="SVGRepo_iconCarrier">
-            <path
-              d="M6,22H18a3,3,0,0,0,3-3V7a2,2,0,0,0-2-2H17V3a1,1,0,0,0-2,0V5H9V3A1,1,0,0,0,7,3V5H5A2,2,0,0,0,3,7V19A3,3,0,0,0,6,22ZM5,12.5a.5.5,0,0,1,.5-.5h13a.5.5,0,0,1,.5.5V19a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1Z">
-            </path>
-          </g>
-        </svg>
+        {{- partial "icon/date.html" . -}}
         <time datetime='{{ .Date.Format "02/01/2006" }}' pubdate>
           {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
         </time>
       </div>
       <div style="margin-top: 10px;">
-        {{ range (.GetTerms "tags") }}
-        <a href="{{ .Permalink }}" class="tag {{ if eq .LinkTitle " Moc" }}tag--moc{{end}}">
-          {{ .LinkTitle }}
-        </a>
+        {{ if (.GetTerms "tags") }}
+        {{- partial "icon/tag.html" -}}
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}" class="tag {{ if eq .LinkTitle "Moc" }}tag--moc{{end}}">
+            {{ .LinkTitle }}
+          </a>
+          {{ end }}
         {{ end }}
       </div>
 

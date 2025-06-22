@@ -3,21 +3,46 @@
   {{ .Content }}
 </main>
 <h2>Recent Posts</h2>
-<ul>
+<div>
   {{ range .Site.RegularPages.ByDate.Reverse.Limit 5 }}
-  <li>
-    <span>
-      {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
-    </span>
-    <span>-</span>
-    <a class="link" href="{{ .Permalink }}">
-      {{.Title}}
-    </a>
-  </li>
+  <!-- <li> -->
+  <!--   <span> -->
+  <!--     {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }} -->
+  <!--   </span> -->
+  <!--   <span>-</span> -->
+  <!--   <a class="link" href="{{ .Permalink }}"> -->
+  <!--     {{.Title}} -->
+  <!--   </a> -->
+  <!-- </li> -->
+
+    <div class="post">
+      <a href="{{ .Permalink }}">
+        <h3>
+          {{.Title}}
+        </h3>
+      </a>
+      <div class="post__update">
+        {{- partial "icon/date.html" . -}}
+        <time datetime='{{ .Date.Format "02/01/2006" }}' pubdate>
+          {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
+        </time>
+      </div>
+      <div style="margin-top: 10px;">
+        {{ if (.GetTerms "tags") }}
+        {{- partial "icon/tag.html" -}}
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}" class="tag {{ if eq .LinkTitle " Moc" }}tag--moc{{end}}">
+            {{ .LinkTitle }}
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+
+    </div>
   {{ else }}
-  <li>
+  <div>
     No posts yet
-  </li>
+  </div>
   {{ end }}
-</ul>
+</div>
 {{ end }}

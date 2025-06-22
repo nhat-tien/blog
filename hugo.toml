@@ -14,6 +14,10 @@ buildFuture = true
   dateFormat = "02/01/2006"
   logo = "/images/blue-mouse.webp"
   description = "personal blog of Nhat Tien"
+  [params.footer]
+    github = "https://github.com/nhat-tien"
+    linkedin = "https://www.linkedin.com/in/ledntien"
+    rss = "/index.xml"
 
 [markup]
   [markup.highlight]
