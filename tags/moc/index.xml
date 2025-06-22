@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Moc on Nhat Tien</title><link>https://tienldn.site/tags/moc/</link><description>Recent content in Moc on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>Map Of Content</title><link>https://tienldn.site/blogs/map-of-content/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/map-of-content/</guid><description>&lt;h1 id="map-of-content">Map Of Content&lt;/h1>&lt;div align="center">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Moc on Nhat Tien</title><link>https://tienldn.site/tags/moc/</link><description>Recent content in Moc on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/moc/index.xml" rel="self" type="application/rss+xml"/><item><title>Map Of Content</title><link>https://tienldn.site/blogs/map-of-content/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/map-of-content/</guid><description>&lt;h1 id="map-of-content">Map Of Content 
+ 
+&lt;/h1>
+&lt;div align="center" style="margin:50px auto;">
 &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="var(--text_color)" width="200px" viewBox="0 0 64 64" version="1.1" xml:space="preserve">
 &lt;path d="M54.1,23.6H37.7v-2.4h10.2c0.3,0,0.5-0.1,0.7-0.3l6.2-5.7c0.2-0.2,0.4-0.5,0.4-0.8c0-0.3-0.1-0.6-0.4-0.8l-6.2-5.7 c-0.2-0.2-0.5-0.3-0.7-0.3H37.7V1.1c0-0.6-0.5-1.1-1.1-1.1h-8.8c-0.6,0-1.1,0.5-1.1,1.1v6.4H18c-0.6,0-1.1,0.5-1.1,1.1V20 c0,0.6,0.5,1.1,1.1,1.1h8.7v2.4H16.1c-0.3,0-0.5,0.1-0.7,0.3l-6.2,5.7c-0.2,0.2-0.4,0.5-0.4,0.8c0,0.3,0.1,0.6,0.4,0.8l6.2,5.7 c0.2,0.2,0.5,0.3,0.7,0.3h10.5v25.7c0,0.6,0.5,1.1,1.1,1.1h8.8c0.6,0,1.1-0.5,1.1-1.1V37.2h16.4c0.6,0,1.1-0.5,1.1-1.1V24.7 C55.2,24.1,54.7,23.6,54.1,23.6z M28.9,2.2h6.6v5.3h-6.6V2.2z M19.1,9.7h8.7h8.8h10.8l5,4.6l-5,4.6H36.6h-8.8h-8.7V9.7z M28.9,21.2h6.6v2.4h-6.6V21.2z M35.5,61.8h-6.6V37.2h6.6V61.8z M53,35H36.6h-8.8H16.6l-5-4.6l5-4.6h11.2h8.8H53V35z"/>
 &lt;path d="M30.9,30.4c0,0.6,0.5,1.1,1.1,1.1h17.7c0.6,0,1.1-0.5,1.1-1.1c0-0.6-0.5-1.1-1.1-1.1H32C31.4,29.3,30.9,29.8,30.9,30.4z"/>
@@ -70,7 +73,12 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security 
+ 
+ &lt;a href="#security" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.stackhawk.com/blog/laravel-csrf-protection-guide/" target="_blank" rel="noopener">
  https://www.stackhawk.com/blog/laravel-csrf-protection-guide/
  
@@ -86,7 +94,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="ecosystem">Ecosystem&lt;/h2>&lt;ul>
+&lt;h2 id="ecosystem">Ecosystem 
+ 
+ &lt;a href="#ecosystem" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://filamentphp.com/" target="_blank" rel="noopener">
  Filament Laravel
  
@@ -109,7 +122,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="repo-tips">Repo Tips&lt;/h2>&lt;ul>
+&lt;h2 id="repo-tips">Repo Tips 
+ 
+ &lt;a href="#repo-tips" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://github.com/LaravelDaily/laravel-tips" target="_blank" rel="noopener">
  Laravel Tips
  
@@ -124,27 +142,47 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept 
+ 
+ &lt;a href="#concept" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/react-server-component">
  React Server Component
  
 &lt;/a>
 &lt;/li>
 &lt;li>&lt;/li>
-&lt;/ul></description></item><item><title>JavaScript</title><link>https://tienldn.site/blogs/javascript/</link><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/javascript/</guid><description>&lt;h2 id="khái-niệm">Khái niệm&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>JavaScript</title><link>https://tienldn.site/blogs/javascript/</link><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/javascript/</guid><description>&lt;h2 id="khái-niệm">Khái niệm 
+ 
+ &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Closures&lt;/li>
 &lt;li>Currying&lt;/li>
 &lt;li>Higher Order Function&lt;/li>
 &lt;li>Prototype&lt;/li>
 &lt;/ul>
-&lt;h2 id="tip">Tip&lt;/h2>&lt;ul>
+&lt;h2 id="tip">Tip 
+ 
+ &lt;a href="#tip" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/1loc-helpful-in-javascript">
  Collection of one-liner-helpful code
  
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="liên-kết-ngoài">Liên kết ngoài&lt;/h2>&lt;ul>
+&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
+ 
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://eloquentjavascript.net/?fbclid=IwAR00CNTor5cWVNe1vmSqPhncpM2c_3K4gXyhAxBcemHbxJx--4uaLHvUpc4" target="_blank" rel="noopener">
  Sách điện tử Eloquent JavaScipt
  
@@ -152,7 +190,17 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>📖 Triết học</title><link>https://tienldn.site/blogs/triet-hoc/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/triet-hoc/</guid><description>&lt;h2 id="liên-kết-ngoài">Liên kết ngoài&lt;/h2>&lt;h3 id="phật-giáo---buddhism">Phật Giáo - Buddhism&lt;/h3>&lt;ul>
+&lt;/ul></description></item><item><title>📖 Triết học</title><link>https://tienldn.site/blogs/triet-hoc/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/triet-hoc/</guid><description>&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
+ 
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="phật-giáo---buddhism">Phật Giáo - Buddhism 
+ 
+ &lt;a href="#ph%e1%ba%adt-gi%c3%a1o---buddhism" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://bookdown.org/namkyodai/tnh-daophatquanhanthucmoi/vandelinhhontrongdaophat.html" target="_blank" rel="noopener">
  8 Vấn đề linh hồn trong đạo Phật | Đạo Phật Qua Nhận Thức Mới
  
@@ -165,14 +213,29 @@
  &lt;figcaption>&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="song-writing">Song Writing&lt;/h2>&lt;ul>
+&lt;h2 id="song-writing">Song Writing 
+ 
+ &lt;a href="#song-writing" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/plugin-list-i-used">
  Plugin list I&amp;rsquo;ve been used
  
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="liên-kết-ngoài">Liên kết ngoài&lt;/h2>&lt;h3 id="hợp-âm">Hợp âm&lt;/h3>&lt;ul>
+&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
+ 
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="hợp-âm">Hợp âm 
+ 
+ &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.guitar-chord.org/chord-types.html" target="_blank" rel="noopener">
  Chord types, etc
  
@@ -181,7 +244,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="bài-viết-hay">Bài viết hay&lt;/h3>&lt;ul>
+&lt;h3 id="bài-viết-hay">Bài viết hay 
+ 
+ &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.britannica.com/art/key-music" target="_blank" rel="noopener">
  https://www.britannica.com/art/key-music
  

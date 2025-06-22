@@ -1,10 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel on Nhat Tien</title><link>https://tienldn.site/tags/laravel/</link><description>Recent content in Laravel on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/laravel/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue&lt;/h2>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel on Nhat Tien</title><link>https://tienldn.site/tags/laravel/</link><description>Recent content in Laravel on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/laravel/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue 
+ 
+ &lt;a href="#issue" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Laravel save timestamp in database with wrong timezone&lt;/li>
 &lt;li>Laravel return resource json with wrong timestamp&lt;/li>
 &lt;/ul>
-&lt;h2 id="solution">Solution&lt;/h2>&lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
+&lt;h2 id="solution">Solution 
+ 
+ &lt;a href="#solution" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
 &lt;p>Follow below steps:&lt;/p>
-&lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code>&lt;/h3>&lt;p>&lt;em>Example&lt;/em>&lt;/p>
+&lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code> 
+ 
+ &lt;a href="#1-replace-utc-by-your-timezone-in-configappphp" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;p>&lt;em>Example&lt;/em>&lt;/p>
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
@@ -37,7 +52,12 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
-&lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache&lt;/h3>&lt;figure class="highlight">
+&lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache 
+ 
+ &lt;a href="#2-try-to-refresh-your-config-cache" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
@@ -51,7 +71,12 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">php artisan config:cache&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
-&lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security&lt;/h2>&lt;ul>
+&lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security 
+ 
+ &lt;a href="#security" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.stackhawk.com/blog/laravel-csrf-protection-guide/" target="_blank" rel="noopener">
  https://www.stackhawk.com/blog/laravel-csrf-protection-guide/
  
@@ -67,7 +92,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="ecosystem">Ecosystem&lt;/h2>&lt;ul>
+&lt;h2 id="ecosystem">Ecosystem 
+ 
+ &lt;a href="#ecosystem" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://filamentphp.com/" target="_blank" rel="noopener">
  Filament Laravel
  
@@ -90,7 +120,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="repo-tips">Repo Tips&lt;/h2>&lt;ul>
+&lt;h2 id="repo-tips">Repo Tips 
+ 
+ &lt;a href="#repo-tips" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://github.com/LaravelDaily/laravel-tips" target="_blank" rel="noopener">
  Laravel Tips
  

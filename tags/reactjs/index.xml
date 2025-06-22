@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reactjs on Nhat Tien</title><link>https://tienldn.site/tags/reactjs/</link><description>Recent content in Reactjs on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 15 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/reactjs/index.xml" rel="self" type="application/rss+xml"/><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept&lt;/h2>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reactjs on Nhat Tien</title><link>https://tienldn.site/tags/reactjs/</link><description>Recent content in Reactjs on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 15 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/reactjs/index.xml" rel="self" type="application/rss+xml"/><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept 
+ 
+ &lt;a href="#concept" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/react-server-component">
  React Server Component
  
 &lt;/a>
 &lt;/li>
 &lt;li>&lt;/li>
-&lt;/ul></description></item><item><title>React Server Component</title><link>https://tienldn.site/blogs/react-server-component/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-server-component/</guid><description>&lt;h2 id="server-component">Server Component&lt;/h2>&lt;p>&lt;strong>Có các đặc điểm sau:&lt;/strong>&lt;/p>
+&lt;/ul></description></item><item><title>React Server Component</title><link>https://tienldn.site/blogs/react-server-component/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-server-component/</guid><description>&lt;h2 id="server-component">Server Component 
+ 
+ &lt;a href="#server-component" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>&lt;strong>Có các đặc điểm sau:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Không có state, nên không sử dụng các hook như &lt;code>useState&lt;/code> và &lt;code>useReducer&lt;/code>&lt;/li>
 &lt;li>Không re-rendering, nên không sử dụng các hook life-cycle như &lt;code>useEffect&lt;/code> và &lt;code>useLayoutEffect&lt;/code>&lt;/li>
@@ -16,7 +26,12 @@
 &lt;ul>
 &lt;li>Giảm kích thước gói tải.&lt;/li>
 &lt;/ul>
-&lt;h2 id="server-side-rendering-ssr">Server Side Rendering (SSR)&lt;/h2>&lt;ul>
+&lt;h2 id="server-side-rendering-ssr">Server Side Rendering (SSR) 
+ 
+ &lt;a href="#server-side-rendering-ssr" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Gửi HTML String chưa có js tới trình duyệt -&amp;gt; sau đó nhận file js -&amp;gt; quá trình &lt;code>hydrate&lt;/code>-&amp;gt; lúc này Cilent đã có code React javascript, các component có State, Event Listener. &lt;strong>Và sau lần khởi tạo này, web sẽ hoạt động y như một React Single Page Application.&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;hr>

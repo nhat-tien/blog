@@ -1,6 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.site/blogs/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/blogs/index.xml" rel="self" type="application/rss+xml"/><item><title>"How you have been?"</title><link>https://tienldn.site/blogs/how-have-you-been/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/how-have-you-been/</guid><description>&lt;p>This page is a log of my life&lt;/p>
-&lt;h2 id="now">Now&lt;/h2>&lt;p>I have a freelance gig for my friend project rn, it&amp;rsquo;s a job in web development. I also have a side project for professor in university. I will try my best.&lt;/p>
-&lt;h2 id="plan">Plan&lt;/h2>&lt;p>Currently find a idea for side project, I think I will use it for my final year prject. But now, I run out of good idea.&lt;/p></description></item><item><title>Map Of Content</title><link>https://tienldn.site/blogs/map-of-content/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/map-of-content/</guid><description>&lt;h1 id="map-of-content">Map Of Content&lt;/h1>&lt;div align="center">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.site/blogs/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/blogs/index.xml" rel="self" type="application/rss+xml"/><item><title>"How you have been?"</title><link>https://tienldn.site/blogs/how-have-you-been/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/how-have-you-been/</guid><description>&lt;p>This page is where I update my status&lt;/p>
+&lt;h2 id="now">Now 
+ 
+ &lt;a href="#now" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>I have a freelance gig for my friend project rn, it&amp;rsquo;s a job in web development. I also have a side project for professor in university. I will try my best.&lt;/p>
+&lt;h2 id="plan">Plan 
+ 
+ &lt;a href="#plan" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>Currently find a idea for side project, I think I will use it for my final year prject. But now, I run out of good idea.&lt;/p></description></item><item><title>Map Of Content</title><link>https://tienldn.site/blogs/map-of-content/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/map-of-content/</guid><description>&lt;h1 id="map-of-content">Map Of Content 
+ 
+&lt;/h1>
+&lt;div align="center" style="margin:50px auto;">
 &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="var(--text_color)" width="200px" viewBox="0 0 64 64" version="1.1" xml:space="preserve">
 &lt;path d="M54.1,23.6H37.7v-2.4h10.2c0.3,0,0.5-0.1,0.7-0.3l6.2-5.7c0.2-0.2,0.4-0.5,0.4-0.8c0-0.3-0.1-0.6-0.4-0.8l-6.2-5.7 c-0.2-0.2-0.5-0.3-0.7-0.3H37.7V1.1c0-0.6-0.5-1.1-1.1-1.1h-8.8c-0.6,0-1.1,0.5-1.1,1.1v6.4H18c-0.6,0-1.1,0.5-1.1,1.1V20 c0,0.6,0.5,1.1,1.1,1.1h8.7v2.4H16.1c-0.3,0-0.5,0.1-0.7,0.3l-6.2,5.7c-0.2,0.2-0.4,0.5-0.4,0.8c0,0.3,0.1,0.6,0.4,0.8l6.2,5.7 c0.2,0.2,0.5,0.3,0.7,0.3h10.5v25.7c0,0.6,0.5,1.1,1.1,1.1h8.8c0.6,0,1.1-0.5,1.1-1.1V37.2h16.4c0.6,0,1.1-0.5,1.1-1.1V24.7 C55.2,24.1,54.7,23.6,54.1,23.6z M28.9,2.2h6.6v5.3h-6.6V2.2z M19.1,9.7h8.7h8.8h10.8l5,4.6l-5,4.6H36.6h-8.8h-8.7V9.7z M28.9,21.2h6.6v2.4h-6.6V21.2z M35.5,61.8h-6.6V37.2h6.6V61.8z M53,35H36.6h-8.8H16.6l-5-4.6l5-4.6h11.2h8.8H53V35z"/>
 &lt;path d="M30.9,30.4c0,0.6,0.5,1.1,1.1,1.1h17.7c0.6,0,1.1-0.5,1.1-1.1c0-0.6-0.5-1.1-1.1-1.1H32C31.4,29.3,30.9,29.8,30.9,30.4z"/>
@@ -37,7 +50,56 @@
 &lt;li>Patterns of Enterprise Application Architecture, (Martin Fowler và nhiều tác giả khác): Hãy đọc cuốn này nếu bạn quan tâm đến việc xây dựng các ứng dụng lớn, nhiều người dùng, nó không chỉ có các design pattern mà còn cho bạn thấy nhiều vấn đề bạn sẽ gặp phải.&lt;/li>
 &lt;li>System Design Interview, Alex Xu: Thú thật là mình cũng chỉ đọc sơ qua thôi, vì nhiều kiến thức trong đây thì mình đã biết rồi, nhưng nếu bạn là người mới với system design thì nên đọc.&lt;/li>
 &lt;/ul>
-&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>About Authentication with JWT</title><link>https://tienldn.site/blogs/about-authentication-with-jwt/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/about-authentication-with-jwt/</guid><description>&lt;h2 id="token-based-vs-session-based">Token based vs Session based&lt;/h2>&lt;h2 id="what-is-jwt">What is JWT&lt;/h2>&lt;h2 id="access-token">Access token&lt;/h2>&lt;h3 id="save-at-localstorage">Save at localstorage&lt;/h3>&lt;h2 id="refresh-token">Refresh token&lt;/h2>&lt;h3 id="in-client-save-in-httponly-cookies">In client save in httponly cookies&lt;/h3>&lt;h3 id="in-backend-save-in-database">In backend save in database&lt;/h3>&lt;h4 id="sql">SQL&lt;/h4>&lt;h4 id="redis">Redis&lt;/h4>&lt;h3 id="how-to-handle-refresh-token">How to handle refresh token&lt;/h3></description></item><item><title>Spring</title><link>https://tienldn.site/blogs/spring/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/spring/</guid><description>&lt;ul>
+&lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>About Authentication with JWT</title><link>https://tienldn.site/blogs/about-authentication-with-jwt/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/about-authentication-with-jwt/</guid><description>&lt;h2 id="token-based-vs-session-based">Token based vs Session based 
+ 
+ &lt;a href="#token-based-vs-session-based" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h2 id="what-is-jwt">What is JWT 
+ 
+ &lt;a href="#what-is-jwt" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h2 id="access-token">Access token 
+ 
+ &lt;a href="#access-token" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="save-at-localstorage">Save at localstorage 
+ 
+ &lt;a href="#save-at-localstorage" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;h2 id="refresh-token">Refresh token 
+ 
+ &lt;a href="#refresh-token" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="in-client-save-in-httponly-cookies">In client save in httponly cookies 
+ 
+ &lt;a href="#in-client-save-in-httponly-cookies" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;h3 id="in-backend-save-in-database">In backend save in database 
+ 
+ &lt;a href="#in-backend-save-in-database" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;h4 id="sql">SQL 
+ 
+ &lt;a href="#sql" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h4>
+&lt;h4 id="redis">Redis 
+ 
+ &lt;a href="#redis" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h4>
+&lt;h3 id="how-to-handle-refresh-token">How to handle refresh token 
+ 
+ &lt;a href="#how-to-handle-refresh-token" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3></description></item><item><title>Spring</title><link>https://tienldn.site/blogs/spring/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/spring/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.baeldung.com/" target="_blank" rel="noopener">
  Baeldung.com
  
@@ -82,13 +144,28 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">isIntersecting&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
-&lt;/figure></description></item><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue&lt;/h2>&lt;ul>
+&lt;/figure></description></item><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue 
+ 
+ &lt;a href="#issue" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Laravel save timestamp in database with wrong timezone&lt;/li>
 &lt;li>Laravel return resource json with wrong timestamp&lt;/li>
 &lt;/ul>
-&lt;h2 id="solution">Solution&lt;/h2>&lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
+&lt;h2 id="solution">Solution 
+ 
+ &lt;a href="#solution" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
 &lt;p>Follow below steps:&lt;/p>
-&lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code>&lt;/h3>&lt;p>&lt;em>Example&lt;/em>&lt;/p>
+&lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code> 
+ 
+ &lt;a href="#1-replace-utc-by-your-timezone-in-configappphp" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;p>&lt;em>Example&lt;/em>&lt;/p>
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
@@ -121,7 +198,12 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
-&lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache&lt;/h3>&lt;figure class="highlight">
+&lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache 
+ 
+ &lt;a href="#2-try-to-refresh-your-config-cache" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;div class="decoration-codeblock__language">
@@ -135,9 +217,24 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">php artisan config:cache&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
-&lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>/dev/null trong linux</title><link>https://tienldn.site/blogs/dev-null-in-linux/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/dev-null-in-linux/</guid><description>&lt;h2 id="1-what-is-devnull">1. What is &lt;code>/dev/null&lt;/code>?&lt;/h2>&lt;p>Trong hệ thống Linux, device được lưu trữ trong thư mục &lt;code>/dev&lt;/code>. Có hai loại file device là physical và virtual. &lt;code>/dev/null&lt;/code> là một virtual null devices &lt;strong>được dùng để loại bỏ bất kì output nào ta redirect tới nó&lt;/strong>.&lt;/p>
-&lt;h2 id="2-how-to-use">2. How to use&lt;/h2>&lt;p>output can be &lt;code>stdout&lt;/code> or &lt;code>stderr&lt;/code>&lt;/p>
-&lt;h3 id="21-with-stdout">2.1 With &lt;code>stdout&lt;/code>&lt;/h3>&lt;p>This will discard &lt;code>echo&lt;/code> message&lt;/p>
+&lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>/dev/null trong linux</title><link>https://tienldn.site/blogs/dev-null-in-linux/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/dev-null-in-linux/</guid><description>&lt;h2 id="1-what-is-devnull">1. What is &lt;code>/dev/null&lt;/code>? 
+ 
+ &lt;a href="#1-what-is-devnull" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>Trong hệ thống Linux, device được lưu trữ trong thư mục &lt;code>/dev&lt;/code>. Có hai loại file device là physical và virtual. &lt;code>/dev/null&lt;/code> là một virtual null devices &lt;strong>được dùng để loại bỏ bất kì output nào ta redirect tới nó&lt;/strong>.&lt;/p>
+&lt;h2 id="2-how-to-use">2. How to use 
+ 
+ &lt;a href="#2-how-to-use" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>output can be &lt;code>stdout&lt;/code> or &lt;code>stderr&lt;/code>&lt;/p>
+&lt;h3 id="21-with-stdout">2.1 With &lt;code>stdout&lt;/code> 
+ 
+ &lt;a href="#21-with-stdout" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;p>This will discard &lt;code>echo&lt;/code> message&lt;/p>
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
@@ -148,19 +245,12 @@
  &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;Hello from JournalDev&amp;#39;&lt;/span> &amp;gt; /dev/null&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
-&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code>&lt;/h3>&lt;p>Discard error output&lt;/p>
-&lt;figure class="highlight">
- &lt;div class="decoration-codeblock-wrapper">
- &lt;div class="decoration-codeblock__side">
- &lt;/div>
- &lt;div class="decoration-codeblock__right">&lt;/div>
- &lt;/div>
- &lt;pre tabindex="0" class="chroma">
- &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cat --INCORRECT_OPTION &amp;gt; /dev/null 2&amp;gt;/dev/null&lt;/span>&lt;/span>&lt;/code>
- &lt;/pre>
-&lt;/figure>
-&lt;p>Another way:
-&lt;code>2&amp;gt;&amp;amp;1&lt;/code>: redirect stderr(2) to stdout(1). We use &amp;amp;1 to mention to the shell that the destination file is a file descriptor and not a file name.&lt;/p></description></item><item><title>Rust</title><link>https://tienldn.site/blogs/rust/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/rust/</guid><description>&lt;ul>
+&lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code> 
+ 
+ &lt;a href="#22-with-stderr" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;p>Discard error output&lt;/p></description></item><item><title>Rust</title><link>https://tienldn.site/blogs/rust/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/rust/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.rustvn.com/" target="_blank" rel="noopener">
  Rustvn
  
@@ -190,7 +280,12 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security 
+ 
+ &lt;a href="#security" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.stackhawk.com/blog/laravel-csrf-protection-guide/" target="_blank" rel="noopener">
  https://www.stackhawk.com/blog/laravel-csrf-protection-guide/
  
@@ -206,7 +301,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="ecosystem">Ecosystem&lt;/h2>&lt;ul>
+&lt;h2 id="ecosystem">Ecosystem 
+ 
+ &lt;a href="#ecosystem" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://filamentphp.com/" target="_blank" rel="noopener">
  Filament Laravel
  
@@ -229,7 +329,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="repo-tips">Repo Tips&lt;/h2>&lt;ul>
+&lt;h2 id="repo-tips">Repo Tips 
+ 
+ &lt;a href="#repo-tips" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://github.com/LaravelDaily/laravel-tips" target="_blank" rel="noopener">
  Laravel Tips
  
@@ -244,7 +349,12 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</guid><description>&lt;h2 id="solution">Solution&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</guid><description>&lt;h2 id="solution">Solution 
+ 
+ &lt;a href="#solution" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Add below script to &lt;code>/etc/pulse/default.pa&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;figure class="highlight">
@@ -265,7 +375,12 @@
 &lt;li>Reload pulseAudio by &lt;code>pulseaudio -k&lt;/code>&lt;/li>
 &lt;li>Choose new device in settings of pulseAudio&lt;/li>
 &lt;/ul>
-&lt;h2 id="ref">Ref&lt;/h2>&lt;ul>
+&lt;h2 id="ref">Ref 
+ 
+ &lt;a href="#ref" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://askubuntu.com/questions/18958/realtime-noise-removal-with-pulseaudio" target="_blank" rel="noopener">
  https://askubuntu.com/questions/18958/realtime-noise-removal-with-pulseaudio
  
@@ -280,7 +395,17 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienldn.site/blogs/my-awesome-list/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/my-awesome-list/</guid><description>&lt;h2 id="languages">Languages&lt;/h2>&lt;h3 id="typescript">Typescript&lt;/h3>&lt;ul>
+&lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienldn.site/blogs/my-awesome-list/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/my-awesome-list/</guid><description>&lt;h2 id="languages">Languages 
+ 
+ &lt;a href="#languages" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="typescript">Typescript 
+ 
+ &lt;a href="#typescript" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://react-typescript-cheatsheet.netlify.app/" target="_blank" rel="noopener">
  React Typescript
  
@@ -289,7 +414,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="algorithms">Algorithms&lt;/h2>&lt;ul>
+&lt;h2 id="algorithms">Algorithms 
+ 
+ &lt;a href="#algorithms" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://vietcodes.github.io/" target="_blank" rel="noopener">
  VietCodes
  
@@ -298,7 +428,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="-tools">🔧 Tools&lt;/h2>&lt;ul>
+&lt;h2 id="-tools">🔧 Tools 
+ 
+ &lt;a href="#-tools" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://excalidraw.com/" target="_blank" rel="noopener">
  Excalidraw.com
  
@@ -356,7 +491,12 @@
 &lt;/a>
 : Noise supression app&lt;/li>
 &lt;/ul>
-&lt;h3 id="css">CSS&lt;/h3>&lt;ul>
+&lt;h3 id="css">CSS 
+ 
+ &lt;a href="#css" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.shapedivider.app/" target="_blank" rel="noopener">
  https://www.shapedivider.app/
  
@@ -365,7 +505,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="blogger-vietnam">Blogger Vietnam&lt;/h2>&lt;ul>
+&lt;h2 id="blogger-vietnam">Blogger Vietnam 
+ 
+ &lt;a href="#blogger-vietnam" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://thuanbui.me/" target="_blank" rel="noopener">
  https://thuanbui.me/
  
@@ -402,7 +547,12 @@
 &lt;/a>
 : Business Analytics&lt;/li>
 &lt;/ul>
-&lt;h2 id="chia-sẻ-kiến-thức">Chia sẻ kiến thức&lt;/h2>&lt;ul>
+&lt;h2 id="chia-sẻ-kiến-thức">Chia sẻ kiến thức 
+ 
+ &lt;a href="#chia-s%e1%ba%bb-ki%e1%ba%bfn-th%e1%bb%a9c" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://blog.haposoft.com/" target="_blank" rel="noopener">
  https://blog.haposoft.com/
  
@@ -432,7 +582,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="repo">Repo&lt;/h2>&lt;ul>
+&lt;h2 id="repo">Repo 
+ 
+ &lt;a href="#repo" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://github.com/hocchudong" target="_blank" rel="noopener">
  github.com/hocchudong
  
@@ -448,7 +603,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="weeb">Weeb&lt;/h2>&lt;ul>
+&lt;h2 id="weeb">Weeb 
+ 
+ &lt;a href="#weeb" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://yuna0x0.com/" target="_blank" rel="noopener">
  https://yuna0x0.com/
  
@@ -457,7 +617,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="bookmark-hay-ho">Bookmark hay ho&lt;/h2>&lt;ul>
+&lt;h2 id="bookmark-hay-ho">Bookmark hay ho 
+ 
+ &lt;a href="#bookmark-hay-ho" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://code.pepega.club/33KK" target="_blank" rel="noopener">
  https://code.pepega.club/33KK
  
@@ -494,11 +659,26 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="pixel-editor">Pixel editor&lt;/h2>&lt;ul>
+&lt;h2 id="pixel-editor">Pixel editor 
+ 
+ &lt;a href="#pixel-editor" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Pixelorama&lt;/li>
 &lt;li>Libresprite&lt;/li>
 &lt;/ul>
-&lt;h2 id="uiuxdesign">UI/UX/Design&lt;/h2>&lt;h3 id="fonts">Fonts&lt;/h3>&lt;ul>
+&lt;h2 id="uiuxdesign">UI/UX/Design 
+ 
+ &lt;a href="#uiuxdesign" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="fonts">Fonts 
+ 
+ &lt;a href="#fonts" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.dafont.com" target="_blank" rel="noopener">
  https://www.dafont.com
  
@@ -507,7 +687,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="color-palettes">Color palettes&lt;/h3>&lt;ul>
+&lt;h3 id="color-palettes">Color palettes 
+ 
+ &lt;a href="#color-palettes" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.supaui.io/" target="_blank" rel="noopener">
  https://www.supaui.io/
  
@@ -516,7 +701,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="linux">Linux&lt;/h2>&lt;ul>
+&lt;h2 id="linux">Linux 
+ 
+ &lt;a href="#linux" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://makefiletutorial.com/" target="_blank" rel="noopener">
  Makefile cook book
  
@@ -524,14 +714,24 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept 
+ 
+ &lt;a href="#concept" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/react-server-component">
  React Server Component
  
 &lt;/a>
 &lt;/li>
 &lt;li>&lt;/li>
-&lt;/ul></description></item><item><title>Tài nguyên hữu ích cho Front-end</title><link>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</guid><description>&lt;h2 id="webpage">Webpage&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>Tài nguyên hữu ích cho Front-end</title><link>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</guid><description>&lt;h2 id="webpage">Webpage 
+ 
+ &lt;a href="#webpage" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://topdev.vn/blog/thanh-thao-ky-nang-css-cua-ban-voi-bo-code-cuc-chat/?amp" target="_blank" rel="noopener">
  bộ code css đáng xem
  
@@ -554,7 +754,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="website">Website&lt;/h2>&lt;ul>
+&lt;h2 id="website">Website 
+ 
+ &lt;a href="#website" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://anonystick.com/" target="_blank" rel="noopener">
  https://anonystick.com/
  
@@ -591,7 +796,17 @@
 &lt;/a>
  (web app vẽ ghi chú, mình chưa thử)&lt;/li>
 &lt;/ul>
-&lt;h2 id="cheat-sheet">Cheat Sheet&lt;/h2>&lt;h3 id="from-doidevcom">from doidev.com&lt;/h3>&lt;ul>
+&lt;h2 id="cheat-sheet">Cheat Sheet 
+ 
+ &lt;a href="#cheat-sheet" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="from-doidevcom">from doidev.com 
+ 
+ &lt;a href="#from-doidevcom" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://doidev.com/javascript-cheat-sheet/" target="_blank" rel="noopener">
  JavaScript
  
@@ -621,7 +836,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="color">Color&lt;/h2>&lt;ul>
+&lt;h2 id="color">Color 
+ 
+ &lt;a href="#color" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://flatuicolors.com/" target="_blank" rel="noopener">
  https://flatuicolors.com/
  
@@ -644,11 +864,21 @@
 &lt;/a>
  (Kiểm tra contrast)&lt;/li>
 &lt;/ul>
-&lt;h2 id="web-app-for-design">Web app for design&lt;/h2>&lt;ul>
+&lt;h2 id="web-app-for-design">Web app for design 
+ 
+ &lt;a href="#web-app-for-design" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Figma&lt;/li>
 &lt;li>Canva&lt;/li>
 &lt;/ul>
-&lt;h2 id="kho-ảnh">Kho ảnh&lt;/h2>&lt;ul>
+&lt;h2 id="kho-ảnh">Kho ảnh 
+ 
+ &lt;a href="#kho-%e1%ba%a3nh" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Unplash&lt;/li>
 &lt;li>&lt;a class="link" href="https://undraw.co/" target="_blank" rel="noopener">
  unDraw
@@ -658,7 +888,12 @@
 &lt;/a>
  (Free illustration)&lt;/li>
 &lt;/ul>
-&lt;h2 id="tips-giao-diện">Tips giao diện&lt;/h2>&lt;ul>
+&lt;h2 id="tips-giao-diện">Tips giao diện 
+ 
+ &lt;a href="#tips-giao-di%e1%bb%87n" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Hamberger menu: &lt;a class="link" href="https://alvarotrigo.com/blog/hamburger-menu-css/" target="_blank" rel="noopener">
  https://alvarotrigo.com/blog/hamburger-menu-css/
  
@@ -666,18 +901,48 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Danh sách plugin đã sử dụng</title><link>https://tienldn.site/blogs/plugin-list-i-used/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/plugin-list-i-used/</guid><description>&lt;h2 id="guitar">Guitar&lt;/h2>&lt;h3 id="aucoustic">Aucoustic&lt;/h3>&lt;ul>
+&lt;/ul></description></item><item><title>Danh sách plugin đã sử dụng</title><link>https://tienldn.site/blogs/plugin-list-i-used/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/plugin-list-i-used/</guid><description>&lt;h2 id="guitar">Guitar 
+ 
+ &lt;a href="#guitar" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="aucoustic">Aucoustic 
+ 
+ &lt;a href="#aucoustic" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>Ample Guitar&lt;/li>
 &lt;/ul>
-&lt;h2 id="bass">Bass&lt;/h2>&lt;ul>
+&lt;h2 id="bass">Bass 
+ 
+ &lt;a href="#bass" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Ample Bass&lt;/li>
 &lt;/ul>
-&lt;h2 id="virtual-ampli">Virtual Ampli&lt;/h2>&lt;ul>
+&lt;h2 id="virtual-ampli">Virtual Ampli 
+ 
+ &lt;a href="#virtual-ampli" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Blue Cat Free Amp&lt;/li>
 &lt;/ul>
-&lt;h2 id="drum">Drum&lt;/h2>&lt;ul>
+&lt;h2 id="drum">Drum 
+ 
+ &lt;a href="#drum" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>MTP Drum Kit&lt;/li>
-&lt;/ul></description></item><item><title>React Server Component</title><link>https://tienldn.site/blogs/react-server-component/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-server-component/</guid><description>&lt;h2 id="server-component">Server Component&lt;/h2>&lt;p>&lt;strong>Có các đặc điểm sau:&lt;/strong>&lt;/p>
+&lt;/ul></description></item><item><title>React Server Component</title><link>https://tienldn.site/blogs/react-server-component/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-server-component/</guid><description>&lt;h2 id="server-component">Server Component 
+ 
+ &lt;a href="#server-component" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;p>&lt;strong>Có các đặc điểm sau:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Không có state, nên không sử dụng các hook như &lt;code>useState&lt;/code> và &lt;code>useReducer&lt;/code>&lt;/li>
 &lt;li>Không re-rendering, nên không sử dụng các hook life-cycle như &lt;code>useEffect&lt;/code> và &lt;code>useLayoutEffect&lt;/code>&lt;/li>
@@ -688,7 +953,12 @@
 &lt;ul>
 &lt;li>Giảm kích thước gói tải.&lt;/li>
 &lt;/ul>
-&lt;h2 id="server-side-rendering-ssr">Server Side Rendering (SSR)&lt;/h2>&lt;ul>
+&lt;h2 id="server-side-rendering-ssr">Server Side Rendering (SSR) 
+ 
+ &lt;a href="#server-side-rendering-ssr" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Gửi HTML String chưa có js tới trình duyệt -&amp;gt; sau đó nhận file js -&amp;gt; quá trình &lt;code>hydrate&lt;/code>-&amp;gt; lúc này Cilent đã có code React javascript, các component có State, Event Listener. &lt;strong>Và sau lần khởi tạo này, web sẽ hoạt động y như một React Single Page Application.&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;hr>
@@ -700,20 +970,35 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>JavaScript</title><link>https://tienldn.site/blogs/javascript/</link><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/javascript/</guid><description>&lt;h2 id="khái-niệm">Khái niệm&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>JavaScript</title><link>https://tienldn.site/blogs/javascript/</link><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/javascript/</guid><description>&lt;h2 id="khái-niệm">Khái niệm 
+ 
+ &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Closures&lt;/li>
 &lt;li>Currying&lt;/li>
 &lt;li>Higher Order Function&lt;/li>
 &lt;li>Prototype&lt;/li>
 &lt;/ul>
-&lt;h2 id="tip">Tip&lt;/h2>&lt;ul>
+&lt;h2 id="tip">Tip 
+ 
+ &lt;a href="#tip" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/1loc-helpful-in-javascript">
  Collection of one-liner-helpful code
  
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="liên-kết-ngoài">Liên kết ngoài&lt;/h2>&lt;ul>
+&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
+ 
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://eloquentjavascript.net/?fbclid=IwAR00CNTor5cWVNe1vmSqPhncpM2c_3K4gXyhAxBcemHbxJx--4uaLHvUpc4" target="_blank" rel="noopener">
  Sách điện tử Eloquent JavaScipt
  
@@ -721,7 +1006,17 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>📖 Triết học</title><link>https://tienldn.site/blogs/triet-hoc/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/triet-hoc/</guid><description>&lt;h2 id="liên-kết-ngoài">Liên kết ngoài&lt;/h2>&lt;h3 id="phật-giáo---buddhism">Phật Giáo - Buddhism&lt;/h3>&lt;ul>
+&lt;/ul></description></item><item><title>📖 Triết học</title><link>https://tienldn.site/blogs/triet-hoc/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/triet-hoc/</guid><description>&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
+ 
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="phật-giáo---buddhism">Phật Giáo - Buddhism 
+ 
+ &lt;a href="#ph%e1%ba%adt-gi%c3%a1o---buddhism" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://bookdown.org/namkyodai/tnh-daophatquanhanthucmoi/vandelinhhontrongdaophat.html" target="_blank" rel="noopener">
  8 Vấn đề linh hồn trong đạo Phật | Đạo Phật Qua Nhận Thức Mới
  
@@ -734,14 +1029,29 @@
  &lt;figcaption>&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="song-writing">Song Writing&lt;/h2>&lt;ul>
+&lt;h2 id="song-writing">Song Writing 
+ 
+ &lt;a href="#song-writing" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/garden/plugin-list-i-used">
  Plugin list I&amp;rsquo;ve been used
  
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="liên-kết-ngoài">Liên kết ngoài&lt;/h2>&lt;h3 id="hợp-âm">Hợp âm&lt;/h3>&lt;ul>
+&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
+ 
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="hợp-âm">Hợp âm 
+ 
+ &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.guitar-chord.org/chord-types.html" target="_blank" rel="noopener">
  Chord types, etc
  
@@ -750,7 +1060,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="bài-viết-hay">Bài viết hay&lt;/h3>&lt;ul>
+&lt;h3 id="bài-viết-hay">Bài viết hay 
+ 
+ &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.britannica.com/art/key-music" target="_blank" rel="noopener">
  https://www.britannica.com/art/key-music
  

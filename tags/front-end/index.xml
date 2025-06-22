@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Front-End on Nhat Tien</title><link>https://tienldn.site/tags/front-end/</link><description>Recent content in Front-End on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/front-end/index.xml" rel="self" type="application/rss+xml"/><item><title>Tài nguyên hữu ích cho Front-end</title><link>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</guid><description>&lt;h2 id="webpage">Webpage&lt;/h2>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Front-End on Nhat Tien</title><link>https://tienldn.site/tags/front-end/</link><description>Recent content in Front-End on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/front-end/index.xml" rel="self" type="application/rss+xml"/><item><title>Tài nguyên hữu ích cho Front-end</title><link>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</guid><description>&lt;h2 id="webpage">Webpage 
+ 
+ &lt;a href="#webpage" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://topdev.vn/blog/thanh-thao-ky-nang-css-cua-ban-voi-bo-code-cuc-chat/?amp" target="_blank" rel="noopener">
  bộ code css đáng xem
  
@@ -21,7 +26,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="website">Website&lt;/h2>&lt;ul>
+&lt;h2 id="website">Website 
+ 
+ &lt;a href="#website" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://anonystick.com/" target="_blank" rel="noopener">
  https://anonystick.com/
  
@@ -58,7 +68,17 @@
 &lt;/a>
  (web app vẽ ghi chú, mình chưa thử)&lt;/li>
 &lt;/ul>
-&lt;h2 id="cheat-sheet">Cheat Sheet&lt;/h2>&lt;h3 id="from-doidevcom">from doidev.com&lt;/h3>&lt;ul>
+&lt;h2 id="cheat-sheet">Cheat Sheet 
+ 
+ &lt;a href="#cheat-sheet" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;h3 id="from-doidevcom">from doidev.com 
+ 
+ &lt;a href="#from-doidevcom" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://doidev.com/javascript-cheat-sheet/" target="_blank" rel="noopener">
  JavaScript
  
@@ -88,7 +108,12 @@
 &lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="color">Color&lt;/h2>&lt;ul>
+&lt;h2 id="color">Color 
+ 
+ &lt;a href="#color" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://flatuicolors.com/" target="_blank" rel="noopener">
  https://flatuicolors.com/
  
@@ -111,11 +136,21 @@
 &lt;/a>
  (Kiểm tra contrast)&lt;/li>
 &lt;/ul>
-&lt;h2 id="web-app-for-design">Web app for design&lt;/h2>&lt;ul>
+&lt;h2 id="web-app-for-design">Web app for design 
+ 
+ &lt;a href="#web-app-for-design" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Figma&lt;/li>
 &lt;li>Canva&lt;/li>
 &lt;/ul>
-&lt;h2 id="kho-ảnh">Kho ảnh&lt;/h2>&lt;ul>
+&lt;h2 id="kho-ảnh">Kho ảnh 
+ 
+ &lt;a href="#kho-%e1%ba%a3nh" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Unplash&lt;/li>
 &lt;li>&lt;a class="link" href="https://undraw.co/" target="_blank" rel="noopener">
  unDraw
@@ -125,7 +160,12 @@
 &lt;/a>
  (Free illustration)&lt;/li>
 &lt;/ul>
-&lt;h2 id="tips-giao-diện">Tips giao diện&lt;/h2>&lt;ul>
+&lt;h2 id="tips-giao-diện">Tips giao diện 
+ 
+ &lt;a href="#tips-giao-di%e1%bb%87n" style="color: var(--hr_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>Hamberger menu: &lt;a class="link" href="https://alvarotrigo.com/blog/hamburger-menu-css/" target="_blank" rel="noopener">
  https://alvarotrigo.com/blog/hamburger-menu-css/
  
