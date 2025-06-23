@@ -20,3 +20,9 @@
 <div align="center">
     <img src="./screenshot.png" />
 </div>
+
+## Todo-list
+
+- [ ] Feature: comment use utterances
+- [ ] Feature: share via facebook, link
+- [ ] Make this website more professional 

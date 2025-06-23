@@ -21,7 +21,12 @@ tags = [
 </svg>
 </div>
 
+## Now
 - [Hi!, How have you been?](/blogs/how-have-you-been)
+
+## Misc
 - [My digital notebook](https://nhat-tien.github.io/notes)
 - [My awesome list](/blogs/my-awesome-list)
+
+## Project
 

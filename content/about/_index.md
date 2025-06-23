@@ -16,7 +16,7 @@ I'm a happy nerd
 
 ## FAQs
 ### Who are you?
-An undergradute student at an ordinary university, who is pursuing an bachelor's degree in Information Teachnology. 
+An undergradute student at an ordinary university, who is pursuing an bachelor's degree in Information Technology. 
 
 Here's a list of facts about me (*will be more in the future*):
 - Just a freaky guy from Vietnam

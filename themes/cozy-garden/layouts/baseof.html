@@ -27,7 +27,7 @@
   <body>
     <header>{{- partial "header.html" . -}}</header>
     {{- block "main" . }}{{- end }}
-    <footer>{{- partial "footer.html" . -}}</footer>
+    <footer style="padding-bottom: 100px;">{{- partial "footer.html" . -}}</footer>
     {{- partial "float_menu.html" . -}}
     {{ $toggleTheme := resources.Get "js/toggle-theme.js" | minify | fingerprint}}
     <script src="{{ $toggleTheme.Permalink }}"></script>
