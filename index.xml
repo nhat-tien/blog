@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Nhat Tien</title><link>https://tienldn.site/</link><description>Recent content in Home on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/index.xml" rel="self" type="application/rss+xml"/><item><title>"How you have been?"</title><link>https://tienldn.site/blogs/how-have-you-been/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/how-have-you-been/</guid><description>&lt;p>This page is where I update my status&lt;/p>
 &lt;h2 id="now">Now 
  
- &lt;a href="#now" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#now" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>I have a freelance gig for my friend project rn, it&amp;rsquo;s a job in web development. I also have a side project for professor in university. I will try my best.&lt;/p>
 &lt;h2 id="plan">Plan 
  
- &lt;a href="#plan" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#plan" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>Currently find a idea for side project, I think I will use it for my final year prject. But now, I run out of good idea.&lt;/p></description></item><item><title>Map Of Content</title><link>https://tienldn.site/blogs/map-of-content/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/map-of-content/</guid><description>&lt;h1 id="map-of-content">Map Of Content 
@@ -22,12 +22,24 @@
 &lt;path d="M42.2,15.4h2.2c0.6,0,1.1-0.5,1.1-1.1s-0.5-1.1-1.1-1.1h-2.2c-0.6,0-1.1,0.5-1.1,1.1S41.6,15.4,42.2,15.4z"/>
 &lt;/svg>
 &lt;/div>
+&lt;h2 id="now">Now 
+ 
+ &lt;a href="#now" style="color: var(--table_border_color);">#&lt;/a>
+ 
+&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/blogs/how-have-you-been">
  Hi!, How have you been?
  
 &lt;/a>
 &lt;/li>
+&lt;/ul>
+&lt;h2 id="misc">Misc 
+ 
+ &lt;a href="#misc" style="color: var(--table_border_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://nhat-tien.github.io/notes" target="_blank" rel="noopener">
  My digital notebook
  
@@ -40,7 +52,12 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Book recommendation from Nam .NET</title><link>https://tienldn.site/blogs/book-recommendation-from-nam-dotnet/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/book-recommendation-from-nam-dotnet/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
+&lt;/ul>
+&lt;h2 id="project">Project 
+ 
+ &lt;a href="#project" style="color: var(--table_border_color);">#&lt;/a>
+ 
+&lt;/h2></description></item><item><title>Book recommendation from Nam .NET</title><link>https://tienldn.site/blogs/book-recommendation-from-nam-dotnet/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/book-recommendation-from-nam-dotnet/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
 &lt;!-- more -->
 &lt;p>📕 OOP và phân tích thiết kế:&lt;/p>
 &lt;ul>
@@ -52,52 +69,52 @@
 &lt;/ul>
 &lt;p>📕 Kiến trúc máy tính và hệ điều hành:&lt;/p></description></item><item><title>About Authentication with JWT</title><link>https://tienldn.site/blogs/about-authentication-with-jwt/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/about-authentication-with-jwt/</guid><description>&lt;h2 id="token-based-vs-session-based">Token based vs Session based 
  
- &lt;a href="#token-based-vs-session-based" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#token-based-vs-session-based" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h2 id="what-is-jwt">What is JWT 
  
- &lt;a href="#what-is-jwt" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#what-is-jwt" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h2 id="access-token">Access token 
  
- &lt;a href="#access-token" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#access-token" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="save-at-localstorage">Save at localstorage 
  
- &lt;a href="#save-at-localstorage" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#save-at-localstorage" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;h2 id="refresh-token">Refresh token 
  
- &lt;a href="#refresh-token" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#refresh-token" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="in-client-save-in-httponly-cookies">In client save in httponly cookies 
  
- &lt;a href="#in-client-save-in-httponly-cookies" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#in-client-save-in-httponly-cookies" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;h3 id="in-backend-save-in-database">In backend save in database 
  
- &lt;a href="#in-backend-save-in-database" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#in-backend-save-in-database" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;h4 id="sql">SQL 
  
- &lt;a href="#sql" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#sql" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h4>
 &lt;h4 id="redis">Redis 
  
- &lt;a href="#redis" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#redis" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h4>
 &lt;h3 id="how-to-handle-refresh-token">How to handle refresh token 
  
- &lt;a href="#how-to-handle-refresh-token" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#how-to-handle-refresh-token" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3></description></item><item><title>Spring</title><link>https://tienldn.site/blogs/spring/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/spring/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.baeldung.com/" target="_blank" rel="noopener">
@@ -146,7 +163,7 @@
  &lt;/pre>
 &lt;/figure></description></item><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue 
  
- &lt;a href="#issue" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#issue" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -155,14 +172,14 @@
 &lt;/ul>
 &lt;h2 id="solution">Solution 
  
- &lt;a href="#solution" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#solution" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
 &lt;p>Follow below steps:&lt;/p>
 &lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code> 
  
- &lt;a href="#1-replace-utc-by-your-timezone-in-configappphp" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#1-replace-utc-by-your-timezone-in-configappphp" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;p>&lt;em>Example&lt;/em>&lt;/p>
@@ -200,7 +217,7 @@
 &lt;/figure>
 &lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache 
  
- &lt;a href="#2-try-to-refresh-your-config-cache" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#2-try-to-refresh-your-config-cache" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;figure class="highlight">
@@ -219,19 +236,19 @@
 &lt;/figure>
 &lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>/dev/null trong linux</title><link>https://tienldn.site/blogs/dev-null-in-linux/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/dev-null-in-linux/</guid><description>&lt;h2 id="1-what-is-devnull">1. What is &lt;code>/dev/null&lt;/code>? 
  
- &lt;a href="#1-what-is-devnull" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#1-what-is-devnull" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>Trong hệ thống Linux, device được lưu trữ trong thư mục &lt;code>/dev&lt;/code>. Có hai loại file device là physical và virtual. &lt;code>/dev/null&lt;/code> là một virtual null devices &lt;strong>được dùng để loại bỏ bất kì output nào ta redirect tới nó&lt;/strong>.&lt;/p>
 &lt;h2 id="2-how-to-use">2. How to use 
  
- &lt;a href="#2-how-to-use" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#2-how-to-use" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>output can be &lt;code>stdout&lt;/code> or &lt;code>stderr&lt;/code>&lt;/p>
 &lt;h3 id="21-with-stdout">2.1 With &lt;code>stdout&lt;/code> 
  
- &lt;a href="#21-with-stdout" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#21-with-stdout" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;p>This will discard &lt;code>echo&lt;/code> message&lt;/p>
@@ -247,7 +264,7 @@
 &lt;/figure>
 &lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code> 
  
- &lt;a href="#22-with-stderr" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#22-with-stderr" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;p>Discard error output&lt;/p></description></item><item><title>Rust</title><link>https://tienldn.site/blogs/rust/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/rust/</guid><description>&lt;ul>
@@ -282,7 +299,7 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security 
  
- &lt;a href="#security" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#security" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -303,7 +320,7 @@
 &lt;/ul>
 &lt;h2 id="ecosystem">Ecosystem 
  
- &lt;a href="#ecosystem" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#ecosystem" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -331,7 +348,7 @@
 &lt;/ul>
 &lt;h2 id="repo-tips">Repo Tips 
  
- &lt;a href="#repo-tips" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#repo-tips" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -351,7 +368,7 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</guid><description>&lt;h2 id="solution">Solution 
  
- &lt;a href="#solution" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#solution" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -377,7 +394,7 @@
 &lt;/ul>
 &lt;h2 id="ref">Ref 
  
- &lt;a href="#ref" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#ref" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -397,12 +414,12 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienldn.site/blogs/my-awesome-list/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/my-awesome-list/</guid><description>&lt;h2 id="languages">Languages 
  
- &lt;a href="#languages" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#languages" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="typescript">Typescript 
  
- &lt;a href="#typescript" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#typescript" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -416,7 +433,7 @@
 &lt;/ul>
 &lt;h2 id="algorithms">Algorithms 
  
- &lt;a href="#algorithms" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#algorithms" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -430,7 +447,7 @@
 &lt;/ul>
 &lt;h2 id="-tools">🔧 Tools 
  
- &lt;a href="#-tools" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#-tools" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -493,7 +510,7 @@
 &lt;/ul>
 &lt;h3 id="css">CSS 
  
- &lt;a href="#css" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#css" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -507,7 +524,7 @@
 &lt;/ul>
 &lt;h2 id="blogger-vietnam">Blogger Vietnam 
  
- &lt;a href="#blogger-vietnam" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#blogger-vietnam" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -549,7 +566,7 @@
 &lt;/ul>
 &lt;h2 id="chia-sẻ-kiến-thức">Chia sẻ kiến thức 
  
- &lt;a href="#chia-s%e1%ba%bb-ki%e1%ba%bfn-th%e1%bb%a9c" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#chia-s%e1%ba%bb-ki%e1%ba%bfn-th%e1%bb%a9c" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -584,7 +601,7 @@
 &lt;/ul>
 &lt;h2 id="repo">Repo 
  
- &lt;a href="#repo" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#repo" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -605,7 +622,7 @@
 &lt;/ul>
 &lt;h2 id="weeb">Weeb 
  
- &lt;a href="#weeb" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#weeb" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -619,7 +636,7 @@
 &lt;/ul>
 &lt;h2 id="bookmark-hay-ho">Bookmark hay ho 
  
- &lt;a href="#bookmark-hay-ho" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#bookmark-hay-ho" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -661,7 +678,7 @@
 &lt;/ul>
 &lt;h2 id="pixel-editor">Pixel editor 
  
- &lt;a href="#pixel-editor" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#pixel-editor" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -670,12 +687,12 @@
 &lt;/ul>
 &lt;h2 id="uiuxdesign">UI/UX/Design 
  
- &lt;a href="#uiuxdesign" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#uiuxdesign" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="fonts">Fonts 
  
- &lt;a href="#fonts" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#fonts" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -689,7 +706,7 @@
 &lt;/ul>
 &lt;h3 id="color-palettes">Color palettes 
  
- &lt;a href="#color-palettes" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#color-palettes" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -703,7 +720,7 @@
 &lt;/ul>
 &lt;h2 id="linux">Linux 
  
- &lt;a href="#linux" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#linux" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -716,7 +733,7 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept 
  
- &lt;a href="#concept" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#concept" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -728,7 +745,7 @@
 &lt;li>&lt;/li>
 &lt;/ul></description></item><item><title>Tài nguyên hữu ích cho Front-end</title><link>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/tai-nguyen-huu-ich-cho-front-end/</guid><description>&lt;h2 id="webpage">Webpage 
  
- &lt;a href="#webpage" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#webpage" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -756,7 +773,7 @@
 &lt;/ul>
 &lt;h2 id="website">Website 
  
- &lt;a href="#website" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#website" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -798,12 +815,12 @@
 &lt;/ul>
 &lt;h2 id="cheat-sheet">Cheat Sheet 
  
- &lt;a href="#cheat-sheet" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#cheat-sheet" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="from-doidevcom">from doidev.com 
  
- &lt;a href="#from-doidevcom" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#from-doidevcom" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -838,7 +855,7 @@
 &lt;/ul>
 &lt;h2 id="color">Color 
  
- &lt;a href="#color" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#color" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -866,7 +883,7 @@
 &lt;/ul>
 &lt;h2 id="web-app-for-design">Web app for design 
  
- &lt;a href="#web-app-for-design" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#web-app-for-design" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -875,7 +892,7 @@
 &lt;/ul>
 &lt;h2 id="kho-ảnh">Kho ảnh 
  
- &lt;a href="#kho-%e1%ba%a3nh" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#kho-%e1%ba%a3nh" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -890,7 +907,7 @@
 &lt;/ul>
 &lt;h2 id="tips-giao-diện">Tips giao diện 
  
- &lt;a href="#tips-giao-di%e1%bb%87n" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#tips-giao-di%e1%bb%87n" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -903,12 +920,12 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>Danh sách plugin đã sử dụng</title><link>https://tienldn.site/blogs/plugin-list-i-used/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/plugin-list-i-used/</guid><description>&lt;h2 id="guitar">Guitar 
  
- &lt;a href="#guitar" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#guitar" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="aucoustic">Aucoustic 
  
- &lt;a href="#aucoustic" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#aucoustic" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -916,7 +933,7 @@
 &lt;/ul>
 &lt;h2 id="bass">Bass 
  
- &lt;a href="#bass" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#bass" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -924,7 +941,7 @@
 &lt;/ul>
 &lt;h2 id="virtual-ampli">Virtual Ampli 
  
- &lt;a href="#virtual-ampli" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#virtual-ampli" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -932,14 +949,14 @@
 &lt;/ul>
 &lt;h2 id="drum">Drum 
  
- &lt;a href="#drum" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#drum" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
 &lt;li>MTP Drum Kit&lt;/li>
 &lt;/ul></description></item><item><title>React Server Component</title><link>https://tienldn.site/blogs/react-server-component/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-server-component/</guid><description>&lt;h2 id="server-component">Server Component 
  
- &lt;a href="#server-component" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#server-component" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>&lt;strong>Có các đặc điểm sau:&lt;/strong>&lt;/p>
@@ -955,7 +972,7 @@
 &lt;/ul>
 &lt;h2 id="server-side-rendering-ssr">Server Side Rendering (SSR) 
  
- &lt;a href="#server-side-rendering-ssr" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#server-side-rendering-ssr" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -972,7 +989,7 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>JavaScript</title><link>https://tienldn.site/blogs/javascript/</link><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/javascript/</guid><description>&lt;h2 id="khái-niệm">Khái niệm 
  
- &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -983,7 +1000,7 @@
 &lt;/ul>
 &lt;h2 id="tip">Tip 
  
- &lt;a href="#tip" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#tip" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -995,7 +1012,7 @@
 &lt;/ul>
 &lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -1008,12 +1025,12 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>📖 Triết học</title><link>https://tienldn.site/blogs/triet-hoc/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/triet-hoc/</guid><description>&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="phật-giáo---buddhism">Phật Giáo - Buddhism 
  
- &lt;a href="#ph%e1%ba%adt-gi%c3%a1o---buddhism" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#ph%e1%ba%adt-gi%c3%a1o---buddhism" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -1031,7 +1048,7 @@
 &lt;/p>
 &lt;h2 id="song-writing">Song Writing 
  
- &lt;a href="#song-writing" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#song-writing" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -1043,12 +1060,12 @@
 &lt;/ul>
 &lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="hợp-âm">Hợp âm 
  
- &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -1062,7 +1079,7 @@
 &lt;/ul>
 &lt;h3 id="bài-viết-hay">Bài viết hay 
  
- &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>

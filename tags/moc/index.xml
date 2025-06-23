@@ -10,12 +10,24 @@
 &lt;path d="M42.2,15.4h2.2c0.6,0,1.1-0.5,1.1-1.1s-0.5-1.1-1.1-1.1h-2.2c-0.6,0-1.1,0.5-1.1,1.1S41.6,15.4,42.2,15.4z"/>
 &lt;/svg>
 &lt;/div>
+&lt;h2 id="now">Now 
+ 
+ &lt;a href="#now" style="color: var(--table_border_color);">#&lt;/a>
+ 
+&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://tienldn.site/blogs/how-have-you-been">
  Hi!, How have you been?
  
 &lt;/a>
 &lt;/li>
+&lt;/ul>
+&lt;h2 id="misc">Misc 
+ 
+ &lt;a href="#misc" style="color: var(--table_border_color);">#&lt;/a>
+ 
+&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a class="link" href="https://nhat-tien.github.io/notes" target="_blank" rel="noopener">
  My digital notebook
  
@@ -28,7 +40,12 @@
  
 &lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Spring</title><link>https://tienldn.site/blogs/spring/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/spring/</guid><description>&lt;ul>
+&lt;/ul>
+&lt;h2 id="project">Project 
+ 
+ &lt;a href="#project" style="color: var(--table_border_color);">#&lt;/a>
+ 
+&lt;/h2></description></item><item><title>Spring</title><link>https://tienldn.site/blogs/spring/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/spring/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.baeldung.com/" target="_blank" rel="noopener">
  Baeldung.com
  
@@ -75,7 +92,7 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security 
  
- &lt;a href="#security" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#security" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -96,7 +113,7 @@
 &lt;/ul>
 &lt;h2 id="ecosystem">Ecosystem 
  
- &lt;a href="#ecosystem" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#ecosystem" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -124,7 +141,7 @@
 &lt;/ul>
 &lt;h2 id="repo-tips">Repo Tips 
  
- &lt;a href="#repo-tips" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#repo-tips" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -144,7 +161,7 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>React.js</title><link>https://tienldn.site/blogs/reactjs/</link><pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/reactjs/</guid><description>&lt;h2 id="concept">Concept 
  
- &lt;a href="#concept" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#concept" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -156,7 +173,7 @@
 &lt;li>&lt;/li>
 &lt;/ul></description></item><item><title>JavaScript</title><link>https://tienldn.site/blogs/javascript/</link><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/javascript/</guid><description>&lt;h2 id="khái-niệm">Khái niệm 
  
- &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -167,7 +184,7 @@
 &lt;/ul>
 &lt;h2 id="tip">Tip 
  
- &lt;a href="#tip" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#tip" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -179,7 +196,7 @@
 &lt;/ul>
 &lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -192,12 +209,12 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>📖 Triết học</title><link>https://tienldn.site/blogs/triet-hoc/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/triet-hoc/</guid><description>&lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="phật-giáo---buddhism">Phật Giáo - Buddhism 
  
- &lt;a href="#ph%e1%ba%adt-gi%c3%a1o---buddhism" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#ph%e1%ba%adt-gi%c3%a1o---buddhism" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -215,7 +232,7 @@
 &lt;/p>
 &lt;h2 id="song-writing">Song Writing 
  
- &lt;a href="#song-writing" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#song-writing" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -227,12 +244,12 @@
 &lt;/ul>
 &lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="hợp-âm">Hợp âm 
  
- &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -246,7 +263,7 @@
 &lt;/ul>
 &lt;h3 id="bài-viết-hay">Bài viết hay 
  
- &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>

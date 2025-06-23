@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Javascript on Nhat Tien</title><link>https://tienldn.site/tags/javascript/</link><description>Recent content in Javascript on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 19 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>React Server Component</title><link>https://tienldn.site/blogs/react-server-component/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/react-server-component/</guid><description>&lt;h2 id="server-component">Server Component 
  
- &lt;a href="#server-component" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#server-component" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>&lt;strong>Có các đặc điểm sau:&lt;/strong>&lt;/p>
@@ -16,7 +16,7 @@
 &lt;/ul>
 &lt;h2 id="server-side-rendering-ssr">Server Side Rendering (SSR) 
  
- &lt;a href="#server-side-rendering-ssr" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#server-side-rendering-ssr" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -33,7 +33,7 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>JavaScript</title><link>https://tienldn.site/blogs/javascript/</link><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/javascript/</guid><description>&lt;h2 id="khái-niệm">Khái niệm 
  
- &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#kh%c3%a1i-ni%e1%bb%87m" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -44,7 +44,7 @@
 &lt;/ul>
 &lt;h2 id="tip">Tip 
  
- &lt;a href="#tip" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#tip" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -56,7 +56,7 @@
 &lt;/ul>
 &lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>

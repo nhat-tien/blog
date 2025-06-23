@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel on Nhat Tien</title><link>https://tienldn.site/tags/laravel/</link><description>Recent content in Laravel on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/laravel/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel fix timezone</title><link>https://tienldn.site/blogs/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue 
  
- &lt;a href="#issue" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#issue" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -9,14 +9,14 @@
 &lt;/ul>
 &lt;h2 id="solution">Solution 
  
- &lt;a href="#solution" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#solution" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
 &lt;p>Follow below steps:&lt;/p>
 &lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code> 
  
- &lt;a href="#1-replace-utc-by-your-timezone-in-configappphp" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#1-replace-utc-by-your-timezone-in-configappphp" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;p>&lt;em>Example&lt;/em>&lt;/p>
@@ -54,7 +54,7 @@
 &lt;/figure>
 &lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache 
  
- &lt;a href="#2-try-to-refresh-your-config-cache" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#2-try-to-refresh-your-config-cache" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;figure class="highlight">
@@ -73,7 +73,7 @@
 &lt;/figure>
 &lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>Laravel</title><link>https://tienldn.site/blogs/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/laravel/</guid><description>&lt;h2 id="security">Security 
  
- &lt;a href="#security" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#security" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -94,7 +94,7 @@
 &lt;/ul>
 &lt;h2 id="ecosystem">Ecosystem 
  
- &lt;a href="#ecosystem" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#ecosystem" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -122,7 +122,7 @@
 &lt;/ul>
 &lt;h2 id="repo-tips">Repo Tips 
  
- &lt;a href="#repo-tips" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#repo-tips" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>

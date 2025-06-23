@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Music on Nhat Tien</title><link>https://tienldn.site/tags/music/</link><description>Recent content in Music on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/music/index.xml" rel="self" type="application/rss+xml"/><item><title>Danh sách plugin đã sử dụng</title><link>https://tienldn.site/blogs/plugin-list-i-used/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/plugin-list-i-used/</guid><description>&lt;h2 id="guitar">Guitar 
  
- &lt;a href="#guitar" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#guitar" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="aucoustic">Aucoustic 
  
- &lt;a href="#aucoustic" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#aucoustic" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -13,7 +13,7 @@
 &lt;/ul>
 &lt;h2 id="bass">Bass 
  
- &lt;a href="#bass" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#bass" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -21,7 +21,7 @@
 &lt;/ul>
 &lt;h2 id="virtual-ampli">Virtual Ampli 
  
- &lt;a href="#virtual-ampli" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#virtual-ampli" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -29,7 +29,7 @@
 &lt;/ul>
 &lt;h2 id="drum">Drum 
  
- &lt;a href="#drum" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#drum" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -41,7 +41,7 @@
 &lt;/p>
 &lt;h2 id="song-writing">Song Writing 
  
- &lt;a href="#song-writing" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#song-writing" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -53,12 +53,12 @@
 &lt;/ul>
 &lt;h2 id="liên-kết-ngoài">Liên kết ngoài 
  
- &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#li%c3%aan-k%e1%ba%bft-ngo%c3%a0i" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;h3 id="hợp-âm">Hợp âm 
  
- &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#h%e1%bb%a3p-%c3%a2m" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>
@@ -72,7 +72,7 @@
 &lt;/ul>
 &lt;h3 id="bài-viết-hay">Bài viết hay 
  
- &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#b%c3%a0i-vi%e1%ba%bft-hay" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;ul>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Nhat Tien</title><link>https://tienldn.site/tags/linux/</link><description>Recent content in Linux on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>/dev/null trong linux</title><link>https://tienldn.site/blogs/dev-null-in-linux/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/dev-null-in-linux/</guid><description>&lt;h2 id="1-what-is-devnull">1. What is &lt;code>/dev/null&lt;/code>? 
  
- &lt;a href="#1-what-is-devnull" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#1-what-is-devnull" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>Trong hệ thống Linux, device được lưu trữ trong thư mục &lt;code>/dev&lt;/code>. Có hai loại file device là physical và virtual. &lt;code>/dev/null&lt;/code> là một virtual null devices &lt;strong>được dùng để loại bỏ bất kì output nào ta redirect tới nó&lt;/strong>.&lt;/p>
 &lt;h2 id="2-how-to-use">2. How to use 
  
- &lt;a href="#2-how-to-use" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#2-how-to-use" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;p>output can be &lt;code>stdout&lt;/code> or &lt;code>stderr&lt;/code>&lt;/p>
 &lt;h3 id="21-with-stdout">2.1 With &lt;code>stdout&lt;/code> 
  
- &lt;a href="#21-with-stdout" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#21-with-stdout" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;p>This will discard &lt;code>echo&lt;/code> message&lt;/p>
@@ -28,12 +28,12 @@
 &lt;/figure>
 &lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code> 
  
- &lt;a href="#22-with-stderr" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#22-with-stderr" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h3>
 &lt;p>Discard error output&lt;/p></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blogs/fix-microphone-noise-background-ubuntu/</guid><description>&lt;h2 id="solution">Solution 
  
- &lt;a href="#solution" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#solution" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
@@ -59,7 +59,7 @@
 &lt;/ul>
 &lt;h2 id="ref">Ref 
  
- &lt;a href="#ref" style="color: var(--hr_color);">#&lt;/a>
+ &lt;a href="#ref" style="color: var(--table_border_color);">#&lt;/a>
  
 &lt;/h2>
 &lt;ul>
