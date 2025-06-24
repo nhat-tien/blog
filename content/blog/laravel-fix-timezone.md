@@ -44,7 +44,7 @@ return [
 
 ### 2. Try to refresh your config cache
 
-```bash { icon = "bash"}
+```
 php artisan config:clear
 php artisan config:cache
 ```

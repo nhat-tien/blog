@@ -4,9 +4,7 @@ menu = "main"
 main = true
 date = "2025-06-09"
 lastmod = "2025-06-09"
-tags = [
-    "moc",
-]
+tags = []
 +++
 
 # Map Of Content

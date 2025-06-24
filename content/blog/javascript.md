@@ -7,7 +7,6 @@ stage: seedling
 draft: false
 toc: true
 tags:
-  - moc
   - javascript
 ---
 ## Khái niệm

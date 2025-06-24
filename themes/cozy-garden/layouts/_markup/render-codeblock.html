@@ -13,7 +13,9 @@
       </div>
       {{- end }}
     </div>
-    <div class="decoration-codeblock__right"></div>
+    <div class="decoration-codeblock__right">
+      <button>Copy</button>
+    </div>
   </div>
   <pre tabindex="0" class="chroma">
     <code class="language-{{ .Type }}" data-lang="{{ .Type }}">
@@ -23,6 +25,13 @@
     </code>
   </pre>
   {{- else }}
+  <div class="decoration-codeblock-wrapper">
+    <div class="decoration-codeblock__side">
+    </div>
+    <div class="decoration-codeblock__right">
+      <button>Copy</button>
+    </div>
+  </div>
   <pre tabindex="0" class="chroma non-lang"><code data-lang="">{{ .Inner }}</code></pre>
   {{- end }}
 </figure>

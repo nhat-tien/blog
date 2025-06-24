@@ -7,7 +7,6 @@ stage: seedling
 draft: false
 toc: true
 tags:
-  - moc
   - philosophy
 ---
 ## Liên kết ngoài

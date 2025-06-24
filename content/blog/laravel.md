@@ -8,7 +8,6 @@ stage: budding
 draft: false
 toc: true
 tags:
-  - MOC
   - laravel
 ---
 ## Security

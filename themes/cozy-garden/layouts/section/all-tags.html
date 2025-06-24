@@ -2,7 +2,7 @@
 <main>
 <h2>All Tags</h2>
     {{ range .Site.Taxonomies.tags.ByCount }}
-  <a class="tag {{ if eq .Page.Title "Moc"}}tag--moc{{end}}" href="{{ .Page.Permalink }}">{{ .Page.Title }}<small>{{.Count}}</small></a>&nbsp;
+  <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}<small>{{.Count}}</small></a>&nbsp;
     {{ end }}
 </main>
 {{ end}}

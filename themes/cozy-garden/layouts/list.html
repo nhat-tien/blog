@@ -1,24 +1,17 @@
 {{ define "main" }}
 <main>
   {{ if .Data.Singular }}
-  <h3 style="margin-bottom:10px">Posts have tag <span class="tag {{ if eq .Title "Moc"}} tag--moc{{end}}">{{ .Title
+  <h3 style="margin-bottom:10px">Posts have tag <span class="tag">{{ .Title
       }}</span></h3>
-  {{ if eq .Title "Moc"}}
-  <dfn>It's mean Map Of Content</dfn>
-  {{end}}
   <div style="margin-bottom:10px;margin-top:10px">
-    <a href="{{ "all-tags" | relURL }}" style="display: flex; flex-direction: row; align-items: center; gap: 5px;">
-      <div class="outline-button">
-        <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M17 12C17 11.4477 16.5523 11 16 11H8C7.44772 11 7 11.4477 7 12C7 12.5523 7.44771 13 8 13H16C16.5523 13 17 12.5523 17 12Z"
-            fill="var(--text_color)" />
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM12 20.9932C7.03321 20.9932 3.00683 16.9668 3.00683 12C3.00683 7.03321 7.03321 3.00683 12 3.00683C16.9668 3.00683 20.9932 7.03321 20.9932 12C20.9932 16.9668 16.9668 20.9932 12 20.9932Z"
-            fill="var(--text_color)" />
+    <a href="{{ "all-tags" | relURL }}" style="display: flex; flex-direction: row; align-items: center; gap: 0px;">
+          <svg width="20px" height="20px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_iconCarrier"> 
+            <path d="M6.96967 16.4697C6.67678 16.7626 6.67678 17.2374 6.96967 17.5303C7.26256 17.8232 7.73744 17.8232 8.03033 17.5303L6.96967 16.4697ZM13.0303 12.5303C13.3232 12.2374 13.3232 11.7626 13.0303 11.4697C12.7374 11.1768 12.2626 11.1768 11.9697 11.4697L13.0303 12.5303ZM11.9697 11.4697C11.6768 11.7626 11.6768 12.2374 11.9697 12.5303C12.2626 12.8232 12.7374 12.8232 13.0303 12.5303L11.9697 11.4697ZM18.0303 7.53033C18.3232 7.23744 18.3232 6.76256 18.0303 6.46967C17.7374 6.17678 17.2626 6.17678 16.9697 6.46967L18.0303 7.53033ZM13.0303 11.4697C12.7374 11.1768 12.2626 11.1768 11.9697 11.4697C11.6768 11.7626 11.6768 12.2374 11.9697 12.5303L13.0303 11.4697ZM16.9697 17.5303C17.2626 17.8232 17.7374 17.8232 18.0303 17.5303C18.3232 17.2374 18.3232 16.7626 18.0303 16.4697L16.9697 17.5303ZM11.9697 12.5303C12.2626 12.8232 12.7374 12.8232 13.0303 12.5303C13.3232 12.2374 13.3232 11.7626 13.0303 11.4697L11.9697 12.5303ZM8.03033 6.46967C7.73744 6.17678 7.26256 6.17678 6.96967 6.46967C6.67678 6.76256 6.67678 7.23744 6.96967 7.53033L8.03033 6.46967ZM8.03033 17.5303L13.0303 12.5303L11.9697 11.4697L6.96967 16.4697L8.03033 17.5303ZM13.0303 12.5303L18.0303 7.53033L16.9697 6.46967L11.9697 11.4697L13.0303 12.5303ZM11.9697 12.5303L16.9697 17.5303L18.0303 16.4697L13.0303 11.4697L11.9697 12.5303ZM13.0303 11.4697L8.03033 6.46967L6.96967 7.53033L11.9697 12.5303L13.0303 11.4697Z" 
+          fill="var(--text_color)" />
+          </g>
         </svg>
         Remove filter
-      </div>
     </a>
   </div>
   {{else}}
@@ -26,7 +19,9 @@
   {{ end }}
   <div class="blog-posts">
     {{ $paginator := .Paginate .Pages.ByDate.Reverse 8 }}
-    {{ range $paginator.Pages }}
+    {{ range $paginator.Pages.GroupByDate "January 2006" }}
+    <h3>{{ .Key }}</h3>
+    {{ range .Pages}}
     <div class="post">
       <a href="{{ .Permalink }}">
         <h3>
@@ -43,7 +38,7 @@
         {{ if (.GetTerms "tags") }}
         {{- partial "icon/tag.html" -}}
           {{ range (.GetTerms "tags") }}
-          <a href="{{ .Permalink }}" class="tag {{ if eq .LinkTitle "Moc" }}tag--moc{{end}}">
+          <a href="{{ .Permalink }}" class="tag">
             {{ .LinkTitle }}
           </a>
           {{ end }}
@@ -55,6 +50,7 @@
     <div>
       No posts yet
     </div>
+    {{ end }}
     {{ end }}
     {{- partial "pagination.html" . -}}
   </div>

@@ -36,8 +36,6 @@
   --tag_background_color: #c3eac1;
   --tag_text_color: #000000;
   --tag_border_color: #11950a;
-  --tag_moc_bg_color: #efbc89;
-  --tag_moc_border_color: #ab5600;
   --header_bg_color: #e3e3e3;
   --notbyai-badge-stroke: #000;
   --notbyai-badge-bg: #fff;
@@ -63,7 +61,6 @@
   --code_block_background_color: #24283b;
   --tag_background_color: #2b462a;
   --tag_text_color: #eeeded;
-  --tag_moc_bg_color: #56422d;
   --header_bg_color: #0f131c;
   --notbyai-badge-stroke: #fff;
   --notbyai-badge-bg: #000;
@@ -208,7 +205,7 @@ code {
 .chroma {
   width: 100%;
   overflow-x: auto;
-  padding: 50px 12px 12px 12px;
+  padding: 35px 12px 12px 12px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -241,7 +238,6 @@ code {
   color: #cad3f5;
   font-family: var(--code-text-font);
   font-size: 0.8rem;
-  border-bottom: 1px solid #91d7e3;
 }
 
 .decoration-codeblock__language {
@@ -615,11 +611,6 @@ footer p {
   margin-right: 3px;
 }
 
-.tag--moc {
-  background-color: var(--tag_moc_bg_color);
-  border: 1px solid var(--tag_moc_border_color);
-  text-transform: uppercase;
-}
 
 .tag small {
   padding: 0 2px 0 10px;
@@ -727,6 +718,12 @@ footer p {
   border: 1px solid var(--table_border_color);
   padding: 0.3em;
   border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+.outline-button:hover {
+  transform: translateY(-3px);
+  background-color: var(--heading_color);
+  color: var(--background_color);
 }
 
 /*

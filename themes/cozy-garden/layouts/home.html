@@ -2,7 +2,7 @@
 <main>
   {{ .Content }}
 </main>
-<h2>Recent Posts</h2>
+<h2 style="margin: 1em 0;">Recent Posts <a href="#" style="color: var(--table_border_color);">#</a></h2>
 <div>
   {{ range .Site.RegularPages.ByDate.Reverse.Limit 5 }}
   <!-- <li> -->
@@ -31,7 +31,7 @@
         {{ if (.GetTerms "tags") }}
         {{- partial "icon/tag.html" -}}
           {{ range (.GetTerms "tags") }}
-          <a href="{{ .Permalink }}" class="tag {{ if eq .LinkTitle "Moc" }}tag--moc{{end}}">
+          <a href="{{ .Permalink }}" class="tag">
             {{ .LinkTitle }}
           </a>
           {{ end }}
@@ -44,6 +44,8 @@
     No posts yet
   </div>
   {{ end }}
+  <div style="display: flex; flex-direction: row; justify-content: center;">
+    <a href="/blogs" class="outline-button">More Article</a>
+  </div>
 </div>
-<a href="/blogs" class="link">More Article --></a>
 {{ end }}

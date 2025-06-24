@@ -8,7 +8,6 @@ stage: seedling
 draft: false
 toc: false
 tags:
-  - moc
   - spring 
 ---
 
