@@ -10,7 +10,9 @@
  &lt;div class="decoration-codeblock-wrapper">
  &lt;div class="decoration-codeblock__side">
  &lt;/div>
- &lt;div class="decoration-codeblock__right">&lt;/div>
+ &lt;div class="decoration-codeblock__right">
+ &lt;button>Copy&lt;/button>
+ &lt;/div>
  &lt;/div>
  &lt;pre tabindex="0" class="chroma">
  &lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
