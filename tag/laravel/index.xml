@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel on Nhat Tien</title><link>https://tienldn.site/tag/laravel/</link><description>Recent content in Laravel on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tag/laravel/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel fix timezone</title><link>https://tienldn.site/blog/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue 
+ 
+ 
+&lt;/h2>
+&lt;ul>
+&lt;li>Laravel save timestamp in database with wrong timezone&lt;/li>
+&lt;li>Laravel return resource json with wrong timestamp&lt;/li>
+&lt;/ul>
+&lt;h2 id="solution">Solution 
+ 
+ 
+&lt;/h2>
+&lt;p>&lt;strong>In Laravel version 10&lt;/strong>&lt;/p>
+&lt;p>Follow below steps:&lt;/p>
+&lt;h3 id="1-replace-utc-by-your-timezone-in-configappphp">1. Replace &lt;code>UTC&lt;/code> by your timezone in &lt;code>config/app.php&lt;/code> 
+ 
+ 
+&lt;/h3>
+&lt;p>&lt;em>Example&lt;/em>&lt;/p>
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock__left">
+ hello.php
+ &lt;/div>
+ &lt;div class="decoration-codeblock__right">
+ &lt;button class="copy-btn">
+ &lt;svg version="1.1" height="20px" width="20px"
+ viewBox="0 0 32 32" xml:space="preserve" fill="#fff">
+ &lt;g id="SVGRepo_iconCarrier">
+ &lt;path class="stone_een"
+ d="M10,6c0,0.552,0.448,1,1,1h10c0.552,0,1-0.448,1-1V3c0-0.552-0.448-1-1-1h-2.184 C18.403,0.837,17.304,0,16,0s-2.403,0.837-2.816,2H11c-0.552,0-1,0.448-1,1V6z M28,6v23c0,1.657-1.343,3-3,3H7c-1.657,0-3-1.343-3-3 V6c0-1.657,1.343-3,3-3h2v2H7C6.448,5,6,5.448,6,6v23c0,0.552,0.448,1,1,1h18c0.552,0,1-0.448,1-1V6c0-0.552-0.448-1-1-1h-2V3h2 C26.657,3,28,4.343,28,6z M23,6c0,1.103-0.897,2-2,2H11C9.897,8,9,7.103,9,6H7v23h18V6H23z M19.5,19h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,18.776,19.776,19,19.5,19z M19.5,17h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,16.776,19.776,17,19.5,17z M19.5,15h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,14.776,19.776,15,19.5,15z">
+ &lt;/path>
+ &lt;/g>
+ &lt;/svg>
+ &lt;/button>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma">
+ &lt;code class="language-php" data-lang="php">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">return&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cm">/*
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> |--------------------------------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> | Application Timezone
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> |--------------------------------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> |
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> | Here you may specify the default timezone for your application, which
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> | will be used by the PHP date and date-time functions. We have gone
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> | ahead and set this to a sensible default for you out of the box.
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> |
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Before
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">// &amp;#39;timezone&amp;#39; =&amp;gt; &amp;#39;UTC&amp;#39;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">// After
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="s1">&amp;#39;timezone&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Asia/Ho_Chi_Minh&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>&lt;/span>&lt;/span>&lt;/code>
+ &lt;/pre>
+&lt;/figure>
+&lt;h3 id="2-try-to-refresh-your-config-cache">2. Try to refresh your config cache 
+ 
+ 
+&lt;/h3>
+&lt;figure class="highlight">
+ &lt;div class="decoration-codeblock__right">
+ &lt;button class="copy-btn">
+ &lt;svg version="1.1" height="20px" width="20px"
+ viewBox="0 0 32 32" xml:space="preserve" fill="#fff">
+ &lt;g id="SVGRepo_iconCarrier">
+ &lt;path class="stone_een"
+ d="M10,6c0,0.552,0.448,1,1,1h10c0.552,0,1-0.448,1-1V3c0-0.552-0.448-1-1-1h-2.184 C18.403,0.837,17.304,0,16,0s-2.403,0.837-2.816,2H11c-0.552,0-1,0.448-1,1V6z M28,6v23c0,1.657-1.343,3-3,3H7c-1.657,0-3-1.343-3-3 V6c0-1.657,1.343-3,3-3h2v2H7C6.448,5,6,5.448,6,6v23c0,0.552,0.448,1,1,1h18c0.552,0,1-0.448,1-1V6c0-0.552-0.448-1-1-1h-2V3h2 C26.657,3,28,4.343,28,6z M23,6c0,1.103-0.897,2-2,2H11C9.897,8,9,7.103,9,6H7v23h18V6H23z M19.5,19h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,18.776,19.776,19,19.5,19z M19.5,17h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,16.776,19.776,17,19.5,17z M19.5,15h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,14.776,19.776,15,19.5,15z">
+ &lt;/path>
+ &lt;/g>
+ &lt;/svg>
+ &lt;/button>
+ &lt;/div>
+ &lt;pre tabindex="0" class="chroma non-lang">&lt;code data-lang="">php artisan config:clear
+php artisan config:cache&lt;/code>&lt;/pre>
+&lt;/figure>
+&lt;p>if you can not delete config cache, try using &lt;code>rm&lt;/code> command remove &lt;code>bootstrap/cache/config.php&lt;/code>, &lt;code>bootstrap/cache/packages.php&lt;/code>, &lt;code>bootstrap/cache/services.php&lt;/code>.&lt;/p></description></item><item><title>Laravel</title><link>https://tienldn.site/blog/laravel/</link><pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/laravel/</guid><description>&lt;h2 id="security">Security 
+ 
+ 
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.stackhawk.com/blog/laravel-csrf-protection-guide/" target="_blank" rel="noopener">
+ https://www.stackhawk.com/blog/laravel-csrf-protection-guide/
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://cheatsheetseries.owasp.org/cheatsheets/Laravel_Cheat_Sheet.html?ref=escape.tech#sql-injection" target="_blank" rel="noopener">
+ https://cheatsheetseries.owasp.org/cheatsheets/Laravel_Cheat_Sheet.html?ref=escape.tech#sql-injection
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="ecosystem">Ecosystem 
+ 
+ 
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://filamentphp.com/" target="_blank" rel="noopener">
+ Filament Laravel
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.laravelactions.com/" target="_blank" rel="noopener">
+ Laravel Action
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://wendell-adriel.gitbook.io/laravel-validated-dto" target="_blank" rel="noopener">
+ Laravel validated DTO
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="repo-tips">Repo Tips 
+ 
+ 
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/LaravelDaily/laravel-tips" target="_blank" rel="noopener">
+ Laravel Tips
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/alexeymezenin/laravel-best-practices" target="_blank" rel="noopener">
+ Laravel Best Practices
+ 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16px" height="16px">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>
+ 
+&lt;/a>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
