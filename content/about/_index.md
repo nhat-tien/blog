@@ -16,12 +16,14 @@ I'm a happy nerd
 
 ## FAQs
 ### Who are you?
-An undergradute student at an ordinary university, who is pursuing an bachelor's degree in Information Technology. 
+I'm Le Dang Nhat Tien, an undergradute student at an ordinary university, who is pursuing an bachelor's degree in Information Technology. 
 
-Here's a list of facts about me (*will be more in the future*):
+Here's a list of facts about me:
 - Just a freaky guy from Vietnam
 - A shy person trying to be more social
-- Love programming and music --- listening, playing, and writing
+- Love programming (**I use Neovim btw**) and music --- listening, playing, and writing
+- Dream of being a legendary programmer (but I'm still noob).
+
 ### Why does this blog exist?
 This blog is a place where I can share my thoughts and learn English by writing.
 
@@ -33,7 +35,9 @@ Well...there are a few reasons why I didn't put much effort into designing this 
 
 <div align="center">
     <img width="200" src="/images/nimi-transparent.gif" alt="nimi" />
+    <figcaption>Nimi nightmare</figcaption>
 </div>
+
 
 ## Social links
 - [Github](https://github.com/nhat-tien/) 

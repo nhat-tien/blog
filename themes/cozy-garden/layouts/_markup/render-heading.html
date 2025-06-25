@@ -1,5 +1,4 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }} 
   {{ if ne .Level 1 }}
-  <a href="#{{ .Anchor | safeURL }}" style="color: var(--table_border_color);">#</a>
   {{ end }}
 </h{{ .Level }}>

@@ -30,10 +30,10 @@ buildFuture = true
         unsafe = true
 
 [permalinks]
-  blog = "/blogs/:contentbasename/"
-  tags = "/tags/:slug"
+  blog = "/blog/:contentbasename/"
+  tags = "/tag/:slug"
   [permalinks.section]
-    blog = '/blogs/'
+    blog = '/blog/'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

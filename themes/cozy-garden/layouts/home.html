@@ -2,7 +2,7 @@
 <main>
   {{ .Content }}
 </main>
-<h2 style="margin: 1em 0;">Recent Posts <a href="#" style="color: var(--table_border_color);">#</a></h2>
+<h2 style="margin: 1em 0;">Recent Posts</h2>
 <div>
   {{ range .Site.RegularPages.ByDate.Reverse.Limit 5 }}
   <!-- <li> -->
@@ -45,7 +45,7 @@
   </div>
   {{ end }}
   <div style="display: flex; flex-direction: row; justify-content: center;">
-    <a href="/blogs" class="outline-button">More Article</a>
+    <a href="/blog" class="outline-button">More Article</a>
   </div>
 </div>
 {{ end }}

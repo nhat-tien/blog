@@ -7,9 +7,7 @@
 {{ if not .Params.main }}
   <article>
   <h1>{{ .Title }}</h1>
-  {{ if isset .Params "stage"}}
   <div class="frontmatter-wrapper">
-    {{end}}
     <div class="frontmatter">
       <div class="frontmatter__key">Published</div>
       <div class="frontmatter__value">
@@ -38,11 +36,11 @@
         {{ end }}
       </div>
     </div>
+      {{ with .Params.image }}
+      <img src="{{ . }}" />
+      {{ end }}
   </div>
   {{ end }}
-  {{ with .Params.image }}
-    <img src="{{ . }}" />
-    {{ end }}
   {{ partial "toc.html" . }}
   {{ .Content }}
   </article>

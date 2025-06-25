@@ -29,6 +29,8 @@
     {{- block "main" . }}{{- end }}
     <footer style="padding-bottom: 100px;">{{- partial "footer.html" . -}}</footer>
     {{- partial "float_menu.html" . -}}
+    {{ $copyCode := resources.Get "js/copy-code-block.js" | minify | fingerprint}}
+    <script src="{{ $copyCode.Permalink }}"></script>
     {{ $toggleTheme := resources.Get "js/toggle-theme.js" | minify | fingerprint}}
     <script src="{{ $toggleTheme.Permalink }}"></script>
   </body>

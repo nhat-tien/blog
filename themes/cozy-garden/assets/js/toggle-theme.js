@@ -1,5 +1,6 @@
 let $toggleIcon = document.querySelector("#toggle-theme-icon");
 let $toggleButton = document.querySelector("#toggle-theme-button");
+let $floatMenu = document.querySelector(".float-menu");
 
 setIconDependCurrentTheme();
 
@@ -18,8 +19,22 @@ const theme = localStorage.getItem("theme");
   }
 }
 
-function toggleOpen() {
+function toggleOpen(e) {
+
   const themeSelector = document.querySelector(".theme-selector");
+
+  function handleClickOutside(e) {
+        console.log($toggleButton.contains(e.target))
+      if(!$toggleButton.contains(e.target)) {
+        themeSelector.style.animationName = "hide-theme-selector";
+        setIconDependCurrentTheme();
+        setTimeout(() => {
+          themeSelector.classList.remove("show")
+        }, 100);
+        window.removeEventListener("click", handleClickOutside);
+      }
+  }
+  e.stopPropagation();
   if (themeSelector.classList.contains("show")) {
     themeSelector.style.animationName = "hide-theme-selector";
     setIconDependCurrentTheme();
@@ -32,6 +47,8 @@ function toggleOpen() {
     setTimeout(() => {
       themeSelector.classList.add("show")
     }, 100);
+
+    window.addEventListener("click", handleClickOutside)
   }
 }
 
