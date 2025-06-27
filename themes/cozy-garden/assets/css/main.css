@@ -213,7 +213,6 @@ code {
   display: inline-block;
   padding: 0 0.3em;
   background-color: var(--code_background_color);
-  font-size: 0.9rem;
   border-radius: 3px;
 }
 
@@ -274,10 +273,22 @@ code {
 }
 
 .decoration-codeblock__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   right: 0;
-  padding: 0.5em;
+  padding: 0.3em 0.4em;
+  border: 0.5px solid transparent;
+  border-radius: 5px;
+  opacity: 0;
+  transition: all .1s ease-in-out;
+}
+
+.highlight:hover .decoration-codeblock__right {
+  border: 0.5px solid #d3d3d3;
+  opacity: 1;
 }
 
 .decoration-codeblock__right button {
