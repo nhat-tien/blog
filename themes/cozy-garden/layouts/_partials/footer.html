@@ -3,17 +3,17 @@
 </div>
 <div style="display: flex; flex-direction: row; justify-items: center; gap: 10px; align-items: center; margin: 10px 0;">
   {{ with .Site.Params.footer.github }}
-  <a href="{{ . }}">
+  <a href="{{ . }}" aria-label="link to github">
     {{- partial "icon/github.html" . -}}
   </a>
   {{end}}
   {{ with .Site.Params.footer.linkedin }}
-  <a href="{{ . }}">
+  <a href="{{ . }}" aria-label="link to linkedin">
     {{- partial "icon/linkedin.html" . -}}
   </a>
   {{end}}
   {{ with .Site.Params.footer.rss }}
-  <a href="{{ . }}">
+  <a href="{{ . }}" aria-label="link of RSS">
     {{- partial "icon/rss.html" . -}}
   </a>
   {{end}}
