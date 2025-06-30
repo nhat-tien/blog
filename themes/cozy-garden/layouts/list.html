@@ -20,7 +20,7 @@
   <div class="blog-posts">
     {{ $paginator := .Paginate .Pages.ByDate.Reverse 8 }}
     {{ range $paginator.Pages.GroupByDate "January 2006" }}
-    <h3>{{ .Key }}</h3>
+    <h3 style="margin-top: 2em;">{{ .Key }}</h3>
     {{ range .Pages}}
     <div class="post">
       <a href="{{ .Permalink }}">

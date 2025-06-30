@@ -17,7 +17,7 @@
     ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}} {{
     $style := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
-    {{ $syntaxHighlight := resources.Get "css/syntax.css" | minify | fingerprint
+    {{ $syntaxHighlight := resources.Get "css/syntax-evergarden.css" | minify | fingerprint
     }}
     <link rel="stylesheet" href="{{ $syntaxHighlight.Permalink }}" />
     {{ $initTheme := resources.Get "js/init-theme.js" | minify | fingerprint}}

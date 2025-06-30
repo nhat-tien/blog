@@ -9,13 +9,14 @@
   <h1>{{ .Title }}</h1>
   <div class="frontmatter-wrapper">
     <div class="frontmatter">
-      <div class="frontmatter__key">Published</div>
+      <div class="frontmatter__key">Posted</div>
       <div class="frontmatter__value">
           <time datetime='{{ .Date.Format "02/01/2006" }}' pubdate style="font-weight: 600;">
             {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
           </time>
       </div>
     </div>
+      <div class="frontmatter">•</div>
     <div class="frontmatter">
       <div class="frontmatter__key">Updated</div>
       <div class="frontmatter__value">
