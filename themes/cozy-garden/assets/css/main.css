@@ -70,6 +70,7 @@
 /* ----------- RESET --------------- */
 button {
   -webkit-appearance: none;
+  appearance: none;
   border-radius: 0;
   text-align: inherit;
   background: none;
@@ -224,11 +225,20 @@ code {
   box-shadow: var(--tag_border_color) 0 0 0 1px;
 }
 
+.chroma:not(.non-lang) {
+  padding: 0px 14px 0px 14px;
+}
+
 
 .chroma code {
   font-size: 0.9rem;
   padding: 0;
   background-color: inherit;
+  display: block;
+  margin-bottom: 0;
+}
+.chroma:not(.non-lang) code {
+  transform: translateY(15px);
 }
 
 .highlight {
@@ -282,14 +292,12 @@ code {
   top: 0;
   right: 0;
   padding: 0.3em 0.4em;
-  border: 0.5px solid transparent;
   border-radius: 10px;
   opacity: 0.5;
   transition: all .1s ease-in-out;
 }
 
 .decoration-codeblock__right:hover {
-  border: 0.5px solid #d3d3d3;
   opacity: 1;
 }
 
@@ -810,6 +818,10 @@ footer p {
 .toc__heading {
   font-weight: 600;
   cursor: pointer;
+}
+
+#TableOfContents {
+  background-color: inherit;
 }
 
 /*

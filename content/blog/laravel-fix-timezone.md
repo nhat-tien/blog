@@ -22,7 +22,7 @@ Follow below steps:
 ### 1. Replace `UTC` by your timezone in `config/app.php`
 
 *Example*
-```php {icon = "php", title = "hello.php"}
+```php { title = "app.php"}
 <?php
 return [
     /*
