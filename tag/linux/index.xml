@@ -27,7 +27,7 @@
  &lt;/button>
  &lt;/div>
  &lt;pre tabindex="0" class="chroma">
- &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;Hello from JournalDev&amp;#39;&lt;/span> &amp;gt; /dev/null&lt;/span>&lt;/span>&lt;/code>
+ &lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;Hello from JournalDev&amp;#39;&lt;/span> &amp;gt; /dev/null&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
 &lt;h3 id="22-with-stderr">2.2 With &lt;code>stderr&lt;/code> 
@@ -55,9 +55,9 @@
  &lt;/button>
  &lt;/div>
  &lt;pre tabindex="0" class="chroma">
- &lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-source noechosource
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">set-default-sink noechosink&lt;/span>&lt;/span>&lt;/code>
+ &lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">set-default-source noechosource
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">set-default-sink noechosink&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
 &lt;/figure>
 &lt;blockquote>
