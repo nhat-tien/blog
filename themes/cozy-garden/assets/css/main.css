@@ -40,6 +40,7 @@
   --notbyai-badge-stroke: #000;
   --notbyai-badge-bg: #fff;
   --footer_text_clr: rgba(0, 0, 0, 0.7);
+  --toc-bg-clr: #e3e1e1;
 }
 
 /*
@@ -65,6 +66,7 @@
   --notbyai-badge-stroke: #fff;
   --notbyai-badge-bg: #000;
   --footer_text_clr: rgba(255, 255, 255, 0.7);
+  --toc-bg-clr: #181a18;
 }
 
 /* ----------- RESET --------------- */
@@ -397,9 +399,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 1rem;
-}
-
-nav {
   width: 75ch;
   background-color: var(--background_color);
 }
@@ -804,7 +803,7 @@ footer p {
 */
 
 .toc {
-  background-color: var(--table_even_row_background_color);
+  background-color: var(--toc-bg-clr);
   border-radius: 10px;
   padding: 1em;
   width: 100%;
