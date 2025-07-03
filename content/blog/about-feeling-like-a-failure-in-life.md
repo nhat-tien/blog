@@ -1,5 +1,5 @@
 +++
-title = "About Feeling Lost In Life"
+title = "About Feeling Like A Failure In Life"
 date = "2025-06-18"
 lastmod = "2025-06-30"
 description = ""
@@ -19,4 +19,6 @@ Sometimes, I feel a little bit of jealous when I see other gain something I does
 I wonder how I describe my situation now. I lose the motivation or it just procastinate.
 
 The reality come up, I so weak to deal with 
+
+The solution is, now I have to list all the character I wish myself be, and no more compare with other people 
 

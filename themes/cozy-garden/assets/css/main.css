@@ -47,10 +47,10 @@
 */
 .dark-theme {
   --background_color: #1e2129;
-  --text_color: #d9d9d9;
+  --text_color: #bbbbbb;
   --icon_floatmenu_color: #d3d3d3;
   --heading_color: #75d59b;
-  --link_color: #00fd65;
+  --link_color: #32c46c;
   --sharp_symbol_color: #414141;
   --table_border_color: #5e5e5e;
   --table_even_row_background_color: #403b3b;
@@ -60,7 +60,7 @@
   --code_background_color: #3d3d3d;
   --code_block_background_color: #24283b;
   --tag_background_color: #2b462a;
-  --tag_text_color: #eeeded;
+  --tag_text_color: #c1c1c1;
   --header_bg_color: #0f131c;
   --notbyai-badge-stroke: #fff;
   --notbyai-badge-bg: #000;
@@ -868,6 +868,7 @@ footer p {
   width: 200px;
   height: 200px;
   border-radius: 90%;
+  border: 3px solid var(--heading_color);
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
