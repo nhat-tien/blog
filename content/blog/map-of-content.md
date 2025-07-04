@@ -20,7 +20,7 @@ tags = []
 </div>
 
 ## Now
-- [Hi!, How have you been?](/blog/how-have-you-been)
+- [Hi!, How have you been?](/blog/now)
 
 ## Misc
 - [My digital notebook](https://nhat-tien.github.io/notes)
