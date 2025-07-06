@@ -1,7 +1,7 @@
 +++
 title = "My Awesome List"
 date = "2023-11-20"
-lastmod = "2025-06-17"
+lastmod = "2025-07-06"
 description= ""
 draft= false
 toc= true
@@ -55,15 +55,16 @@ tags= []
 ## Weeb
 
 - [https://yuna0x0.com/](https://yuna0x0.com/)
+- [https://faunaraara.com/](https://faunaraara.com/)
 
-## Bookmark hay ho
+## Cool Bookmark 
 
 - [https://code.pepega.club/33KK](https://code.pepega.club/33KK) 
 - [https://sr.ht/~delthas/senpai/](https://sr.ht/~delthas/senpai/) 
 - [https://protiumx.dev/](https://protiumx.dev/)
 - [https://www.server-world.info/en](https://www.server-world.info/en)
 - [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
-- [https://faunaraara.com/](https://faunaraara.com/)
+- [https://yobibyte.github.io/vim.html](https://yobibyte.github.io/vim.html) - He explains how he managed to get rid of all his neovim plugins. 
 
 ## Pixel editor
 
