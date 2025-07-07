@@ -1,0 +1,1 @@
+(function(){let t=0,n="";const e=document.querySelector(".header");window.addEventListener("scroll",s=>{window.scrollY==0&&e.classList.remove("hide");const i=window.scrollY-t,o=i>0?"DOWN":"UP";o!=n&&(o=="DOWN"?e.classList.add("hide"):e.classList.remove("hide"),n=o),t=window.scrollY})})()
