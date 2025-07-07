@@ -1,7 +1,7 @@
 +++
-title = "\"How you have been?\" "
+title = "\"Hi, How You Have Been?\" "
 date = "2025-06-12"
-lastmod = "2025-06-12"
+lastmod = "2025-07-07"
 description = ""
 tags = []
 +++
@@ -18,4 +18,5 @@ Currently find a idea for side project, I think I will use it for my final year 
 
 ## Thoughts
 
-I want to be an indie hacker
+I hate myself
+

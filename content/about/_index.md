@@ -36,8 +36,10 @@ If I have time in the future, I will make my own SSG for hobby project.
 Well...there are a few reasons why I didn't put much effort into designing this website. The main one is that I want to focus more on writing. The last time I made a blog, I spent way to much time trying to make the UI look perfect. But at the end of the day, I didn't write any posts. This time I'm trying not to make that mistake again.
 
 <div align="center">
-    <img width="200" src="/images/nimi-transparent.gif" alt="nimi" />
-    <figcaption>Nimi nightmare</figcaption>
+    <a href="https://www.youtube.com/@niminightmare" target="_blank">
+        <img width="200" src="/images/nimi-transparent.gif" alt="nimi" />
+        <figcaption>Nimi Nightmare</figcaption>
+    </a>
 </div>
 
 ## Projects OSS

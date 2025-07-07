@@ -24,7 +24,6 @@ function toggleOpen(e) {
   const themeSelector = document.querySelector(".theme-selector");
 
   function handleClickOutside(e) {
-        console.log($toggleButton.contains(e.target))
       if(!$toggleButton.contains(e.target)) {
         themeSelector.style.animationName = "hide-theme-selector";
         setIconDependCurrentTheme();

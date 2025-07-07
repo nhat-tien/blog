@@ -24,7 +24,7 @@ tags = []
 
 ## Misc
 - [My digital notebook](https://nhat-tien.github.io/notes)
-- [My awesome list](/blog/my-awesome-list)
+- [My Awesome List](/blog/my-awesome-list)
 
 ## Project
 
