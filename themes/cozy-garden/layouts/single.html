@@ -38,11 +38,12 @@
       </div>
     </div>
       {{ with .Params.image }}
-      <img src="{{ . }}" />
+      <img class="img-cover" src="{{ . }}" />
       {{ end }}
   </div>
   {{ end }}
   {{ partial "toc.html" . }}
+  {{ partial "side-toc.html" . }}
   {{ .Content }}
   </article>
 </main>

@@ -5,6 +5,7 @@ lastmod = "2025-07-06"
 description= ""
 draft= false
 toc= true
+side_toc = true
 tags= []
 +++
 ## Languages

@@ -33,7 +33,9 @@ function toggleOpen(e) {
         window.removeEventListener("click", handleClickOutside);
       }
   }
-  e.stopPropagation();
+  if(e){
+    e.stopPropagation();
+  }
   if (themeSelector.classList.contains("show")) {
     themeSelector.style.animationName = "hide-theme-selector";
     setIconDependCurrentTheme();
