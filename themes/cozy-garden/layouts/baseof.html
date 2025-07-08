@@ -35,7 +35,5 @@
     <script src="{{ $toggleTheme.Permalink }}"></script>
     {{ $headerOnscroll := resources.Get "js/header-onscroll.js" | minify | fingerprint}}
     <script src="{{ $headerOnscroll.Permalink }}"></script>
-    {{ $sideToc := resources.Get "js/side-toc.js" | minify | fingerprint}}
-    <script src="{{ $sideToc.Permalink }}"></script>
   </body>
 </html>
