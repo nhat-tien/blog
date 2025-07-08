@@ -47,4 +47,6 @@
   {{ .Content }}
   </article>
 </main>
+{{ $sideToc := resources.Get "js/side-toc.js" | minify | fingerprint}}
+<script src="{{ $sideToc.Permalink }}"></script>
 {{ end }}
