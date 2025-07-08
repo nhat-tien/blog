@@ -44,10 +44,12 @@
   {{ .Content }}
   </article>
 </main>
-{{ define "script"}}
+{{ end }}
+
+{{ define "script" }}
   {{ if .Params.side_toc }}
-    {{ $sideToc := resources.Get "js/side-toc.js" | minify | fingerprint}}
+    {{ $sideToc := resources.Get "js/side-toc.js" | minify | fingerprint }}
       <script src="{{ $sideToc.Permalink }}"></script>
-    {{ end }}
   {{ end }}
 {{ end }}
+
