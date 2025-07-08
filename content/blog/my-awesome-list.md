@@ -66,6 +66,7 @@ tags= []
 - [https://www.server-world.info/en](https://www.server-world.info/en)
 - [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
 - [https://yobibyte.github.io/vim.html](https://yobibyte.github.io/vim.html) - He explains how he managed to get rid of all his neovim plugins. 
+- [https://codeberg.org/uzu/strudel](https://codeberg.org/uzu/strudel) - Live-coding music web-based platform (Soooo cool)
 
 ## Pixel editor
 

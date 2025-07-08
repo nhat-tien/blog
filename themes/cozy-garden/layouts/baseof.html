@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="{{ $syntaxHighlight.Permalink }}" />
     {{ $initTheme := resources.Get "js/init-theme.js" | minify | fingerprint}}
     <script src="{{ $initTheme.Permalink }}"></script>
-    {{- block "head" . }}{{- end }}
   </head>
   <body>
     <header>{{- partial "header.html" . -}}</header>
@@ -35,5 +34,6 @@
     <script src="{{ $toggleTheme.Permalink }}"></script>
     {{ $headerOnscroll := resources.Get "js/header-onscroll.js" | minify | fingerprint}}
     <script src="{{ $headerOnscroll.Permalink }}"></script>
+    {{- block "script" . }}{{- end }}
   </body>
 </html>
