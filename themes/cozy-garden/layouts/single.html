@@ -40,7 +40,6 @@
   </div>
   {{ end }}
   {{ partial "toc.html" . }}
-  {{ partial "side-toc.html" . }}
   {{ .Content }}
   </article>
 </main>
@@ -51,5 +50,9 @@
     {{ $sideToc := resources.Get "js/side-toc.js" | minify | fingerprint }}
       <script src="{{ $sideToc.Permalink }}"></script>
   {{ end }}
+{{ end }}
+
+{{ define "side-toc" }}
+  {{ partial "side-toc.html" . }}
 {{ end }}
 

@@ -4,9 +4,8 @@ const positionEachItem = [...sideTocItems].map((item) => {
   const link = item.querySelector("a")
   const id = link.outerHTML.match(/\#(.*?)\"/i)[1];
   const el = document.querySelector(`#${id}`)
-  return el.getBoundingClientRect().top;
+  return el.getBoundingClientRect().top + window.scrollY;
 });
-const mark = sideToc.querySelector(".side-toc__mark");
 
 sideTocItems[0].classList.add("active");
 
@@ -25,5 +24,4 @@ window.addEventListener("scroll", () => {
       e.classList.remove("active");
     }
   });
-  mark.style.top = `${indexOfActive * 30}px`;
 })

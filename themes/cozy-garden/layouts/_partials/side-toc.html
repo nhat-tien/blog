@@ -1,10 +1,9 @@
 {{ if .Params.side_toc }}
-<div class="side-toc">
-  <div class="side-toc__label">Content</div>
+<aside class="side-toc">
+  <div class="side-toc__label">In this article</div>
   <div class="side-toc__child">
-    <div class="side-toc__mark"></div>
     {{ .TableOfContents }}
   </div>
-</div>
+</aside>
 {{ end }}
 

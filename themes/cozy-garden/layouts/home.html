@@ -1,19 +1,18 @@
 {{ define "main" }}
 <main>
   {{ .Content }}
-</main>
-<h2 style="margin: 1em 0;">Recent Posts</h2>
-<div>
-  {{ range .Site.RegularPages.ByDate.Reverse.Limit 5 }}
-  <!-- <li> -->
-  <!--   <span> -->
-  <!--     {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }} -->
-  <!--   </span> -->
-  <!--   <span>-</span> -->
-  <!--   <a class="link" href="{{ .Permalink }}"> -->
-  <!--     {{.Title}} -->
-  <!--   </a> -->
-  <!-- </li> -->
+  <h2 style="margin: 1em 0;">Recent Posts</h2>
+  <div>
+    {{ range .Site.RegularPages.ByDate.Reverse.Limit 5 }}
+    <!-- <li> -->
+    <!--   <span> -->
+    <!--     {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }} -->
+    <!--   </span> -->
+    <!--   <span>-</span> -->
+    <!--   <a class="link" href="{{ .Permalink }}"> -->
+    <!--     {{.Title}} -->
+    <!--   </a> -->
+    <!-- </li> -->
 
     <div class="post">
       <a href="{{ .Permalink }}">
@@ -30,22 +29,23 @@
       <div style="margin-top: 10px;">
         {{ if (.GetTerms "tags") }}
         {{- partial "icon/tag.html" -}}
-          {{ range (.GetTerms "tags") }}
-          <a href="{{ .Permalink }}" class="tag">
-            {{ .LinkTitle }}
-          </a>
-          {{ end }}
+        {{ range (.GetTerms "tags") }}
+        <a href="{{ .Permalink }}" class="tag">
+          {{ .LinkTitle }}
+        </a>
+        {{ end }}
         {{ end }}
       </div>
 
     </div>
-  {{ else }}
-  <div>
-    No posts yet
+    {{ else }}
+    <div>
+      No posts yet
+    </div>
+    {{ end }}
+    <div class="seemore-btn">
+      <a href="/blog" class="outline-button">See more article</a>
+    </div>
   </div>
-  {{ end }}
-  <div class="seemore-btn">
-    <a href="/blog" class="outline-button">See more article</a>
-  </div>
-</div>
+</main>
 {{ end }}

@@ -24,9 +24,14 @@
     <script src="{{ $initTheme.Permalink }}"></script>
   </head>
   <body>
-    <header>{{- partial "header.html" . -}}</header>
-    {{- block "main" . }}{{- end }}
-    <footer style="padding-bottom: 100px;">{{- partial "footer.html" . -}}</footer>
+    {{- partial "header.html" . -}}
+    <div class="main-wrapper">
+      {{- block "main" . }}{{- end }}
+      <div class="side-toc-wrapper">
+        {{- block "side-toc" . }}{{- end }}
+      </div>
+    </div>
+    {{- partial "footer.html" . -}}
     {{- partial "float_menu.html" . -}}
     {{ $copyCode := resources.Get "js/copy-code-block.js" | minify | fingerprint}}
     <script src="{{ $copyCode.Permalink }}"></script>

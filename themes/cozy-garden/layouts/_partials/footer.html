@@ -1,7 +1,8 @@
-<div class="footer__left" style="margin-bottom: 2em;">
+<footer>
+<div class="footer__notbyai">
   {{- partial "notbyai.html" . -}}
 </div>
-<div style="display: flex; flex-direction: row; justify-items: center; gap: 10px; align-items: center; margin: 10px 0;">
+<div class="footer__contact">
   {{ with .Site.Params.footer.github }}
   <a href="{{ . }}" aria-label="link to github">
     {{- partial "icon/github.html" . -}}
@@ -18,15 +19,16 @@
   </a>
   {{end}}
 </div>
-<div style="display: flex; flex-direction: row; justify-items: center; gap: 5px; align-items: center;">
+<div class="footer__copyright">
   <p>Copyleft</p> 
   {{- partial "icon/copyleft.html" . -}}
   	<!-- <p>&copy;</p> -->
   <p><span id="copyright-year">must be a current year, or else there is a bug :)))</span>&nbsp;Nhat Tien</p>
 </div>
-<div style="display: flex; flex-direction: row; justify-items: center; gap: 5px;">
+<div class="footer__powered">
   <p>Powered by <a class="link" href="https://gohugo.io/" target="_blank">Hugo</a></p>
 </div>
+</footer>
 <script>
   document.querySelector("#copyright-year").innerText = (new Date()).getFullYear();
 </script>
