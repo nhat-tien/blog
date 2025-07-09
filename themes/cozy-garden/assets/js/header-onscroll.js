@@ -6,9 +6,12 @@
   window.addEventListener("scroll", (e) => {
 
     if(window.scrollY == 0) {
-        header.classList.remove("hide")
-        floatMenu.classList.remove("show")
+        header.classList.remove("hide");
+        floatMenu.classList.remove("show");
+      return;
     }
+      
+    floatMenu.classList.add("show")
 
     const delta = window.scrollY - oldValuePosition;
     const direction = delta > 0 ? "DOWN" : "UP";
@@ -16,10 +19,8 @@
     if(direction != oldDirection) {
       if(direction == "DOWN") {
         header.classList.add("hide")
-        floatMenu.classList.add("show")
       } else {
         header.classList.remove("hide")
-        floatMenu.classList.remove("show")
       }
       oldDirection = direction;
     }
