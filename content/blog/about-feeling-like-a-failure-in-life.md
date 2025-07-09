@@ -23,7 +23,7 @@ The reality come up, I so weak to deal with
 The solution is, now I have to list all the character I wish myself be, and no more compare with other people
 
 ## The fear of being wasted
-## 
+## q
 
 I quit social media
 

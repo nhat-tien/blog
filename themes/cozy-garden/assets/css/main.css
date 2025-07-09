@@ -190,11 +190,12 @@ main {
   padding-top: 50px;
   padding-left: 1rem;
   padding-right: 1rem;
-  width: var(--max-width-main);
+  max-width: var(--max-width-main);
 }
 
 .main-wrapper {
   position: relative;
+  width: min(100%, var(--max-width-main))
 }
 
 /*
@@ -595,7 +596,7 @@ footer {
   margin-top: 7em;
   margin-bottom: 1em;
   border-top: 1px solid var(--table_border_color);
-  width: var(--max-width-main);
+  width: min(100%, var(--max-width-main))
 }
 
 footer p {
@@ -1044,4 +1045,9 @@ footer p {
   padding: 4px;
   cursor: pointer;
   position: relative;
+}
+
+#toggle-theme-icon {
+  display: flex;
+  place-items: center;
 }
