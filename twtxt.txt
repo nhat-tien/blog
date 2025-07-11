@@ -1,0 +1,5 @@
+# nick        = nhat-tien 
+# url         = https://tienldn.site/twtxt.txt
+# description = tien's thoughts
+
+2025-07-11T21:34:13Z	My first tweet to test this feature on Hugo.
