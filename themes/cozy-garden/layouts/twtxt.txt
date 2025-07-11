@@ -1,0 +1,7 @@
+# nick        = {{ .Site.Params.twtxt.nick }} 
+# url         = {{ .Site.Params.twtxt.url }}
+# description = {{ .Site.Params.twtxt.description }}
+{{ printf "\n" }}
+{{- range where .Site.RegularPages "File.Dir" "eq" "thoughts/" -}}
+{{ .Params.datetime }}{{ printf "\t" }}{{ .Plain }}
+{{- end -}}

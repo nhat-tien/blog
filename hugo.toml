@@ -17,7 +17,7 @@ buildFuture = true
   [params.header]
     menu = [
       { label = "About", href = "/about" },
-      { label = "Now", href = "/blog/now" },
+      { label = "Thoughts", href = "/thoughts" },
       { label = "Tags", href = "/tag" },
       { label = "Archive", href = "/blog" }
     ]
@@ -25,6 +25,10 @@ buildFuture = true
     github = "https://github.com/nhat-tien"
     linkedin = "https://www.linkedin.com/in/ledntien"
     rss = "/index.xml"
+  [params.twtxt]
+    nick = "nhat-tien"
+    url = "https://tienldn.site/twtxt.txt"
+    description = "tien's thoughts" 
 
 [markup]
   [markup.highlight]
@@ -43,4 +47,10 @@ buildFuture = true
     blog = '/blog/'
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = [ "HTML", "RSS", "JSON", "TWTXT" ]
+
+[outputFormats.TWTXT]
+  mediaType = "text/plain"
+  baseName = "twtxt"
+  isPlainText = true
+  notAlternative = true
