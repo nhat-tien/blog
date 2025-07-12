@@ -80,8 +80,8 @@
   --side-toc-slide-bg-clr: #505050;
   --side-toc-slide-fg-clr: #81ffa2;
   --tweet-img-bg-clr: #fff;
-  --tweet-bg-clr: #afafaf;
-  --tweet-fade-text-clr: rgba(0, 0, 0, 0.6);
+  --tweet-bg-clr: #141313;
+  --tweet-fade-text-clr: #706d6d;
 }
 
 /* ----------- RESET --------------- */
