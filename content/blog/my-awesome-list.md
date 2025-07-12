@@ -14,7 +14,7 @@ tags= []
 
 - [React Typescript](https://react-typescript-cheatsheet.netlify.app/)
 
-## Algorithms nckd nckd nckdn kcndc kdnc cdkncdc cndkc cndkcnd
+## Algorithms
 
 - [VietCodes](https://vietcodes.github.io/)
 

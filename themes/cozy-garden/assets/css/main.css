@@ -46,6 +46,10 @@
   --side-toc-slide-bg-clr: #e3e3e3;
   --side-toc-slide-fg-clr: #183e22;
   --max-width-main: 75ch;
+  --tweet-img-bg-clr: #fbf9f3; 
+  --tweet-bg-clr: #ffffff; 
+  --tweet-fade-text-clr: rgba(0,0,0, 0.6); 
+  interpolate-size: allow-keywords;
 }
 
 /*
@@ -75,6 +79,9 @@
   --side-toc-bg-clr: #255e42;
   --side-toc-slide-bg-clr: #505050;
   --side-toc-slide-fg-clr: #81ffa2;
+  --tweet-img-bg-clr: #fff; 
+  --tweet-bg-clr: #afafaf; 
+  --tweet-fade-text-clr: rgba(0,0,0, 0.6); 
 }
 
 /* ----------- RESET --------------- */
@@ -385,6 +392,7 @@ figcaption {
 
 .img-cover {
   margin-top: 2rem;
+  border-radius: 0;
 }
 
 /*
@@ -596,22 +604,46 @@ footer {
   margin-top: 7em;
   margin-bottom: 1em;
   border-top: 1px solid var(--table_border_color);
-  width: min(100%, var(--max-width-main))
+  width: min(calc(100% - 2em), var(--max-width-main))
 }
 
 footer p {
   margin-top: 0;
 }
 
-.footer__notbyai {
-  margin-bottom: 2em;
+/* .footer__notbyai { */
+/* } */
+
+.footer__row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4em;
+}
+
+.footer__nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__nav-header {
+  color: var(--text_color);
+  font-weight: 600;
+}
+
+.footer__nav-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__contact {
   display: flex;
   flex-direction: row;
   justify-items: center;
-  gap: 10px;
+  gap: 17px;
   align-items: center;
   margin: 10px 0;
 }
@@ -865,6 +897,22 @@ footer p {
   padding: 1em;
   width: 100%;
   text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: var(--heading-text-font);
+}
+
+.toc::details-content {
+  block-size: 0;
+  transition: block-size 0.5s ease-in-out, content-visibility 0.5s ease-in-out;
+  transition-behavior: allow-discrete;
+}
+
+.toc[open]::details-content {
+  block-size: auto;
+}
+
+.toc__heading::marker {
+  color: var(--heading_color);
 }
 
 .toc li {
@@ -875,6 +923,7 @@ footer p {
   font-weight: 600;
   cursor: pointer;
 }
+
 
 #TableOfContents {
   background-color: inherit;
@@ -894,6 +943,7 @@ footer p {
   left: calc(50% + 37ch);
   padding: 2em;
   max-width: 35ch;
+  font-family: var(--heading-text-font);
 }
 
 .side-toc__child {
@@ -909,7 +959,7 @@ footer p {
 .side-toc__child li {
   font-size: 0.9rem;
   list-style: none;
-  padding: 0.2em 1em 0;
+  padding: 0.2em 1em;
   margin-top: 0;
   border-left: 3px solid transparent;
   transition: all 0.2s ease-in-out;
@@ -1050,4 +1100,58 @@ footer p {
 #toggle-theme-icon {
   display: flex;
   place-items: center;
+}
+
+.tweet-wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.tweet {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tweet-bg-clr);
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: all .3s ease-in-out;
+}
+
+.tweet:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tweet__img {
+  width: 3em;
+  height: 3em;
+  border-radius: 90%;
+  background-color: var(--tweet-img-bg-clr);
+  padding: 5px;
+}
+.tweet__header {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.tweet__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.tweet__name {
+  font-weight: 600;
+}
+.tweet__username {
+  font-weight: 300;
+  color: var(--tweet-fade-text-clr);
+  font-size: 0.95rem;
+}
+.tweet__datetime {
+  margin-top: 1em;
+  color: var(--tweet-fade-text-clr);
+  font-size: 0.95rem;
+}
+.tweet__content {
+  font-size: 1.1rem;
 }

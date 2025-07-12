@@ -9,4 +9,3 @@ Welcome to my small corner of the Internet. This is just my personal website, wh
 
 ## Map of Content
 I have a page that contains all my collections, series, and things I want to highlight it. [Map of Content](/blog/map-of-content) 
-

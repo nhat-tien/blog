@@ -10,7 +10,7 @@
     </a>
   </div>
   {{else}}
-  <h2>Archive</h2>
+  <h1>Archive</h1>
   {{ end }}
   <div class="blog-posts">
     {{ $paginator := .Paginate .Pages.ByDate.Reverse 8 }}

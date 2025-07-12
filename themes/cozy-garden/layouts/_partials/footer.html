@@ -1,7 +1,25 @@
 <footer>
-<div class="footer__notbyai">
-  {{- partial "notbyai.html" . -}}
-</div>
+  <div class="footer__row">
+    <div class="footer__notbyai">
+      {{- partial "notbyai.html" . -}}
+    </div>
+    <div class="footer__nav">
+      <p class="footer__nav-header">Highlights</p>
+      <ul>
+      {{ range .Site.Params.footer.highlights }}
+        <li class="footer__nav-item"><a href="{{ .href }}">{{ .label }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
+    <div class="footer__nav">
+      <p class="footer__nav-header">Navigation</p>
+      <ul>
+      {{ range .Site.Params.footer.nav }}
+        <li class="footer__nav-item"><a href="{{ .href }}">{{ .label }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
+  </div>
 <div class="footer__contact">
   {{ with .Site.Params.footer.github }}
   <a href="{{ . }}" aria-label="link to github">
@@ -16,6 +34,11 @@
   {{ with .Site.Params.footer.rss }}
   <a href="{{ . }}" aria-label="link of RSS">
     {{- partial "icon/rss.html" . -}}
+  </a>
+  {{end}}
+  {{ with .Site.Params.footer.twtxt }}
+  <a href="{{ . }}" aria-label="link of Twtxt">
+    {{- partial "icon/twtxt.html" . -}}
   </a>
   {{end}}
 </div>

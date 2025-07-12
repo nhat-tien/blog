@@ -25,10 +25,23 @@ buildFuture = true
     github = "https://github.com/nhat-tien"
     linkedin = "https://www.linkedin.com/in/ledntien"
     rss = "/index.xml"
+    twtxt = "/twtxt.txt"
+    highlights = [
+      { label = "Map Of Content", href = "/blog/map-of-content/" },
+    ]
+    nav = [
+      { label = "About", href = "/about" },
+      { label = "Thoughts", href = "/thoughts" },
+      { label = "Now", href = "/now" },
+      { label = "Tags", href = "/tag" },
+      { label = "Archive", href = "/blog" }
+    ]
   [params.twtxt]
     nick = "nhat-tien"
+    name = "Nhat Tien"
     url = "https://tienldn.site/twtxt.txt"
-    description = "tien's thoughts" 
+    description = "tien's thoughts"
+    avatar = "/images/blue-mouse.webp"
 
 [markup]
   [markup.highlight]
