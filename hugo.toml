@@ -28,11 +28,12 @@ buildFuture = true
     twtxt = "/twtxt.txt"
     highlights = [
       { label = "Map Of Content", href = "/blog/map-of-content/" },
+      { label = "My Awesome List", href = "/blog/my-awesome-list/" }
     ]
     nav = [
       { label = "About", href = "/about" },
       { label = "Thoughts", href = "/thoughts" },
-      { label = "Now", href = "/now" },
+      { label = "Now", href = "/blog/now" },
       { label = "Tags", href = "/tag" },
       { label = "Archive", href = "/blog" }
     ]
