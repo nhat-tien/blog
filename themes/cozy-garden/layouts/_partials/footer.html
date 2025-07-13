@@ -1,7 +1,12 @@
 <footer>
   <div class="footer__row">
-    <div class="footer__notbyai">
-      {{- partial "notbyai.html" . -}}
+    <div class="footer__col">
+      <div class="footer__notbyai">
+        {{- partial "notbyai.html" . -}}
+      </div>
+      <div class="star-this-repo-wrapper">
+        <a class="star-this-repo" href="{{ .Site.Params.footer.starThisRepoUrl }}">star this repo {{- partial "icon/star.html" -}}</a>
+      </div>
     </div>
     <div class="footer__nav">
       <p class="footer__nav-header">Highlights</p>

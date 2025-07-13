@@ -49,6 +49,8 @@
   --tweet-img-bg-clr: #fbf9f3;
   --tweet-bg-clr: #ffffff;
   --tweet-fade-text-clr: rgba(0, 0, 0, 0.6);
+  --star-this-repo-bg: #fff;
+  --star-this-repo-fg: #000;
   interpolate-size: allow-keywords;
 }
 
@@ -82,6 +84,8 @@
   --tweet-img-bg-clr: #fff;
   --tweet-bg-clr: #141313;
   --tweet-fade-text-clr: #706d6d;
+  --star-this-repo-bg: #fff;
+  --star-this-repo-fg: #000;
 }
 
 /* ----------- RESET --------------- */
@@ -611,8 +615,10 @@ footer p {
   margin-top: 0;
 }
 
-/* .footer__notbyai { */
-/* } */
+.footer__notbyai {
+  display: flex;
+  justify-content: center;
+}
 
 .footer__row {
   display: flex;
@@ -621,6 +627,64 @@ footer p {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 4em;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.star-this-repo-wrapper {
+  --star-clr: #000;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid var(--table_border_color);
+  background: #aaa;
+  box-shadow: 
+    inset hsla(0, 0%, 0%, .25) 0 -1px 0px 0px,
+    inset hsla(0, 0%, 100%, .7) 0 2px 1px 0px;
+  transition: all .3s ease-in-out;
+}
+.star-this-repo-wrapper:hover {
+  --star-clr: #d8ff03;
+  transform: translateY(-5px);
+}
+
+.star-this-repo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75em;
+  padding: 0.4em 1em;
+  color: var(--star-this-repo-fg);
+  font-size: 1rem;
+}
+
+.star-this-repo-wrapper::before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: -75%;
+  position: absolute;
+  top: 0;
+  transform: skewX(-25deg);
+  width: 50%;
+  z-index: 2;
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+
+  28%,
+  100% {
+    left: 125%;
+  }
 }
 
 .footer__nav>ul {
@@ -672,12 +736,15 @@ footer p {
     gap: 1em;
     margin-bottom: 2em;
   }
+
   .footer__nav {
     align-items: center;
   }
+
   .footer__nav-item {
     text-align: center;
   }
+
   .footer__nav-header {
     text-align: center;
   }

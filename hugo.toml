@@ -26,6 +26,7 @@ buildFuture = true
     linkedin = "https://www.linkedin.com/in/ledntien"
     rss = "/index.xml"
     twtxt = "/twtxt.txt"
+    starThisRepoUrl = "https://github.com/nhat-tien/blog"
     highlights = [
       { label = "Map Of Content", href = "/blog/map-of-content/" },
       { label = "My Awesome List", href = "/blog/my-awesome-list/" }
