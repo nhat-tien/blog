@@ -11,7 +11,7 @@ Today is just a day as usual. I have some thing to work on it, but I have some f
 
 Sometimes, I feel a little bit of jealous when I see other gain something I does't have. 
 
-## I, programming, and part-time depression
+## I, programming, and part-time loser 
 
 - Though I try very hard, I really not sastify with that
 - I learn very much, but still just a tiny when compare to other
@@ -20,10 +20,9 @@ I wonder how I describe my situation now. I lose the motivation or it just proca
 
 The reality come up, I so weak to deal with 
 
-The solution is, now I have to list all the character I wish myself be, and no more compare with other people
+## Not good enough
 
 ## The fear of being wasted
-## q
 
-I quit social media
+## What should I do
 

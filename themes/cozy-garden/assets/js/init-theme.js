@@ -1,4 +1,3 @@
-
 function isSystemPreferDarkTheme() {
   const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
   return prefersDarkTheme.matches
