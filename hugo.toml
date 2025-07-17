@@ -14,6 +14,7 @@ buildFuture = true
   dateFormat = "Jan 02, 2006"
   logo = "/images/blue-mouse.webp"
   description = "personal blog of Nhat Tien"
+  math = false 
   [params.header]
     menu = [
       { label = "About", href = "/about" },
@@ -54,6 +55,12 @@ buildFuture = true
   [markup.goldmark]
     [markup.goldmark.renderer]
         unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 [permalinks]
   blog = "/blog/:contentbasename/"

@@ -22,6 +22,7 @@
   --code-text-font: "Cascadia Code", Consolas;
   /* --background_color: #f9f9f9; */
   --background_color: #fbf9f3;
+  --background-color-rgba: rgba(251,249,243,0.8);
   --text_color: #171D31;
   --icon_floatmenu_color: #474747;
   --heading_color: #183e22;
@@ -59,6 +60,7 @@
 */
 .dark-theme {
   --background_color: #1e2129;
+  --background-color-rgba: rgba(30,33,41,0.8);
   --text_color: #bbbbbb;
   --icon_floatmenu_color: #d3d3d3;
   --heading_color: #75d59b;
@@ -431,8 +433,10 @@ header {
   align-items: center;
   padding: 10px 1rem;
   width: 75ch;
-  background-color: var(--background_color);
+  background-color: var(--background-color-rgba);
   transition: all .2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
 }
 
 .header.hide {

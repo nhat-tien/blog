@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="{{ $syntaxHighlight.Permalink }}" />
     {{ $initTheme := resources.Get "js/init-theme.js" | minify | fingerprint}}
     <script src="{{ $initTheme.Permalink }}"></script>
+    {{ if .Param "math" }}
+       {{ partialCached "math.html" . }}
+    {{ end }}
   </head>
   <body>
     {{- partial "header.html" . -}}
