@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.site/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>"Hi, How You Have Been?"</title><link>https://tienldn.site/blog/now/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/now/</guid><description>&lt;p>This page is where I update my status&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.site/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>A Brief Introduction Of Logistic Regression</title><link>https://tienldn.site/blog/about-logistic-regression/</link><pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/about-logistic-regression/</guid><description>&lt;p>This article will show you&lt;/p>
+&lt;h2 id="just-a-bit-of-math">Just a bit of math 
+ 
+ 
+&lt;/h2>
+&lt;h3 id="what-is-odd">What is Odd? 
+ 
+ 
+&lt;/h3>
+&lt;p>Odds are used to describe the chance of an event occurring. The odds are the &lt;em>ratios that compare the number of ways the event can occur with the number of ways the event cannot occurr&lt;/em>.&lt;/p>
+$$
+ Odds = \frac{p}{1 - p}
+$$&lt;p>For example, if the probability of rain is 0.75 (or 75%), the probability of no rain is 0.25 (or 25%). The odds of rain are 0.75 / 0.25 = 3. This means it&amp;rsquo;s three times more likely to rain than not to rain.&lt;/p></description></item><item><title>"Hi, How You Have Been?"</title><link>https://tienldn.site/blog/now/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/now/</guid><description>&lt;p>This page is where I update my status&lt;/p>
 &lt;h2 id="now">Now 
  
  
