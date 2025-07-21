@@ -1,0 +1,10 @@
+#!/bin/bash
+
+date=$(date +'%Y-%m-%d-%T')
+timestamp=$(date +'%Y-%m-%dT%TZ')
+
+cd content/thoughts
+
+touch "$date.md"
+
+printf "+++\ndatetime = \"$timestamp\"\n+++" >> "$date.md"

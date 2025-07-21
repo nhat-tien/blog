@@ -28,3 +28,5 @@ The reality come up, I so weak to deal with
 
 just accept the fact that I'm not smart, I still lack of experience, does not say "Why I am a failure?", just say "I am a failure, so what to do next?". Once I free from the negative feeling, everything now clear as a blue sky after a storm.
 
+When you think about you lose compare to someone, I remind you if you see there is no one is better than you, you currently doing wrong in your life. The 
+

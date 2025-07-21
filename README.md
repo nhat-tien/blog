@@ -21,6 +21,15 @@
     <img src="./screenshot.png" />
 </div>
 
+## Feature 
+
+- Mathjax
+- Side TOC
+- Tag
+- Twtxt
+- Theme (light/dark/system)
+- Search (Fuse.js)
+
 ## Todo-list
 
 - [ ] Feature: comment use utterances

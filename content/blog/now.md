@@ -15,8 +15,3 @@ I have a freelance gig for my friend project rn, it's a job in web development. 
 ## Plan
 
 Currently find a idea for side project, I think I will use it for my final year prject. But now, I run out of good idea.
-
-## Thoughts
-
-I hate myself
-
