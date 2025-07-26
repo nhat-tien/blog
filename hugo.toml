@@ -44,7 +44,7 @@ buildFuture = true
     name = "Nhat Tien"
     url = "https://tienldn.site/twtxt.txt"
     description = "tien's thoughts"
-    avatar = "/images/blue-mouse.webp"
+    avatar = "https://tienldn.site/images/blue-mouse.webp"
 
 [markup]
   [markup.highlight]

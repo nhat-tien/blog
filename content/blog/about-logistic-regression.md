@@ -28,6 +28,11 @@ For example, if the probability of rain is 0.75 (or 75%), the probability of no 
 
 **Important:  Odds are not probabilities**
 
+### What is Log Odd
+
+### What is Odd Ratios
+
+
 ## Implement in program 
 
 ## How to enhance 
@@ -38,7 +43,7 @@ $$
   \sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
-## References
+## Further reading
 
 ### Youtube video
 
