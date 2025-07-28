@@ -551,7 +551,7 @@ header {
 }
 
 .menu-icon__checkbox:checked~.top-menu--mobile__content {
-  transform: translateY(-14px);
+  transform: translateY(-18px);
   opacity: 1;
 }
 
@@ -768,7 +768,7 @@ footer p {
   right: 20px;
   opacity: 0;
   width: min-content;
-  background: rgba(34, 247, 80, 0.4);
+  background-color: rgba(34, 247, 80, 0.4);
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
@@ -797,7 +797,7 @@ footer p {
   display: none;
   flex-direction: row;
   gap: 2px;
-  background: rgba(34, 247, 80, 0.4);
+  background-color: rgb(165, 247, 180);
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
   padding: 0.2em;

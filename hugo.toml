@@ -20,7 +20,7 @@ buildFuture = true
       { label = "About", href = "/about" },
       { label = "Thoughts", href = "/thoughts" },
       { label = "Tags", href = "/tag" },
-      { label = "Archive", href = "/blog" }
+      { label = "Blog", href = "/blog" }
     ]
   [params.footer]
     github = "https://github.com/nhat-tien"

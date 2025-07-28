@@ -2,10 +2,11 @@
   let oldValuePosition = 0;
   let oldDirection = "";
   const header = document.querySelector(".header");
+  const checkbox = document.querySelector(".menu-icon__checkbox");
   const floatMenu = document.querySelector(".float-menu");
   window.addEventListener("scroll", (e) => {
 
-    if(window.scrollY == 0) {
+    if(window.scrollY == 0 || checkbox.checked) {
         header.classList.remove("hide");
         floatMenu.classList.remove("show");
       return;
