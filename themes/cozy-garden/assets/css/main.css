@@ -52,6 +52,7 @@
   --tweet-fade-text-clr: rgba(0, 0, 0, 0.6);
   --star-this-repo-bg: #fff;
   --star-this-repo-fg: #000;
+  --theme-selector-bg: rgb(165, 247, 180);
   interpolate-size: allow-keywords;
 }
 
@@ -88,6 +89,7 @@
   --tweet-fade-text-clr: #706d6d;
   --star-this-repo-bg: #fff;
   --star-this-repo-fg: #000;
+  --theme-selector-bg: rgb(36, 118, 55);
 }
 
 /* ----------- RESET --------------- */
@@ -797,7 +799,7 @@ footer p {
   display: none;
   flex-direction: row;
   gap: 2px;
-  background-color: rgb(165, 247, 180);
+  background-color: var(--theme-selector-bg);
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
   padding: 0.2em;
