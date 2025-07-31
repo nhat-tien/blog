@@ -1,0 +1,6 @@
+# nick        = nhat-tien 
+# url         = https://tienldn.site/twtxt.txt
+# avatar      = https://tienldn.site/images/blue-mouse.webp
+# description = tien's thoughts
+
+

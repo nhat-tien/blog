@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machine Learning on Nhat Tien</title><link>https://tienldn.site/vi/tag/machine-learning/</link><description>Recent content in Machine Learning on Nhat Tien</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/vi/tag/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Giới Thiệu Về Hồi Quy Logistic</title><link>https://tienldn.site/vi/blog/about-logistic-regression/</link><pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/vi/blog/about-logistic-regression/</guid><description>&lt;h2 id="odds-là-gì">Odds là gì? 
+ 
+ 
+&lt;/h2>
+&lt;p>Odds là &lt;strong>Tỉ số giữa xác suất xảy ra với xác xuất không xảy ra&lt;/strong> của một biến cố mà chúng ta cần xét&lt;/p>
+&lt;p>Cho \(p\) là xác suất xảy ra của biến cố, ta được Odds của biến cố&lt;/p>
+$$
+ Odds = \frac{p}{1 - p}
+$$&lt;p>&lt;em>Ví dụ&lt;/em>: Xác suất hôm nay trời sẽ mưa là 0.75 (75%), còn xác suất không mưa là 0.25 (25%). Vậy Odds của trời mưa là \(0.75/0.25 = 3\). Điều đó có nghĩa khả năng mưa cao hơn gấp ba lần khả năng trời không mưa.&lt;/p></description></item></channel></rss>
