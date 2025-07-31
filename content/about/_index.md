@@ -5,8 +5,10 @@ main = true
 
 # About Me
 
-<div class="about-image__wrapper" align="center" style="margin:20px auto 0px;">
-    <img width="400px" class="about-image" src="/images/nhat-tien.webp" alt="photo about me"/>
+<div class="about-image__border" align="center">
+    <div class="about-image__wrapper" align="center">
+        <img width="400px" class="about-image" src="/images/nhat-tien.webp" alt="photo about me"/>
+    </div>
 </div>
 
 <p style="text-align: center">🎶 <i>Country road, take me home...</i></p>

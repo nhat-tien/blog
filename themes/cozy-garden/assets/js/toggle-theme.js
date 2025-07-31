@@ -55,28 +55,39 @@ function toggleOpen(e) {
 
 function setTheme(theme) {
   let $html = document.querySelector("html");
-  switch (theme) {
-    case "light":
-      $html.classList.remove("dark-theme");
-      localStorage.setItem("theme", "light");
-      toggleOpen();
-      break;
-    case "dark":
-      $html.classList.add("dark-theme");
-      localStorage.setItem("theme", "dark");
-      toggleOpen();
-      break;
-    case "system":
-      const darkTheme = isSystemPreferDarkTheme();
-      if (darkTheme) {
-        $html.classList.add("dark-theme");
-      } else {
+
+  const updateTheme = () => {
+    switch (theme) {
+      case "light":
         $html.classList.remove("dark-theme");
-      }
-      localStorage.setItem("theme", "system");
-      toggleOpen();
-      break;
+        localStorage.setItem("theme", "light");
+        break;
+      case "dark":
+        $html.classList.add("dark-theme");
+        localStorage.setItem("theme", "dark");
+        break;
+      case "system":
+        const darkTheme = isSystemPreferDarkTheme();
+        if (darkTheme) {
+          $html.classList.add("dark-theme");
+        } else {
+          $html.classList.remove("dark-theme");
+        }
+        localStorage.setItem("theme", "system");
+        break;
+    }
   }
+
+  if(!document.startViewTransition) {
+    updateTheme();
+    toggleOpen();
+    return;
+  }
+
+  document.startViewTransition(() => {
+    updateTheme();
+    toggleOpen();
+  });
 }
 
 /**

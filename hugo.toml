@@ -8,6 +8,16 @@ enableEmoji = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 buildFuture = true
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+
+  [languages.vi]
+    weight = 2
+    languageName = "Tiếng Việt"
 
 [params]
   favicon = "/favicon.ico"
