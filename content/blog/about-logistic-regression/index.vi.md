@@ -1,5 +1,5 @@
 +++
-title = "Giới Thiệu Về Hồi Quy Logistic"
+title = "Giới Thiệu Về Hồi Qui Logistic"
 date = "2025-07-17"
 lastmod = "2025-07-17"
 side_toc = true
@@ -14,7 +14,7 @@ image = "https://images.unsplash.com/photo-1648201637025-1c77b9be3013?q=80&w=147
 
 ## Odds là gì?
 
-Odds là **Tỉ số giữa xác suất xảy ra với xác xuất không xảy ra** của một biến cố mà chúng ta cần xét 
+Odds là **tỉ số giữa xác suất xảy ra với xác xuất không xảy ra** của một biến cố mà chúng ta cần xét 
 
 Cho \(p\) là xác suất xảy ra của biến cố, ta được Odds của biến cố
 
@@ -35,7 +35,9 @@ $$
 
 ### Vì sao lại dùng log(Odds) thay vì Odds
 
-- Nếu ta đặt \(p\) là xác suất, là biến liên tục có khoảng giá trị từ \([0; 1]\). Và \(Odds\) là biến liên tục có khoảng giá trị từ \([0; +\infty]\). \(p\) càng gần 1 thì giá trị của \(Odds\) càng lớn đến vô cùng. Điều này dẫn đến Odds[^1] cldnsk
+- Nếu ta đặt \(p\) là xác suất, là biến liên tục có khoảng giá trị từ \([0; 1]\). Và \(Odds\) liên 
+biến iên tục có khoảng giá trị từ \([0; +\infty]\). \(p\) càng gần 1 thì giá trị của \(Odds\) càng
+lớn đến vô cùng. Điều này dẫn đến Odds[^1] cldnsk
 
 - 
 

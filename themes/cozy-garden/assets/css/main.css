@@ -2,8 +2,6 @@
 *  --------     FONT      -------
 */ 
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-
 @font-face {
   font-family: "Cascadia Code";
   src: url("../fonts/CascadiaCode.ttf");
@@ -92,7 +90,8 @@
   --code_background_color: #3d3d3d;
   --code_block_background_color: #24283b;
   --tag_background_color: #2b462a;
-  --tag_text_color: #c1c1c1;
+  --tag_text_color: #ebe9e9;
+  --tag_border_color: #93c990;
   --header_bg_color: #0f131c;
   --notbyai-badge-stroke: #fff;
   --notbyai-badge-bg: #000;
@@ -897,6 +896,7 @@ footer p {
 */
 
 .frontmatter-wrapper {
+  margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
@@ -1303,4 +1303,19 @@ footer p {
 
 .footnotes {
   margin-top: 3rem;
+}
+
+.language-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.language-selector__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3em;
 }
