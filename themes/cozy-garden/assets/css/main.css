@@ -64,7 +64,7 @@
   --tweet-img-bg-clr: #fbf9f3;
   --tweet-bg-clr: #ffffff;
   --tweet-fade-text-clr: rgba(0, 0, 0, 0.6);
-  --star-this-repo-bg: #fff;
+  --star-this-repo-bg: #e5e5e5;
   --star-this-repo-fg: #000;
   --theme-selector-bg: rgb(165, 247, 180);
   interpolate-size: allow-keywords;
@@ -103,8 +103,8 @@
   --tweet-img-bg-clr: #fff;
   --tweet-bg-clr: #141313;
   --tweet-fade-text-clr: #706d6d;
-  --star-this-repo-bg: #fff;
-  --star-this-repo-fg: #000;
+  --star-this-repo-bg: ##2d313b;
+  --star-this-repo-fg: #fff;
   --theme-selector-bg: rgb(36, 118, 55);
 }
 
@@ -419,7 +419,7 @@ figcaption {
 }
 
 .img-cover {
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 0;
 }
 
@@ -662,20 +662,18 @@ footer p {
 }
 
 .star-this-repo-wrapper {
-  --star-clr: #000;
+  --star-clr: var(--star-this-repo-fg);
   position: relative;
   overflow: hidden;
   border-radius: 5px;
   border: 1px solid var(--table_border_color);
-  background: #aaa;
-  box-shadow:
-    inset hsla(0, 0%, 0%, .25) 0 -1px 0px 0px,
-    inset hsla(0, 0%, 100%, .7) 0 2px 1px 0px;
+  background: var(--star-this-repo-bg);
+  color: var(--star-this-repo-fg);
   transition: all .3s ease-in-out;
 }
 
 .star-this-repo-wrapper:hover {
-  --star-clr: #d8ff03;
+  --star-clr: #cbc700;
   transform: translateY(-5px);
 }
 
@@ -683,7 +681,7 @@ footer p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.75em;
+  gap: 0.3em;
   padding: 0.4em 1em;
   color: var(--star-this-repo-fg);
   font-size: 1rem;
@@ -1310,7 +1308,9 @@ footer p {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  font-size: 0.8rem;
   gap: 0.5em;
+  margin-top: 0.5em;
 }
 
 .language-selector__list {
