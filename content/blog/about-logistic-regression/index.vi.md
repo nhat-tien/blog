@@ -134,7 +134,7 @@ $$
 
 ## Huấn luyện mô hình Logistic Regression
 
-### Hàm mất mát - Loss function
+### Likelihood function
 
 Ta biết rằng xác suất để một điểm dữ liệu \(\textbf{x}\) được phân vào lớp 1
 là \(\sigma(\textbf{w}^T\textbf{x})\), và phân vào lớp 0 là 
@@ -161,7 +161,33 @@ $$
 
 Muốn mô hình xây dựng được gần với dữ liệu đã cho nhất, ta cần phải tìm cách làm cho xác xuất này
 đạt giá trị cao nhất. Bài toán đi tìm tham số để mo hình gần giống với dữ liệu nhất gọi là bài toán
-*maximum likelihood estimation*. 
+*maximum likelihood estimation*.
+
+Giả sử các điểm dữ liệu là các biến cố độc lập, theo quy tắc nhân xác suất, 
+ta tính được likelihood trên tất cả các điểm dữ liệu
+
+$$
+   P(\textbf{y}|\textbf{X};\textbf{w}) = \prod_{i = 1}^{N} \hat{y_i}^{y_i}(1 - \hat{y_i})^{1-y_i}
+$$
+
+Tuy nhiên có những lý do sau đây khiến chúng ta không làm việc trực tiếp trên likelihood function:
+- Tính toán phức tạp do likelihood function là tích các xác suất
+- Tích của nhiều số hạng nhỏ hơn 1 sẽ cho ra một số quá nhỏ, dẫn đến sai số trong tính toán
+- Trong lĩnh vực machine learning, người ta thường đi tìm tham số theo hướng giải bài toán cực tiểu. 
+
+Một phương pháp thay thế cho *maximum likelihood estimation* đó là *minimize log-loss*
+
+### Hàm mất mát - Loss function
+
+Ta lấy logarit tự nhiên của likelihood function, biến phép nhân thành cộng, đồng thời
+thêm dấu âm để thay vì tìm giá trị lớn nhất, ta đi tìm giá trị nhỏ nhất, ta được hàm mất mát
+hay loss function.
+
+$$
+   J(\textbf{w}) = - \sum_{i = 1}^{N} y_i\log(\hat{y_i}) + (1 - y_i)\log(1 - \hat{y_i})
+$$
+
+**Bài viết sau** [Tối ưu hóa hàm mất mát](/)
 
 ## Further reading
 
