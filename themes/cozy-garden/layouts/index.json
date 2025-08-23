@@ -1,5 +1,7 @@
 {{- $.Scratch.Add "index" slice -}}
-{{- range where .Site.RegularPages "File.Dir" "eq" "blog/" -}}
-    {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "contents" .Plain "permalink" .Permalink) -}}
+{{- range .Site.RegularPages -}}
+    {{ if hasPrefix .File.Dir "blog/" }}
+      {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "permalink" .Permalink) -}}
+    {{ end }}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

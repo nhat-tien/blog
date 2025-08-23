@@ -187,7 +187,7 @@ $$
    J(\textbf{w}) = - \sum_{i = 1}^{N} y_i\log(\hat{y_i}) + (1 - y_i)\log(1 - \hat{y_i})
 $$
 
-**Bài viết sau** [Tối ưu hóa hàm mất mát](/)
+**Bài viết sau** [Tối ưu hóa hàm mất mát](/blog/toi-uu-hoa-ham-mat-mat)
 
 ## Further reading
 

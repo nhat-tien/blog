@@ -1327,3 +1327,9 @@ footer p {
   align-items: center;
   gap: 0.3em;
 }
+
+.MathJax:has(mjx-assistive-mml[display="block"]) {
+  width: 100%;
+  padding: 0.6em 0;
+  overflow-x: auto;
+}
