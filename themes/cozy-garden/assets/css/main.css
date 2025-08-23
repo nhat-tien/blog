@@ -17,11 +17,11 @@
 }
 
 ::view-transition-old(root) {
-  animation-delay: 1s;
+  animation-delay: 0.7s;
 }
 
 ::view-transition-new(root) {
-  animation: circle-in 1s;
+  animation: circle-in 0.7s;
 }
 
 @keyframes circle-in {
@@ -76,7 +76,7 @@
 .dark-theme {
   --background_color: #1e2129;
   --background-color-rgba: rgba(30, 33, 41, 0.8);
-  --text_color: #bbbbbb;
+  --text_color: #e3e1e1;
   --icon_floatmenu_color: #d3d3d3;
   --heading_color: #75d59b;
   --link_color: #32c46c;
@@ -160,6 +160,10 @@ h5 {
   color: var(--heading_color);
   font-weight: 600;
   /*word-spacing: -4px;*/
+}
+
+h2 {
+  margin-top: 2em;
 }
 
 h4,
@@ -1073,9 +1077,13 @@ footer p {
   font-size: 0.9rem;
   list-style: none;
   padding: 0.2em 1em;
+  width: 28ch;
   margin-top: 0;
   border-left: 3px solid transparent;
   transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .side-toc__child li.active {

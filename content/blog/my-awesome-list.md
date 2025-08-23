@@ -48,6 +48,7 @@ tags= []
 - [https://nextlint.com/](https://nextlint.com/)
 - [www.sveltevietnam.dev/vi](https://www.sveltevietnam.dev/vi) 
 - Linux [https://docs.rockylinux.org/](https://docs.rockylinux.org/) 
+- [https://quicksite.vn/huong-dan-toi-uu-he-dieu-hanh-linux-chi-tiet-tu-a-z/](https://quicksite.vn/huong-dan-toi-uu-he-dieu-hanh-linux-chi-tiet-tu-a-z/)
 
 ## Repo
 
@@ -86,4 +87,5 @@ tags= []
 ## Linux
 
 - [Makefile cook book](https://makefiletutorial.com/)
+- [Nixos friendly book](https://nixos-and-flakes.thiscute.world/)
 
