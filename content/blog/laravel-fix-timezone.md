@@ -1,14 +1,10 @@
----
-title: Laravel fix timezone 
-date: 2024-05-11
-lastmod: 2024-05-11 
-description: 
-stage: budding
-draft: false 
-toc: false
-tags:
-  - laravel  
----
++++
+title = "Laravel Timezone"
+date = "2024-05-11"
+lastmod = "2024-05-11"
+draft = false
+tags = [ "laravel" ]
++++
 ## Issue
 - Laravel save timestamp in database with wrong timezone
 - Laravel return resource json with wrong timestamp

@@ -25,7 +25,6 @@
     <div class="frontmatter frontmatter--tags">
         <div class="frontmatter__value">
         {{ if (.GetTerms "tags") }}
-        {{- partial "icon/tag.html" -}}
         {{ range (.GetTerms "tags") }}
           <a href="{{ .Permalink }}" class="tag">
             {{ .LinkTitle }}

@@ -1,21 +1,22 @@
----
-title: Fix Microphone Noise Background on Ubuntu
-date: 2024-03-26 
-lastmod: 2024-03-26 
-description: 
-img: 
-stage: budding 
-draft: false
-toc: false
-tags:
-  - linux
-  - fix
----
++++
+title = "Fix Microphone Noise Background on Ubuntu"
+date = "2024-03-26"
+lastmod = "2025-08-24"
+draft = false
+tags = [ "linux", "fix" ]
++++
+
+## Update
+
+Just use NoiseTorch, the best solution.
+
+- [https://github.com/noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch)
+
+Ignore the solution below
 
 ## Solution
 
 - Add below script to `/etc/pulse/default.pa`
-
 
 ```txt
 load-module module-echo-cancel source_name=noechosource sink_name=noechosink

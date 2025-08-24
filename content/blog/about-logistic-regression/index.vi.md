@@ -1,6 +1,6 @@
 +++
 title = "Giới Thiệu Về Hồi Qui Logistic"
-date = "2025-07-17"
+date = "2025-08-22"
 lastmod = "2025-08-23"
 side_toc = true
 description = ""
@@ -65,7 +65,7 @@ sát trên số lượng lớn bệnh nhân. Họ thu thập thông tin về cá
 số như độ tuổi, BMI, mật độ chất khoáng trong xương,... và tình trạng thực
 tế rằng họ đã từng xảy ra tình trạng gãy xương chưa. Biến \(Y\) đại
 diện cho khả năng người được phỏng vấn có nguy cơ gãy xương trong
-tương lai, biến \(X\) đại diện cho những tham số như độ tuổi, IPM, vv... 
+tương lai, biến \(X\) đại diện cho những tham số như độ tuổi, BMI, vv... 
 mà người ta tin rằng nó có góp phần vào nguy cơ gãy xương. Mục
 tiêu của hồi qui logistic là tìm ra phương trình đưa ra dự đoán chính
 xác nhất giá trị của \(Y\) tương ứng với giá trị \(X\).
@@ -160,7 +160,7 @@ $$
 $$
 
 Muốn mô hình xây dựng được gần với dữ liệu đã cho nhất, ta cần phải tìm cách làm cho xác xuất này
-đạt giá trị cao nhất. Bài toán đi tìm tham số để mo hình gần giống với dữ liệu nhất gọi là bài toán
+đạt giá trị cao nhất. Bài toán đi tìm tham số để mô hình gần giống với dữ liệu nhất gọi là bài toán
 *maximum likelihood estimation*.
 
 Giả sử các điểm dữ liệu là các biến cố độc lập, theo quy tắc nhân xác suất, 

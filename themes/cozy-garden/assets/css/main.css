@@ -67,6 +67,8 @@
   --star-this-repo-bg: #e5e5e5;
   --star-this-repo-fg: #000;
   --theme-selector-bg: rgb(165, 247, 180);
+  --post-bg-color: #ffffff;
+  --blockquote-bg-color: #dbf1df;
   interpolate-size: allow-keywords;
 }
 
@@ -101,11 +103,13 @@
   --side-toc-slide-bg-clr: #505050;
   --side-toc-slide-fg-clr: #81ffa2;
   --tweet-img-bg-clr: #fff;
-  --tweet-bg-clr: #141313;
+  --tweet-bg-clr: #252933;
   --tweet-fade-text-clr: #706d6d;
   --star-this-repo-bg: ##2d313b;
   --star-this-repo-fg: #fff;
   --theme-selector-bg: rgb(36, 118, 55);
+  --post-bg-color: #252933;
+  --blockquote-bg-color: #2b2e37;
 }
 
 /* ----------- RESET --------------- */
@@ -377,7 +381,8 @@ code {
 blockquote {
   padding: 5px;
   margin-top: 0.5em;
-  border-left: 2px solid var(--link_color);
+  border-left: 4px solid var(--link_color);
+  background-color: var(--blockquote-bg-color);
 }
 
 blockquote p {
@@ -876,11 +881,11 @@ footer p {
   position: relative;
   text-transform: capitalize;
   font-size: 0.9rem;
-  padding: 3px 0.5em;
+  padding: 0.3em 0.7em;
   background-color: var(--tag_background_color);
   color: var(--tag_text_color);
   border-radius: 0.5em;
-  border: 1px solid var(--tag_border_color);
+  /* border: 1px solid var(--tag_border_color); */
   margin-bottom: 5px;
   margin-right: 3px;
 }
@@ -971,6 +976,7 @@ footer p {
   border: 1px solid var(--table_border_color);
   border-radius: 10px;
   margin-bottom: 15px;
+  background-color: var(--post-bg-color);
 }
 
 .post h3 {
