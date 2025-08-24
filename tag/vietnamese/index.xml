@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vietnamese on Nhat Tien</title><link>https://tienldn.site/tag/vietnamese/</link><description>Recent content in Vietnamese on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tag/vietnamese/index.xml" rel="self" type="application/rss+xml"/><item><title>Tối ưu hóa hàm mất mát trong Logistic Regression</title><link>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</link><pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</guid><description/></item><item><title>Book recommendation from Nam .NET</title><link>https://tienldn.site/blog/book-recommendation-from-nam-dotnet/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/book-recommendation-from-nam-dotnet/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vietnamese on Nhat Tien</title><link>https://tienldn.site/tag/vietnamese/</link><description>Recent content in Vietnamese on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/tag/vietnamese/index.xml" rel="self" type="application/rss+xml"/><item><title>Tối Ưu Hóa Hàm Mất Mát Trong Logistic Regression</title><link>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</link><pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</guid><description>&lt;h2 id="kỹ-thuật-gradient-descent">Kỹ thuật Gradient Descent 
+ 
+ 
+&lt;/h2>
+&lt;p>Gradient Descent là thuật toán tối ưu phổ biến trong máy học, dùng để tìm
+điểm cực tiểu của loss function, hay nói cách khác là tìm điểm tham số tối ưu
+để cho ra sai số nhỏ nhất.&lt;/p>
+&lt;p>Công thức chung cho các dạng Gradient Descent là:&lt;/p>
+$$
+ \textbf{w}_{new} = \textbf{w}_{old} - \alpha \cdot \nabla J(\textbf{w})
+$$&lt;p>Với:&lt;/p>
+&lt;ul>
+&lt;li>\(\textbf{w}\) : vector hệ số.&lt;/li>
+&lt;li>\(\alpha\) : tốc độ học (learning rate).&lt;/li>
+&lt;li>\(\nabla J(\textbf{w})\) : đạo hàm của loss function theo hệ số.&lt;/li>
+&lt;/ul>
+&lt;h2 id="đạo-hàm-của-loss-function">Đạo hàm của loss function 
+ 
+ 
+&lt;/h2>
+&lt;p>Ta có loss function tại một điểm dữ liệu&lt;/p></description></item><item><title>Book recommendation from Nam .NET</title><link>https://tienldn.site/blog/book-recommendation-from-nam-dotnet/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/book-recommendation-from-nam-dotnet/</guid><description>&lt;p>Cre: Nam .NET (youtube: hoc lap trinh cung Nam)&lt;/p>
 &lt;!-- more -->
 &lt;p>📕 OOP và phân tích thiết kế:&lt;/p>
 &lt;ul>

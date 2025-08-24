@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.site/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tối ưu hóa hàm mất mát trong Logistic Regression</title><link>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</link><pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</guid><description/></item><item><title>A Brief Introduction Of Logistic Regression</title><link>https://tienldn.site/blog/about-logistic-regression/</link><pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/about-logistic-regression/</guid><description>&lt;p>This article will show you&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.site/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.site/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tối Ưu Hóa Hàm Mất Mát Trong Logistic Regression</title><link>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</link><pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/toi-uu-hoa-ham-mat-mat/</guid><description>&lt;h2 id="kỹ-thuật-gradient-descent">Kỹ thuật Gradient Descent 
+ 
+ 
+&lt;/h2>
+&lt;p>Gradient Descent là thuật toán tối ưu phổ biến trong máy học, dùng để tìm
+điểm cực tiểu của loss function, hay nói cách khác là tìm điểm tham số tối ưu
+để cho ra sai số nhỏ nhất.&lt;/p>
+&lt;p>Công thức chung cho các dạng Gradient Descent là:&lt;/p>
+$$
+ \textbf{w}_{new} = \textbf{w}_{old} - \alpha \cdot \nabla J(\textbf{w})
+$$&lt;p>Với:&lt;/p>
+&lt;ul>
+&lt;li>\(\textbf{w}\) : vector hệ số.&lt;/li>
+&lt;li>\(\alpha\) : tốc độ học (learning rate).&lt;/li>
+&lt;li>\(\nabla J(\textbf{w})\) : đạo hàm của loss function theo hệ số.&lt;/li>
+&lt;/ul>
+&lt;h2 id="đạo-hàm-của-loss-function">Đạo hàm của loss function 
+ 
+ 
+&lt;/h2>
+&lt;p>Ta có loss function tại một điểm dữ liệu&lt;/p></description></item><item><title>A Brief Introduction Of Logistic Regression</title><link>https://tienldn.site/blog/about-logistic-regression/</link><pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/about-logistic-regression/</guid><description>&lt;p>This article will show you&lt;/p>
 &lt;h2 id="just-a-bit-of-math">Just a bit of math 
  
  
@@ -131,7 +151,7 @@ $$&lt;p>For example, if the probability of rain is 0.75 (or 75%), the probabilit
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">18&lt;/span>&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">isIntersecting&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">19&lt;/span>&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>
  &lt;/pre>
-&lt;/figure></description></item><item><title>Laravel fix timezone</title><link>https://tienldn.site/blog/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue 
+&lt;/figure></description></item><item><title>Laravel Timezone</title><link>https://tienldn.site/blog/laravel-fix-timezone/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/laravel-fix-timezone/</guid><description>&lt;h2 id="issue">Issue 
  
  
 &lt;/h2>
@@ -278,48 +298,16 @@ php artisan config:cache&lt;/code>&lt;/pre>
 &lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/alexeymezenin/laravel-best-practices" target="_blank" rel="noopener">Laravel Best Practices&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blog/fix-microphone-noise-background-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/fix-microphone-noise-background-ubuntu/</guid><description>&lt;h2 id="solution">Solution 
+&lt;/ul></description></item><item><title>Fix Microphone Noise Background on Ubuntu</title><link>https://tienldn.site/blog/fix-microphone-noise-background-ubuntu/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/fix-microphone-noise-background-ubuntu/</guid><description>&lt;h2 id="update">Update 
  
  
 &lt;/h2>
+&lt;p>Just use NoiseTorch, the best solution.&lt;/p>
 &lt;ul>
-&lt;li>Add below script to &lt;code>/etc/pulse/default.pa&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;figure class="highlight">
- &lt;div class="decoration-codeblock__right">
- &lt;button class="copy-btn">
- &lt;svg version="1.1" height="20px" width="20px"
- viewBox="0 0 32 32" xml:space="preserve" fill="#d3d3d3">
- &lt;g id="SVGRepo_iconCarrier">
- &lt;path class="stone_een"
- d="M10,6c0,0.552,0.448,1,1,1h10c0.552,0,1-0.448,1-1V3c0-0.552-0.448-1-1-1h-2.184 C18.403,0.837,17.304,0,16,0s-2.403,0.837-2.816,2H11c-0.552,0-1,0.448-1,1V6z M28,6v23c0,1.657-1.343,3-3,3H7c-1.657,0-3-1.343-3-3 V6c0-1.657,1.343-3,3-3h2v2H7C6.448,5,6,5.448,6,6v23c0,0.552,0.448,1,1,1h18c0.552,0,1-0.448,1-1V6c0-0.552-0.448-1-1-1h-2V3h2 C26.657,3,28,4.343,28,6z M23,6c0,1.103-0.897,2-2,2H11C9.897,8,9,7.103,9,6H7v23h18V6H23z M19.5,19h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,18.776,19.776,19,19.5,19z M19.5,17h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,16.776,19.776,17,19.5,17z M19.5,15h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,14.776,19.776,15,19.5,15z">
- &lt;/path>
- &lt;/g>
- &lt;/svg>
- &lt;/button>
- &lt;/div>
- &lt;pre tabindex="0" class="chroma">
- &lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">load-module module-echo-cancel source_name=noechosource sink_name=noechosink
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">set-default-source noechosource
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">set-default-sink noechosink&lt;/span>&lt;/span>&lt;/code>
- &lt;/pre>
-&lt;/figure>
-&lt;blockquote>
-&lt;p>the &lt;code>noechosource&lt;/code> and &lt;code>noechosink&lt;/code> are just name, you can rename it to whatever you want&lt;/p>&lt;/blockquote>
-&lt;ul>
-&lt;li>Reload pulseAudio by &lt;code>pulseaudio -k&lt;/code>&lt;/li>
-&lt;li>Choose new device in settings of pulseAudio&lt;/li>
-&lt;/ul>
-&lt;h2 id="ref">Ref 
- 
- 
-&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://askubuntu.com/questions/18958/realtime-noise-removal-with-pulseaudio" target="_blank" rel="noopener">https://askubuntu.com/questions/18958/realtime-noise-removal-with-pulseaudio&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
+&lt;li>&lt;a class="link" href="https://github.com/noisetorch/NoiseTorch" target="_blank" rel="noopener">https://github.com/noisetorch/NoiseTorch&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
 &lt;/li>
-&lt;li>&lt;a class="link" href="https://www.youtube.com/watch?v=UNhJCD9H8Uw" target="_blank" rel="noopener">https://www.youtube.com/watch?v=UNhJCD9H8Uw&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
-&lt;/li>
-&lt;/ul></description></item><item><title>My Awesome List</title><link>https://tienldn.site/blog/my-awesome-list/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/my-awesome-list/</guid><description>&lt;h2 id="languages">Languages 
+&lt;/ul>
+&lt;p>Ignore the solution below&lt;/p></description></item><item><title>My Awesome List</title><link>https://tienldn.site/blog/my-awesome-list/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>https://tienldn.site/blog/my-awesome-list/</guid><description>&lt;h2 id="languages">Languages 
  
  
 &lt;/h2>
