@@ -79,8 +79,23 @@ $$
 ## Các thuật toán biến thể Gradient Descent
 
 ### 1. Batch Gradient Descent
+
+Trong thuật toán này, với mỗi epoch, \(\textbf{w}\) sẽ được cập nhật với gradient của tất
+cả các điểm dữ liệu có trong bộ training.
+
 ### 2. Stochastic Gradient Descent
+
+Thay vì xử lí tất cả điểm dữ liệu trong mỗi epoch, thuật toán *Stochastic Gradient Descent*
+lại có một cách tiếp cận khác. Mỗi epoch sẽ ứng với \(N\) lần cập nhật \(\textbf{w}\) với \(N\)
+là số điểm dữ liệu.
+
 ### 3. Mini-batch Gradient Descent
+
+## Những phương pháp tối ưu khác
+
+### Gradient Descent với Momentum
+
+### Phương pháp Newton
 
 ## Triển khai trong Python
 
