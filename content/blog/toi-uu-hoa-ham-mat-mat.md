@@ -99,4 +99,8 @@ là số điểm dữ liệu.
 
 ## Triển khai trong Python
 
+## Ref
+
+- [Machine Learning Cơ Bản | Gradient Descent](https://machinelearningcoban.com/2017/01/16/gradientdescent2/)
+
 
