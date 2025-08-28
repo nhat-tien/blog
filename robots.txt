@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://tienldn.site/sitemap.xml
+Sitemap: https://tienldn.online/sitemap.xml
