@@ -42,6 +42,10 @@ tags= []
 - [https://manhhomienbienthuy.github.io/](https://manhhomienbienthuy.github.io/)
 - [ThinhNotes](https://thinhnotes.com/): Business Analytics
 
+## Awesome Blog
+
+- [https://matklad.github.io/](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
+
 ## Chia sẻ kiến thức
 
 - [https://blog.haposoft.com/](https://blog.haposoft.com/)

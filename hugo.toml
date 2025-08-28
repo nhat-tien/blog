@@ -1,4 +1,4 @@
-baseURL = "https://tienldn.site"
+baseURL = "https://tienldn.online"
 theme = 'cozy-garden'
 languageCode = "en-US"
 assetDir='assets'
@@ -28,7 +28,7 @@ defaultContentLanguage = 'en'
   [params.header]
     menu = [
       { label = "About", href = "/about" },
-      { label = "Thoughts", href = "/thoughts" },
+      { label = "Tweet", href = "/thoughts" },
       { label = "Tags", href = "/tag" },
       { label = "Blog", href = "/blog" }
     ]
@@ -52,9 +52,9 @@ defaultContentLanguage = 'en'
   [params.twtxt]
     nick = "nhat-tien"
     name = "Nhat Tien"
-    url = "https://tienldn.site/twtxt.txt"
+    url = "https://tienldn.online/twtxt.txt"
     description = "tien's thoughts"
-    avatar = "https://tienldn.site/images/blue-mouse.webp"
+    avatar = "https://tienldn.online/images/blue-mouse.webp"
 
 [markup]
   [markup.highlight]

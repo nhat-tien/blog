@@ -3,11 +3,16 @@ title = "About Feeling Like A Failure In Life"
 date = "2025-06-18"
 lastmod = "2025-06-30"
 description = ""
-tags = []
+tags = [
+    "thought"
+]
 draft = true 
 +++
 
-Today is just a day as usual. I have some thing to work on it, but I have some feeling. I always busy with the project, but the outcome not much as I expected, it make me wonder about the path I'm following. Will I get better in the future? Will I achieve the happy life. I don't know.
+Today is just a day as usual. I have some thing to work on it,
+but I have some feeling. I always busy with the project, but the outcome not
+much as I expected, it make me wonder about the path I'm following. Will I
+get better in the future? Will I achieve the happy life. I don't know.
 
 Sometimes, I feel a little bit of jealous when I see other gain something I does't have. 
 

@@ -97,6 +97,8 @@ là số điểm dữ liệu.
 
 ### Phương pháp Newton
 
+### Regularization
+
 ## Triển khai trong Python
 
 ## Ref
