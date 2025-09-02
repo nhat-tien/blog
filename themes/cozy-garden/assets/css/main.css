@@ -163,6 +163,8 @@ h5 {
   margin: 1em 0 0.3em 0;
   color: var(--heading_color);
   font-weight: 600;
+  padding-left: 1rem;
+  padding-right: 1rem;
   /*word-spacing: -4px;*/
 }
 
@@ -177,7 +179,6 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
-  padding: 0em 0 0.05em 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -194,6 +195,8 @@ p {
   margin-top: 1em;
   line-height: 1.7em;
   text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 hr {
@@ -209,6 +212,8 @@ ul,
 ol {
   margin-top: 0.8em;
   list-style-position: outside;
+  margin-left: 1rem;
+  padding-right: 1rem;
 }
 
 ul li,
@@ -231,8 +236,8 @@ a {
 main {
   flex: 1;
   padding-top: 50px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
   max-width: var(--max-width-main);
 }
 
@@ -453,13 +458,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  transition: all .2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
   justify-content: space-between;
   align-items: center;
   padding: 10px 1rem;
@@ -470,7 +474,7 @@ header {
   -webkit-backdrop-filter: blur(3.5px);
 }
 
-.header.hide {
+header.hide {
   transform: translateY(-100px);
 }
 
@@ -904,7 +908,8 @@ footer p {
 
 .frontmatter-wrapper {
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .frontmatter {
@@ -972,7 +977,6 @@ footer p {
 */
 
 .post {
-  padding: 8px 18px;
   border: 1px solid var(--table_border_color);
   border-radius: 10px;
   margin-bottom: 15px;
@@ -992,6 +996,33 @@ footer p {
 .external-icon {
   width: 20px;
 }
+
+.post__info {
+  padding: 8px 18px;
+}
+
+.post-img__wrapper {
+  width: 100%;
+  height: 12rem;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.post__img {
+  border-radius: 0;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.post__img--bg {
+  width: 100%;
+  position: absolute;
+  filter: blur(15px) brightness(0.6);
+}
+
 
 /*
 *  ------- Button ------
@@ -1076,6 +1107,7 @@ footer p {
 
 .side-toc__child ul {
   padding-left: 0;
+  margin-left: 0;
   transform: translateX(-3px);
 }
 
@@ -1338,4 +1370,13 @@ footer p {
   width: 100%;
   padding: 0.6em 0;
   overflow-x: auto;
+}
+
+.blog-posts {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.blog-posts h3 {
+  padding-left: 0;
 }

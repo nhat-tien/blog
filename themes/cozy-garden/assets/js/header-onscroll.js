@@ -1,7 +1,7 @@
 (function() {
   let oldValuePosition = 0;
   let oldDirection = "";
-  const header = document.querySelector(".header");
+  const header = document.querySelector("header");
   const checkbox = document.querySelector(".menu-icon__checkbox");
   const floatMenu = document.querySelector(".float-menu");
   window.addEventListener("scroll", (e) => {

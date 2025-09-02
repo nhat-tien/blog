@@ -45,6 +45,7 @@ Well...there are a few reasons why I didn't put much effort into designing this 
 </div>
 
 ## Projects OSS
+- [Angi](https://github.com/nhat-tien/angi) - An experimental language for building declarative backends
 - [🚧 WIP] [IPM](https://github.com/nhat-tien/IPM) - International Project Management System
 - [Graph Theory Visualization](https://github.com/nhat-tien/graph-theory) - A Tauri app help student learn about graph theory intuitively. 
 

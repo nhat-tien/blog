@@ -2,7 +2,7 @@
 <main>
   {{ .Content }}
   <h2 style="margin: 1em 0;">Recent Posts</h2>
-  <div>
+  <div class="blog-posts">
     {{ range .Site.RegularPages.ByDate.Reverse.Limit 5 }}
     <!-- <li> -->
     <!--   <span> -->
@@ -16,25 +16,35 @@
 
     <div class="post">
       <a href="{{ .Permalink }}">
-        <h3>
-          {{.Title}}
-        </h3>
+      {{ with .Params.image }}
+        <div class="post-img__wrapper">
+          <img class="post__img--bg" src="{{ . }}" />
+          <img class="post__img" src="{{ . }}" />
+        </div>
+      {{ end }}
       </a>
-      <div class="post__update">
-        <time datetime='{{ .Date.Format "02/01/2006" }}' pubdate>
-          {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
-        </time>
-      </div>
-      <div style="margin-top: 10px;">
-        {{ if (.GetTerms "tags") }}
-        {{ range (.GetTerms "tags") }}
-        <a href="{{ .Permalink }}" class="tag">
-          {{ .LinkTitle }}
+      <div class="post__info">
+        <a href="{{ .Permalink }}">
+          <h3>
+            {{.Title}}
+          </h3>
         </a>
-        {{ end }}
-        {{ end }}
-      </div>
+        <div class="post__update">
+          <time datetime='{{ .Date.Format "02/01/2006" }}' pubdate>
+            {{ .Date.Format (default "02/01/2006" .Site.Params.dateFormat) }}
+          </time>
+        </div>
+        <div style="margin-top: 10px;">
+          {{ if (.GetTerms "tags") }}
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}" class="tag">
+            {{ .LinkTitle }}
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
 
+      </div>
     </div>
     {{ else }}
     <div>

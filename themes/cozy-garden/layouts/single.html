@@ -34,10 +34,10 @@
       </div>
     </div>
       {{ partial "language-selector.html" . }}
-      {{ with .Params.image }}
-      <img class="img-cover" src="{{ . }}" />
-      {{ end }}
   </div>
+    {{ with .Params.image }}
+    <img class="img-cover" src="{{ . }}" />
+    {{ end }}
   {{ end }}
   {{ partial "toc.html" . }}
   {{ .Content }}

@@ -4,7 +4,6 @@
   <ul class="tweet-wrapper">
     {{- range (( where .Site.RegularPages "File.Dir" "eq" "thoughts/" ).ByParam "datetime").Reverse  -}}
     <li class="tweet">
-      <a href="{{ .}}">
       <div class="tweet__header">
         <div class="tweet__img">
           <img src="{{ .Site.Params.twtxt.avatar }}" />
@@ -16,7 +15,6 @@
       </div>
       <div class="tweet__content">{{ .Content }}</div>
       <div class="tweet__datetime">{{ time.Format "03:04 PM - Jan 02, 2006" .Params.datetime }}</div>
-      </a>
     </li>
     {{- end -}}
   </ul>

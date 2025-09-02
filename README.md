@@ -7,7 +7,6 @@
 
 **Theme:** Cozy Garden
 
-**Link:** [tienldn.site](https://tienldn.site)
 
 <br />
 <br />
