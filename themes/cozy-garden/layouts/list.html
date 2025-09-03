@@ -25,6 +25,7 @@
     <h3 style="margin-top: 2em;">{{ .Key }}</h3>
     {{ range .Pages}}
     <div class="post">
+      <div class="post__info">
       <a href="{{ .Permalink }}">
         <h3>
           {{.Title}}
@@ -44,7 +45,7 @@
           {{ end }}
         {{ end }}
       </div>
-
+      </div>
     </div>
     {{ else }}
     <div>

@@ -652,6 +652,8 @@ footer {
 
 footer p {
   margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .footer__notbyai {
@@ -1336,6 +1338,10 @@ footer p {
 
 .tweet__content {
   font-size: 1.1rem;
+}
+
+.tweet__content p {
+  padding-left: 0;
 }
 
 .footnote-ref {

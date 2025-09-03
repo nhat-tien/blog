@@ -52,12 +52,13 @@ Well...there are a few reasons why I didn't put much effort into designing this 
 
 ## Social links
 - [Github](https://github.com/nhat-tien/) 
+- [Codeberg](https://codeberg.org/nhat-tien)
 - [Linkedin](https://www.linkedin.com/in/ledntien/)
 - [Youtube channel for music](https://www.youtube.com/@bluemouse9259)
 
 ## Contact
 
-You can't contact me :)), just kidding. We can communicate via Issues of this Github repo.
+You can get in touch with me via Issues of this Github repo.
 
 
 
