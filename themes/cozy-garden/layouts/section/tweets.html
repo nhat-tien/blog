@@ -2,7 +2,7 @@
 <main>
   <h1>Tweet</h1>
   <ul class="tweet-wrapper">
-    {{- range (( where .Site.RegularPages "File.Dir" "eq" "thoughts/" ).ByParam "datetime").Reverse  -}}
+    {{- range (( where .Site.RegularPages "File.Dir" "eq" "tweets/" ).ByParam "datetime").Reverse  -}}
     <li class="tweet">
       <div class="tweet__header">
         <div class="tweet__img">

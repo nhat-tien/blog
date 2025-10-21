@@ -3,7 +3,7 @@
 date=$(date +'%Y-%m-%d-%T')
 timestamp=$(date +'%Y-%m-%dT%T+07:00')
 
-cd content/thoughts
+cd content/tweets
 
 touch "$date.md"
 

@@ -4,6 +4,6 @@
 # description = {{ .Site.Params.twtxt.description }}
 
 {{ printf "\n" }}
-{{- range where .Site.RegularPages "File.Dir" "eq" "thoughts/" -}}
+{{- range where .Site.RegularPages "File.Dir" "eq" "tweets/" -}}
 {{ .Params.datetime }}{{ printf "\t" }}{{ .Plain }}
 {{- end -}}

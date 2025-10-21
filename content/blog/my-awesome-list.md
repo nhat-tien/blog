@@ -1,7 +1,7 @@
 +++
 title = "My Awesome List"
 date = "2023-11-20"
-lastmod = "2025-07-06"
+lastmod = "2025-09-28"
 description= ""
 draft= false
 toc= true
@@ -45,6 +45,7 @@ tags= []
 ## Awesome Blog
 
 - [https://matklad.github.io/](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
+- [https://www.dogeystamp.com/](https://www.dogeystamp.com/)
 
 ## Chia sẻ kiến thức
 
@@ -91,5 +92,12 @@ tags= []
 ## Linux
 
 - [Makefile cook book](https://makefiletutorial.com/)
+- [Zsh completion](https://thevaluable.dev/zsh-completion-guide-examples/)
+
+## Nixos
+- [Nix | Ref](https://nix.dev/manual/nix/2.18/introduction)
 - [Nixos friendly book](https://nixos-and-flakes.thiscute.world/)
+
+## Database
+- [cockroachdb](https://github.com/cockroachdb/cockroach)
 

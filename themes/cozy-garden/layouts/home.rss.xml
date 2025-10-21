@@ -45,7 +45,7 @@
     {{- with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
-    {{- range ( where $pages "File.Dir" "ne" "thoughts/" ) }}
+    {{- range ( where $pages "File.Dir" "ne" "tweets/" ) }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>

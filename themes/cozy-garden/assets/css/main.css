@@ -81,7 +81,7 @@
   --text_color: #e3e1e1;
   --icon_floatmenu_color: #d3d3d3;
   --heading_color: #75d59b;
-  --link_color: #32c46c;
+  --link_color: #96fdf5;
   --sharp_symbol_color: #414141;
   --table_border_color: #5e5e5e;
   --table_even_row_background_color: #403b3b;
@@ -309,6 +309,7 @@ code {
 .highlight {
   margin: 1em auto;
   position: relative;
+  padding: 0 1rem;
 }
 
 .decoration-codeblock-wrapper {
@@ -337,7 +338,7 @@ code {
 .decoration-codeblock__left {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -355,7 +356,7 @@ code {
   align-items: center;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1rem;
   padding: 0.3em 0.4em;
   border-radius: 10px;
   opacity: 0.5;
@@ -1281,7 +1282,7 @@ footer p {
 }
 
 .tweet-wrapper {
-  padding: 0;
+  padding: 0 1rem;
   margin: 0;
 }
 

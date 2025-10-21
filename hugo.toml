@@ -28,7 +28,6 @@ defaultContentLanguage = 'en'
   [params.header]
     menu = [
       { label = "About", href = "/about" },
-      { label = "Tweet", href = "/thoughts" },
       { label = "Tags", href = "/tag" },
       { label = "Blog", href = "/blog" }
     ]
@@ -44,7 +43,6 @@ defaultContentLanguage = 'en'
     ]
     nav = [
       { label = "About", href = "/about" },
-      { label = "Thoughts", href = "/thoughts" },
       { label = "Now", href = "/blog/now" },
       { label = "Tags", href = "/tag" },
       { label = "Archive", href = "/blog" }
