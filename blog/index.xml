@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.online/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.online/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tiền Xử Lí Dữ Liệu Trong Logistic Regression</title><link>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</link><pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</guid><description>&lt;h2 id="làm-sạch-dữ-liệu">Làm sạch dữ liệu 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.online/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.online/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tiền Xử Lí Dữ Liệu Trong Logistic Regression</title><link>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</link><pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</guid><description>&lt;h2 id="làm-sạch-dữ-liệu">Làm sạch dữ liệu 
  
  
 &lt;/h2>
@@ -135,13 +135,9 @@ $$&lt;p>For example, if the probability of rain is 0.75 (or 75%), the probabilit
 &lt;/ul></description></item><item><title>React hook for check when component is visible</title><link>https://tienldn.online/blog/react-hook-check-visible/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/react-hook-check-visible/</guid><description>&lt;figure class="highlight">
  &lt;div class="decoration-codeblock__right">
  &lt;button class="copy-btn">
- &lt;svg version="1.1" height="20px" width="20px"
- viewBox="0 0 32 32" xml:space="preserve" fill="#d3d3d3">
- &lt;g id="SVGRepo_iconCarrier">
- &lt;path class="stone_een"
- d="M10,6c0,0.552,0.448,1,1,1h10c0.552,0,1-0.448,1-1V3c0-0.552-0.448-1-1-1h-2.184 C18.403,0.837,17.304,0,16,0s-2.403,0.837-2.816,2H11c-0.552,0-1,0.448-1,1V6z M28,6v23c0,1.657-1.343,3-3,3H7c-1.657,0-3-1.343-3-3 V6c0-1.657,1.343-3,3-3h2v2H7C6.448,5,6,5.448,6,6v23c0,0.552,0.448,1,1,1h18c0.552,0,1-0.448,1-1V6c0-0.552-0.448-1-1-1h-2V3h2 C26.657,3,28,4.343,28,6z M23,6c0,1.103-0.897,2-2,2H11C9.897,8,9,7.103,9,6H7v23h18V6H23z M19.5,19h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,18.776,19.776,19,19.5,19z M19.5,17h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,16.776,19.776,17,19.5,17z M19.5,15h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,14.776,19.776,15,19.5,15z">
- &lt;/path>
- &lt;/g>
+ &lt;svg viewBox="0 0 24 24" height="20px" width="20px"
+ fill="none" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M7.5 3H14.6C16.8402 3 17.9603 3 18.816 3.43597C19.5686 3.81947 20.1805 4.43139 20.564 5.18404C21 6.03969 21 7.15979 21 9.4V16.5M6.2 21H14.3C15.4201 21 15.9802 21 16.408 20.782C16.7843 20.5903 17.0903 20.2843 17.282 19.908C17.5 19.4802 17.5 18.9201 17.5 17.8V9.7C17.5 8.57989 17.5 8.01984 17.282 7.59202C17.0903 7.21569 16.7843 6.90973 16.408 6.71799C15.9802 6.5 15.4201 6.5 14.3 6.5H6.2C5.0799 6.5 4.51984 6.5 4.09202 6.71799C3.71569 6.90973 3.40973 7.21569 3.21799 7.59202C3 8.01984 3 8.57989 3 9.7V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.0799 21 6.2 21Z" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;/path> 
  &lt;/svg>
  &lt;/button>
  &lt;/div>
@@ -191,13 +187,9 @@ $$&lt;p>For example, if the probability of rain is 0.75 (or 75%), the probabilit
  &lt;/div>
  &lt;div class="decoration-codeblock__right">
  &lt;button class="copy-btn">
- &lt;svg version="1.1" height="20px" width="20px"
- viewBox="0 0 32 32" xml:space="preserve" fill="#d3d3d3">
- &lt;g id="SVGRepo_iconCarrier">
- &lt;path class="stone_een"
- d="M10,6c0,0.552,0.448,1,1,1h10c0.552,0,1-0.448,1-1V3c0-0.552-0.448-1-1-1h-2.184 C18.403,0.837,17.304,0,16,0s-2.403,0.837-2.816,2H11c-0.552,0-1,0.448-1,1V6z M28,6v23c0,1.657-1.343,3-3,3H7c-1.657,0-3-1.343-3-3 V6c0-1.657,1.343-3,3-3h2v2H7C6.448,5,6,5.448,6,6v23c0,0.552,0.448,1,1,1h18c0.552,0,1-0.448,1-1V6c0-0.552-0.448-1-1-1h-2V3h2 C26.657,3,28,4.343,28,6z M23,6c0,1.103-0.897,2-2,2H11C9.897,8,9,7.103,9,6H7v23h18V6H23z M19.5,19h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,18.776,19.776,19,19.5,19z M19.5,17h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,16.776,19.776,17,19.5,17z M19.5,15h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,14.776,19.776,15,19.5,15z">
- &lt;/path>
- &lt;/g>
+ &lt;svg viewBox="0 0 24 24" height="20px" width="20px"
+ fill="none" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M7.5 3H14.6C16.8402 3 17.9603 3 18.816 3.43597C19.5686 3.81947 20.1805 4.43139 20.564 5.18404C21 6.03969 21 7.15979 21 9.4V16.5M6.2 21H14.3C15.4201 21 15.9802 21 16.408 20.782C16.7843 20.5903 17.0903 20.2843 17.282 19.908C17.5 19.4802 17.5 18.9201 17.5 17.8V9.7C17.5 8.57989 17.5 8.01984 17.282 7.59202C17.0903 7.21569 16.7843 6.90973 16.408 6.71799C15.9802 6.5 15.4201 6.5 14.3 6.5H6.2C5.0799 6.5 4.51984 6.5 4.09202 6.71799C3.71569 6.90973 3.40973 7.21569 3.21799 7.59202C3 8.01984 3 8.57989 3 9.7V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.0799 21 6.2 21Z" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;/path> 
  &lt;/svg>
  &lt;/button>
  &lt;/div>
@@ -228,13 +220,9 @@ $$&lt;p>For example, if the probability of rain is 0.75 (or 75%), the probabilit
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock__right">
  &lt;button class="copy-btn">
- &lt;svg version="1.1" height="20px" width="20px"
- viewBox="0 0 32 32" xml:space="preserve" fill="#d3d3d3">
- &lt;g id="SVGRepo_iconCarrier">
- &lt;path class="stone_een"
- d="M10,6c0,0.552,0.448,1,1,1h10c0.552,0,1-0.448,1-1V3c0-0.552-0.448-1-1-1h-2.184 C18.403,0.837,17.304,0,16,0s-2.403,0.837-2.816,2H11c-0.552,0-1,0.448-1,1V6z M28,6v23c0,1.657-1.343,3-3,3H7c-1.657,0-3-1.343-3-3 V6c0-1.657,1.343-3,3-3h2v2H7C6.448,5,6,5.448,6,6v23c0,0.552,0.448,1,1,1h18c0.552,0,1-0.448,1-1V6c0-0.552-0.448-1-1-1h-2V3h2 C26.657,3,28,4.343,28,6z M23,6c0,1.103-0.897,2-2,2H11C9.897,8,9,7.103,9,6H7v23h18V6H23z M19.5,19h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,18.776,19.776,19,19.5,19z M19.5,17h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,16.776,19.776,17,19.5,17z M19.5,15h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,14.776,19.776,15,19.5,15z">
- &lt;/path>
- &lt;/g>
+ &lt;svg viewBox="0 0 24 24" height="20px" width="20px"
+ fill="none" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M7.5 3H14.6C16.8402 3 17.9603 3 18.816 3.43597C19.5686 3.81947 20.1805 4.43139 20.564 5.18404C21 6.03969 21 7.15979 21 9.4V16.5M6.2 21H14.3C15.4201 21 15.9802 21 16.408 20.782C16.7843 20.5903 17.0903 20.2843 17.282 19.908C17.5 19.4802 17.5 18.9201 17.5 17.8V9.7C17.5 8.57989 17.5 8.01984 17.282 7.59202C17.0903 7.21569 16.7843 6.90973 16.408 6.71799C15.9802 6.5 15.4201 6.5 14.3 6.5H6.2C5.0799 6.5 4.51984 6.5 4.09202 6.71799C3.71569 6.90973 3.40973 7.21569 3.21799 7.59202C3 8.01984 3 8.57989 3 9.7V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.0799 21 6.2 21Z" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;/path> 
  &lt;/svg>
  &lt;/button>
  &lt;/div>
@@ -259,13 +247,9 @@ php artisan config:cache&lt;/code>&lt;/pre>
 &lt;figure class="highlight">
  &lt;div class="decoration-codeblock__right">
  &lt;button class="copy-btn">
- &lt;svg version="1.1" height="20px" width="20px"
- viewBox="0 0 32 32" xml:space="preserve" fill="#d3d3d3">
- &lt;g id="SVGRepo_iconCarrier">
- &lt;path class="stone_een"
- d="M10,6c0,0.552,0.448,1,1,1h10c0.552,0,1-0.448,1-1V3c0-0.552-0.448-1-1-1h-2.184 C18.403,0.837,17.304,0,16,0s-2.403,0.837-2.816,2H11c-0.552,0-1,0.448-1,1V6z M28,6v23c0,1.657-1.343,3-3,3H7c-1.657,0-3-1.343-3-3 V6c0-1.657,1.343-3,3-3h2v2H7C6.448,5,6,5.448,6,6v23c0,0.552,0.448,1,1,1h18c0.552,0,1-0.448,1-1V6c0-0.552-0.448-1-1-1h-2V3h2 C26.657,3,28,4.343,28,6z M23,6c0,1.103-0.897,2-2,2H11C9.897,8,9,7.103,9,6H7v23h18V6H23z M19.5,19h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,18.776,19.776,19,19.5,19z M19.5,17h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,16.776,19.776,17,19.5,17z M19.5,15h-7c-0.276,0-0.5-0.224-0.5-0.5 c0-0.276,0.224-0.5,0.5-0.5h7c0.276,0,0.5,0.224,0.5,0.5C20,14.776,19.776,15,19.5,15z">
- &lt;/path>
- &lt;/g>
+ &lt;svg viewBox="0 0 24 24" height="20px" width="20px"
+ fill="none" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M7.5 3H14.6C16.8402 3 17.9603 3 18.816 3.43597C19.5686 3.81947 20.1805 4.43139 20.564 5.18404C21 6.03969 21 7.15979 21 9.4V16.5M6.2 21H14.3C15.4201 21 15.9802 21 16.408 20.782C16.7843 20.5903 17.0903 20.2843 17.282 19.908C17.5 19.4802 17.5 18.9201 17.5 17.8V9.7C17.5 8.57989 17.5 8.01984 17.282 7.59202C17.0903 7.21569 16.7843 6.90973 16.408 6.71799C15.9802 6.5 15.4201 6.5 14.3 6.5H6.2C5.0799 6.5 4.51984 6.5 4.09202 6.71799C3.71569 6.90973 3.40973 7.21569 3.21799 7.59202C3 8.01984 3 8.57989 3 9.7V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.0799 21 6.2 21Z" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;/path> 
  &lt;/svg>
  &lt;/button>
  &lt;/div>
@@ -395,6 +379,8 @@ php artisan config:cache&lt;/code>&lt;/pre>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html" target="_blank" rel="noopener">https://matklad.github.io/&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
 &lt;/li>
+&lt;li>&lt;a class="link" href="https://www.dogeystamp.com/" target="_blank" rel="noopener">https://www.dogeystamp.com/&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="chia-sẻ-kiến-thức">Chia sẻ kiến thức 
  
@@ -487,7 +473,25 @@ php artisan config:cache&lt;/code>&lt;/pre>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://makefiletutorial.com/" target="_blank" rel="noopener">Makefile cook book&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
 &lt;/li>
+&lt;li>&lt;a class="link" href="https://thevaluable.dev/zsh-completion-guide-examples/" target="_blank" rel="noopener">Zsh completion&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="nixos">Nixos 
+ 
+ 
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://nix.dev/manual/nix/2.18/introduction" target="_blank" rel="noopener">Nix | Ref&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
+&lt;/li>
 &lt;li>&lt;a class="link" href="https://nixos-and-flakes.thiscute.world/" target="_blank" rel="noopener">Nixos friendly book&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="database">Database 
+ 
+ 
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/cockroachdb/cockroach" target="_blank" rel="noopener">cockroachdb&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">&lt;path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z" fill="var(--text_color)"/>&lt;/svg>&lt;/a>
 &lt;/li>
 &lt;/ul></description></item><item><title>Danh sách plugin đã sử dụng</title><link>https://tienldn.online/blog/plugin-list-i-used/</link><pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/plugin-list-i-used/</guid><description>&lt;h2 id="guitar">Guitar 
  
