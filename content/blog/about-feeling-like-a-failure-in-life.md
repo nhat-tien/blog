@@ -18,11 +18,9 @@ Sometimes, I feel a little bit of jealous when I see other gain something I does
 
 ## I, programming, and part-time loser 
 
-- Though I try very hard, I really not sastify with that
-- I learn very much, but still just a tiny when compare to other
-
+Though I try very hard, I really not sastify with that. 
+I learn very much, but still just a tiny when compare to other
 I wonder how I describe my situation now. I lose the motivation or it just procastinate.
-
 The reality come up, I so weak to deal with 
 
 ## Not good enough
@@ -38,5 +36,4 @@ sky after a storm.
 
 When you think about you lose compare to someone, I remind you if you see
 there is no one is better than you, you currently doing wrong in your life.
-The
 
