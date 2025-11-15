@@ -15,19 +15,10 @@ as I expected, it make me wonder about the path I'm following. Will I get
 better in the future? Will I achieve the happy life. I don't know.
 
 Sometimes, I feel a little bit of jealous when I see other gain something I does't have. 
-
-## I, programming, and part-time loser 
-
 Though I try very hard, I really not sastify with that. 
 I learn very much, but still just a tiny when compare to other
 I wonder how I describe my situation now. I lose the motivation or it just procastinate.
 The reality come up, I so weak to deal with 
-
-## Not good enough
-
-## The fear of being wasted
-
-## What should I do
 
 just accept the fact that I'm not smart, I still lack of experience, does not
 say "Why I am a failure?", just say "I am a failure, so what to
