@@ -182,7 +182,9 @@ Những sản phẩm này không trực tiếp triển khai pattern FCIS, nhưng
 
 ### Wasp 
 ![wasp](/images/1/wasp.png)
+
 [Wasp](https://wasp.sh/) là một framework giúp xây dựng fullstack web
+
 - Nó sử dụng một ngôn ngữ DSL khá giống JSON. 
 - Công nghệ đằng sau: React, NodeJs, Prisma.
 - Tuy nhiên DSL không trực tiếp xử lí logic, phải dùng custom script bằng Javascript.
@@ -190,27 +192,33 @@ Những sản phẩm này không trực tiếp triển khai pattern FCIS, nhưng
 ### NixOS
 
 ![nixos](/images/1/nixos.png)
+
 [NixOS](https://nixos.org/) là một hệ điều hành phân phối của Linux, tập trung vào tính khai 
 báo, khả năng tái sản xuất (reproducible).
+
 - Sử dụng ngôn ngữ Nix (lập trình khai báo, lập trình hàm) để cấu hình mọi thứ, từ hệ thống đến 
 phần mềm.
 
 
 ### Neovim
 ![neovim](/images/1/neovim.png)
+
 [Neovim](https://neovim.io/) là trình editor nổi tiếng với khả năng mở rộng vô hạn nhờ vào cộng 
 đồng phát triển plugin đông đảo.
+
 - Sử dụng lua là ngôn ngữ cấu hình.
 - Chức năng gốc dựng sẵn rất ít, nhưng nhờ lua mà mở rộng rất nhiều tính năng nâng cao.
 
 ### Phoenix framework
 
 ![phoenixframework](/images/1/phoenix.png)
+
 [Phoenix framework](https://www.phoenixframework.org/) là một web framework dựa trên ngôn ngữ lập trình hàm Elixir
 
 ### Terraform - HashiCorp
 
 ![terraform](/images/1/terraform.png)
+
 [Terraform](https://developer.hashicorp.com/terraform) là một tool sử dụng Terraform - ngôn 
 ngữ cấu hình gần giống JSON - để cấu hình cơ sở hạ tầng cloud.
 
