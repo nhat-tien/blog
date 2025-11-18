@@ -1387,3 +1387,7 @@ footer p {
 .blog-posts h3 {
   padding-left: 0;
 }
+
+iframe {
+  margin-left: 1rem;
+}

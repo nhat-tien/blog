@@ -1,7 +1,7 @@
 +++
 title = "Phân tích đề tài"
 date = "2025-11-15"
-lastmod = "2025-11-15"
+lastmod = "2025-11-18"
 side_toc = true
 description = ""
 math = true
@@ -10,6 +10,9 @@ draft = false
 image = ""
 +++
 
+Em không tìm thấy có dự án hay bài báo nghiên cứu giống với đề tài của em, 
+nên em chỉ tìm được những bài nói về mỗi khía cạnh của đề tài: 
+**Declarative**, **Functional Programming** và **FCIS**[^FCIS]
 
 ## Declarative In Programming - Tính khai báo trong lập trình
 
@@ -34,8 +37,7 @@ print(total)
 ```
 
 Ở cách này, chúng ta mô tả về mặt trừu tượng ta muốn tổng (`sum`) 
-các số chẵn (`if i % 2 == 0`) từ 1 đến 10 (`i for i in range(1, 11)`). Nó gần với ngôn ngữ 
-tự nhiên hơn, dễ hiểu hơn.
+các số chẵn (`if i % 2 == 0`) từ 1 đến 10 (`i for i in range(1, 11)`).
 
 Ngôn ngữ khai báo phổ biến nhất phải nói đến SQL:
 
@@ -68,68 +70,143 @@ công cụ thông thường**, đồng thời nâng cao chất lượng bảo m�
 sử dụng nhờ vào việc tái sử dụng các khối xây dựng đã được kiểm
 chứng. Họ <mark>sử dụng JSON và một ngôn ngữ có cú pháp giống HTML</mark>.
 
-Còn đối với đề tài của em, em chọn thiết kế một *ngôn ngữ lập trình hướng hàm* để đạt 
+Còn đối với đề tài của em, em chọn thiết kế một *ngôn ngữ lập trình hàm* để đạt 
 được tính khai báo trong lập trình khai báo. 
 
-## Functional Programming - Lập Trình Hướng Hàm
+## Functional Programming - Lập Trình Hàm
 
+Functional Programming (FP) là một mô hình lập trình, có bốn trụ cột triết lý nền tảng 
+của mô hình này phân biệt nó với các mô hình khác.
+
+- *Hàm thuần túy (pure function) là những hàm mà khi thực thi nó không tạo 
+ra bất kì một hiệu ứng phụ (side effect) nào*.
+
+- *Tính bất biến của dữ liệu là quan trọng nhất*.
+
+- *Hàm số là công dân hạng nhất (first-class citizens), hàm có thể được truyền làm tham số, trả về từ hàm khác, lưu trữ trong cấu trúc dữ liệu.*
+
+- *Tư duy khai báo, mô tả điều mong muốn hơn là liệt kê các bước thực hiện.*
+
+Bởi vì những triết lý trên, những ngôn ngữ lập trình hàm thường được đánh giá là code 
+dễ đọc, dễ kiểm thử và ít lỗi hơn, đặc biệt trong môi trường đa luồng hoặc bất đồng bộ.
+
+Những ngôn ngữ lập trình hàm nổi tiếng là F#, Haskell, Elixir, Elm.
+
+Luận văn Thạc sĩ của Enni Salmi[^5] so sánh ba phiên bản của một ứng
+dụng web (React/Redux Saga ít hướng hàm, React/Ramda hướng hàm và Elm thuần túy hướng
+hàm) để đánh giá các mức độ khác nhau của lập trình hàm (FP) trong
+phát triển ứng dụng web hiện đại. Kết quả cho thấy, ngôn ngữ FP thuần
+túy như Elm mang lại nhiều ưu điểm vượt trội về tốc độ biên dịch,
+kiến trúc rõ ràng và đặc biệt là khả năng kiểm thử đơn vị dễ
+dàng hơn (do source code thuần túy không có hiệu ứng phụ). Tuy nhiên, Elm
+vẫn còn hạn chế về tính sẵn có của thư viện và cộng đồng hỗ
+trợ cho các tính năng phức tạp, khiến việc triển khai trong dự án lớn
+gặp khó khăn. Tác giả kết luận rằng việc <mark>áp dụng cách tiếp cận càng
+hướng hàm càng tốt là lựa chọn tốt nhất cho các dự án mới</mark>, và
+đề xuất sử dụng ngôn ngữ TypeScript (hướng hàm với định kiểu tĩnh) như một
+giải pháp cân bằng giữa độ tin cậy và tính phổ biến.
 
 ## Functional Core Imperative Shell
 
+Functional Core Imperative Shell là một mẫu thiết kế kiến trúc phần mềm. Trong đó, phần mềm được 
+chia thành hai phần. Phần lõi (Core) chứa bussiness logic, được viết code theo hướng 
+lập trình hàm nhằm giảm thiểu lỗi, dễ kiểm thử. 
+Phần vỏ (Shell) xử lí các tác vụ IO, Database, HTTP request/response. 
+
 ![](/images/flow.png "Mô hình FCIS")
 
-Trích dẫn sách [^ca] kjcnskdj 
+Khái niệm này thì em không tìm được bài nghiên cứu, chỉ có từ nhiều bài viết, blog.
 
-## Những Phần Mềm Có Triết Lý Phát Triển Tương Tự
+Trong sách *Clean Architecture*[^ca] của Uncle Bob tuy không trực tiếp đề cập đến khái niệm này, 
+nhưng mô hình FCIS cũng rất phù hợp triết lý *kiến trúc sạch* mà ông theo đuổi. Đó là sự tách biệt giữa bussiness logic và framework.
 
-Những sản phẩm này không trực tiếp triển khai pattern FCIS[^FCIS], nhưng nó truyền cảm hứng cho em thiết kế một hệ thống tương tự [^ca]
+Em tìm được một bài nói khá hay trên youtube. Đây là bài thuyết trình của Scott Wlaschin tại
+hội thảo NDC.
 
-### Wasp 
-### NixOS
-### Neovim
-### Phoenix Framework
-### Terraform - HashiCorp
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P1vES9AgfC4?si=B9TBHbzSI-ew_7uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Cách Tiếp Cận Mới Của Em
+## Cách Tiếp Cận Của Em
 
-### Xây dựng một ngôn ngữ lập trình chuyên biệt (DSL) đóng vai trò là Functional Core
+#### Xây dựng một ngôn ngữ lập trình chuyên biệt (DSL) đóng vai trò là Functional Core
 
 - Ngôn ngữ này mang tính khai báo.
 - Ngôn ngữ này là Functional Programming Language.
 - Dùng để khai báo các thành phần của Web service.
 - Em đặt tên là Angi.
 
-### Phát triển Web Service Application đóng vai trò là Imperative Shell, phụ thuộc vào Core
+#### Phát triển Web Service Application đóng vai trò là Imperative Shell, phụ thuộc vào Core
 
 - Xây dựng dựa trên framework Axum - ngôn ngữ Rust, rất mạnh về hiệu năng.
 [Kết quả Benchmark](https://www.techempower.com/benchmarks/#section=data-r23) 
 cho thấy axum luôn đứng top so với các framework truyền thống trong bài kiểm tra chịu tải.
 - Sử dụng ngôn ngữ Angi như một ngôn ngữ nhúng (embedded language).
 
-### Đơn giản hóa toolchain cho Developer: một single-binary compiler
+#### Đơn giản hóa toolchain cho Developer: một single-binary compiler
 
 - Không cần Rustc, cargo (các tool cho Rust ecosystem).
 
-### Đơn giản hóa quá trình triển khai: standalon binary, không cần runtime bên ngoài
+#### Đơn giản hóa quá trình triển khai: standalon binary, không cần runtime bên ngoài
 
 - Mà là runtime nhúng bên trong server.
 
-![](/images/angi.png "Minh họa quy trình hoạt động của phần mềm")
+[Link dự án đang được triển khai trên Github](https://github.com/nhat-tien/angi). Chi tiết triển khai kỹ thuật sẽ được cập nhật trên Github. 
 
-## Ưu Điểm/Khuyết Điểm
+![](/images/angi.png "Minh họa đơn giản flow hoạt động của phần mềm")
+
+
+## Ưu Điểm/Khuyết Điểm So Với Các Đề Tài/Phần Mềm Đã Có
 
 ### Ưu điểm
-- Tận dụng được sức mạnh của Axum 
-- 
 
-## 
+- **Về mặt hiệu năng**: Tận dụng được sức mạnh của Axum - ngôn ngữ Rust, rất mạnh về hiệu năng.
+[Kết quả Benchmark](https://www.techempower.com/benchmarks/#section=data-r23) 
+cho thấy axum luôn đứng top so với các framework truyền thống trong bài kiểm tra chịu tải.
+- **Về mặt phát triển ứng dụng**: triển khai kiến trúc FCIS, functional code logic nên code ít, ít bug, dễ bảo trì, dễ kiểm thử.
 
-[Link dự án đang được triển khai trên github](https://github.com/nhat-tien/angi) 
+### Khuyết điểm
+
+- Cần thời gian làm quen với mô hình lập trình mới, lập trình hàm.
+- Hiện tại còn ít chức năng (nhưng tương lai hoàn toàn có thể mở rộng).
 
 
-## Link
-- https://declarative.dev/
-- https://dspace.mit.edu/handle/1721.1/128295
+
+## Những Phần Mềm Có Triết Lý Phát Triển Tương Tự
+
+Những sản phẩm này không trực tiếp triển khai pattern FCIS, nhưng nó truyền cảm hứng cho em thiết kế một hệ thống tương tự
+
+### Wasp 
+![wasp](/images/1/wasp.png)
+[Wasp](https://wasp.sh/) là một framework giúp xây dựng fullstack web
+- Nó sử dụng một ngôn ngữ DSL khá giống JSON. 
+- Công nghệ đằng sau: React, NodeJs, Prisma.
+- Tuy nhiên DSL không trực tiếp xử lí logic, phải dùng custom script bằng Javascript.
+
+### NixOS
+
+![nixos](/images/1/nixos.png)
+[NixOS](https://nixos.org/) là một hệ điều hành phân phối của Linux, tập trung vào tính khai 
+báo, khả năng tái sản xuất (reproducible).
+- Sử dụng ngôn ngữ Nix (lập trình khai báo, lập trình hàm) để cấu hình mọi thứ, từ hệ thống đến 
+phần mềm.
+
+
+### Neovim
+![neovim](/images/1/neovim.png)
+[Neovim](https://neovim.io/) là trình editor nổi tiếng với khả năng mở rộng vô hạn nhờ vào cộng 
+đồng phát triển plugin đông đảo.
+- Sử dụng lua là ngôn ngữ cấu hình.
+- Chức năng gốc dựng sẵn rất ít, nhưng nhờ lua mà mở rộng rất nhiều tính năng nâng cao.
+
+### Phoenix framework
+
+![phoenixframework](/images/1/phoenix.png)
+[Phoenix framework](https://www.phoenixframework.org/) là một web framework dựa trên ngôn ngữ lập trình hàm Elixir
+
+### Terraform - HashiCorp
+
+![terraform](/images/1/terraform.png)
+[Terraform](https://developer.hashicorp.com/terraform) là một tool sử dụng Terraform - ngôn 
+ngữ cấu hình gần giống JSON - để cấu hình cơ sở hạ tầng cloud.
 
 [^FCIS]: Functional Core Imperative Shell
 
@@ -139,3 +216,5 @@ Programming for RESTful APIs", *Recent Trends in Cloud Computing and Web Enginee
 [^2]: Stacy E. Finkelstein, Peter Freyd, and James Lipton, "A new framework for declarative programming", *Theoretical Computer Science*, vol. 300, no. 1, pp. 91–160, 2003. Available: [link](https://www.sciencedirect.com/science/article/pii/S0304397501003085)
 [^3]: TRẦN, Trung Hà. *Nghiên cứu ngôn ngữ đặc tả yêu cầu theo hướng chuyên biệt miền*. 2019. PhD Thesis. Available: [link](https://doc.edu.vn/tai-lieu/luan-van-nghien-cuu-ngon-ngu-dac-ta-yeu-cau-theo-huong-chuyen-biet-mien-136121/)
 [^4]: S. P. De Rosso, "Declarative Assembly of Web Applications from Predefined Concepts", Ph.D. dissertation, Dept. Elect. Eng. Comput. Sci., Massachusetts Inst. Technol., Cambridge, MA, 2020. Available: [link](https://dspace.mit.edu/handle/1721.1/128295)
+
+[^5]: SALMI, Enni. "Comparing the use of a purely functional programming language to event-driven javascript in modern web application development", 2020, PhD Thesis, Master’s Thesis, Tampere University, 2020.[Online]. Available: [link](https://trepo.tuni.fi/bitstream/handle/10024/121287/SalmiEnni.pdf)
