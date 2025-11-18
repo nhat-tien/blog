@@ -121,9 +121,7 @@ Trong sách *Clean Architecture*[^ca] của Uncle Bob tuy không trực tiếp �
 nhưng mô hình FCIS cũng rất phù hợp triết lý *kiến trúc sạch* mà ông theo đuổi. Đó là sự tách biệt giữa bussiness logic và framework.
 
 Em tìm được một bài nói khá hay trên youtube. Đây là bài thuyết trình của Scott Wlaschin tại
-hội thảo NDC.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P1vES9AgfC4?si=B9TBHbzSI-ew_7uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+hội thảo NDC. [Link youtube](https://www.youtube.com/watch?v=P1vES9AgfC4&t=3119s)
 
 ## Cách Tiếp Cận Của Em
 
@@ -168,7 +166,15 @@ cho thấy axum luôn đứng top so với các framework truyền thống trong
 - Cần thời gian làm quen với mô hình lập trình mới, lập trình hàm.
 - Hiện tại còn ít chức năng (nhưng tương lai hoàn toàn có thể mở rộng).
 
+## Chứng Minh Tối Ưu
 
+- Dẫn chứng nghiên cứu khoa học → mô hình đúng ✅
+- So sánh kiến trúc → ưu điểm rõ ràng ✅
+- Benchmark thực nghiệm → số liệu *(đang tiến hành)*
+- Phân tích độ phức tạp → lý thuyết hiệu năng *(đang tiến hành)*
+- Case study thực tế → tính áp dụng *(đang tiến hành)*
+- Giảm chi phí bảo trì → lợi ích lâu dài *(đang tiến hành)*
+- Khả năng mở rộng → phù hợp hệ thống lớn *(đang tiến hành)*
 
 ## Những Phần Mềm Có Triết Lý Phát Triển Tương Tự
 
