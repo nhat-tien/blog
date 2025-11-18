@@ -1,28 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.online/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.online/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Phân tích đề tài</title><link>https://tienldn.online/blog/document-about-topic-research/</link><pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/document-about-topic-research/</guid><description>&lt;h2 id="declarative-in-programming---tính-khai-báo-trong-lập-trình">Declarative In Programming - Tính khai báo trong lập trình 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.online/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.online/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Phân tích đề tài</title><link>https://tienldn.online/blog/document-about-topic-research/</link><pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/document-about-topic-research/</guid><description>&lt;p>Em không tìm thấy có dự án hay bài báo nghiên cứu giống với đề tài của em,
+nên em chỉ tìm được những bài nói về mỗi khía cạnh của đề tài:
+&lt;strong>Declarative&lt;/strong>, &lt;strong>Functional Programming&lt;/strong> và &lt;strong>FCIS&lt;/strong>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="declarative-in-programming---tính-khai-báo-trong-lập-trình">Declarative In Programming - Tính khai báo trong lập trình 
  
  
 &lt;/h2>
-&lt;p>Lập trình Khai báo là một kiểu viết chương trình theo hướng &lt;strong>mô tả&lt;/strong> kết quả mà chương trình cần đạt, hơn là &lt;strong>trình bày từng bước&lt;/strong> chương trình thực hiện như trong lập trình mệnh lệnh (Imperative Programming).&lt;/p>
-&lt;p>Ví dụ, lập trình mệnh lệnh&lt;/p>
-&lt;figure class="highlight">
- &lt;div class="decoration-codeblock__right">
- &lt;button class="copy-btn">
- &lt;svg viewBox="0 0 24 24" height="20px" width="20px"
- fill="none" xmlns="http://www.w3.org/2000/svg">
- &lt;path d="M7.5 3H14.6C16.8402 3 17.9603 3 18.816 3.43597C19.5686 3.81947 20.1805 4.43139 20.564 5.18404C21 6.03969 21 7.15979 21 9.4V16.5M6.2 21H14.3C15.4201 21 15.9802 21 16.408 20.782C16.7843 20.5903 17.0903 20.2843 17.282 19.908C17.5 19.4802 17.5 18.9201 17.5 17.8V9.7C17.5 8.57989 17.5 8.01984 17.282 7.59202C17.0903 7.21569 16.7843 6.90973 16.408 6.71799C15.9802 6.5 15.4201 6.5 14.3 6.5H6.2C5.0799 6.5 4.51984 6.5 4.09202 6.71799C3.71569 6.90973 3.40973 7.21569 3.21799 7.59202C3 8.01984 3 8.57989 3 9.7V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.0799 21 6.2 21Z" stroke="#d3d3d3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;/path> 
- &lt;/svg>
- &lt;/button>
- &lt;/div>
- &lt;pre tabindex="0" class="chroma">
- &lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="c1"># Python ví dụ mệnh lệnh&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="n">total&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="nb">range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">11&lt;/span>&lt;span class="p">):&lt;/span> &lt;span class="c1"># bước 1: lặp từ 1 đến 10&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="mi">2&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="c1"># bước 2: kiểm tra số chẵn&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">5&lt;/span>&lt;span class="cl"> &lt;span class="n">total&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="c1"># bước 3: cộng vào tổng&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">6&lt;/span>&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">total&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="c1"># bước 4: in ra kết quả&lt;/span>&lt;/span>&lt;/span>&lt;/code>
- &lt;/pre>
-&lt;/figure>
-&lt;p>lập trình khai báo&lt;/p></description></item><item><title>Tiền Xử Lí Dữ Liệu Trong Logistic Regression</title><link>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</link><pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</guid><description>&lt;h2 id="làm-sạch-dữ-liệu">Làm sạch dữ liệu 
+&lt;p>Lập trình Khai báo là một kiểu viết chương trình theo hướng &lt;strong>mô tả&lt;/strong> kết quả mà chương trình cần đạt, hơn là &lt;strong>trình bày từng bước&lt;/strong> chương trình thực hiện như trong lập trình mệnh lệnh (Imperative Programming).&lt;/p></description></item><item><title>Tiền Xử Lí Dữ Liệu Trong Logistic Regression</title><link>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</link><pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/xu-li-du-lieu-trong-logistic-regression/</guid><description>&lt;h2 id="làm-sạch-dữ-liệu">Làm sạch dữ liệu 
  
  
 &lt;/h2>
