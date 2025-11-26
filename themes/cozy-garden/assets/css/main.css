@@ -439,6 +439,7 @@ figcaption {
 .img-cover {
   margin-top: 1rem;
   border-radius: 0;
+  width: 100%;
 }
 
 /*
