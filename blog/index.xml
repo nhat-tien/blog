@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.online/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.online/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Phân tích đề tài</title><link>https://tienldn.online/blog/document-about-topic-research/</link><pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/document-about-topic-research/</guid><description>&lt;p>Em không tìm thấy có dự án hay bài báo nghiên cứu giống với đề tài của em,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Nhat Tien</title><link>https://tienldn.online/blog/</link><description>Recent content in Blog on Nhat Tien</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tienldn.online/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Phân tích đề tài</title><link>https://tienldn.online/blog/document-about-topic-research/</link><pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/document-about-topic-research/</guid><description>&lt;p>Em không tìm thấy có dự án hay bài báo nghiên cứu giống với đề tài của em,
 nên em chỉ tìm được những bài nói về mỗi khía cạnh của đề tài:
 &lt;strong>Declarative&lt;/strong>, &lt;strong>Functional Programming&lt;/strong> và &lt;strong>FCIS&lt;/strong>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="declarative-in-programming---tính-khai-báo-trong-lập-trình">Declarative In Programming - Tính khai báo trong lập trình 
@@ -52,11 +52,11 @@ $$&lt;p>Với:&lt;/p>
 &lt;p>Odds are used to describe the chance of an event occurring. The odds are the &lt;em>ratios that compare the number of ways the event can occur with the number of ways the event cannot occurr&lt;/em>.&lt;/p>
 $$
  Odds = \frac{p}{1 - p}
-$$&lt;p>For example, if the probability of rain is 0.75 (or 75%), the probability of no rain is 0.25 (or 25%). The odds of rain are 0.75 / 0.25 = 3. This means it&amp;rsquo;s three times more likely to rain than not to rain.&lt;/p></description></item><item><title>"Hi, How You Have Been?"</title><link>https://tienldn.online/blog/now/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/now/</guid><description>&lt;p>This page is where I update my status&lt;/p>
-&lt;h2 id="now">Now 
+$$&lt;p>For example, if the probability of rain is 0.75 (or 75%), the probability of no rain is 0.25 (or 25%). The odds of rain are 0.75 / 0.25 = 3. This means it&amp;rsquo;s three times more likely to rain than not to rain.&lt;/p></description></item><item><title>"Hi, How You Have Been?"</title><link>https://tienldn.online/blog/now/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/now/</guid><description>&lt;h2 id="now">Now 
  
  
-&lt;/h2></description></item><item><title>Map Of Content</title><link>https://tienldn.online/blog/map-of-content/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/map-of-content/</guid><description>&lt;h1 id="map-of-content">Map Of Content 
+&lt;/h2>
+&lt;p>I currently have an internship at a software company. Everything is a challenge, but I must keep going.&lt;/p></description></item><item><title>Map Of Content</title><link>https://tienldn.online/blog/map-of-content/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://tienldn.online/blog/map-of-content/</guid><description>&lt;h1 id="map-of-content">Map Of Content 
  
 &lt;/h1>
 &lt;div align="center" style="margin:50px auto;">
