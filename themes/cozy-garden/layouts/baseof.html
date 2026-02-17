@@ -26,6 +26,7 @@
        {{ partialCached "math.html" . }}
     {{ end }}
   </head>
+  {{- partial "google_analytic.html" . -}}
   <body>
     {{- partial "header.html" . -}}
     <div class="main-wrapper">

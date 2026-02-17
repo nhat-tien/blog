@@ -13,12 +13,12 @@ main = true
 
 <p style="text-align: center">🎶 <i>Country road, take me home...</i></p>
 
-## TL;DR 
+## TL;DR
 I'm a happy nerd
 
 ## FAQs
 ### Who are you?
-I'm Le Dang Nhat Tien, an undergradute student at an ordinary university, who is pursuing an bachelor's degree in Information Technology. 
+I'm Le Dang Nhat Tien, a passionate software developer.
 
 Here's a list of facts about me:
 - Just a freaky guy from Vietnam
@@ -46,11 +46,11 @@ Well...there are a few reasons why I didn't put much effort into designing this 
 
 ## Projects OSS
 - [Angi](https://github.com/nhat-tien/angi) - An experimental language for building declarative backends
-- [Graph Theory Visualization](https://github.com/nhat-tien/graph-theory) - A Tauri app help student learn about graph theory intuitively. 
+- [Graph Theory Visualization](https://github.com/nhat-tien/graph-theory) - A Tauri app help student learn about graph theory intuitively.
 
 
 ## Social links
-- [Github](https://github.com/nhat-tien/) 
+- [Github](https://github.com/nhat-tien/)
 - [Codeberg](https://codeberg.org/nhat-tien)
 - [Linkedin](https://www.linkedin.com/in/ledntien/)
 - [Youtube channel for music](https://www.youtube.com/@bluemouse9259)
