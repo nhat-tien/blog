@@ -1,8 +1,10 @@
 {{ define "main"}}
 <main>
 <h1>All Tags</h1>
+  <div class="tag-container">
     {{ range .Site.Taxonomies.tags.ByCount }}
   <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}<span class="tag-count">{{.Count}}</span></a>&nbsp;
     {{ end }}
+  </div>
 </main>
 {{ end}}

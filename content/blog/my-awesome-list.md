@@ -1,7 +1,7 @@
 +++
 title = "My Awesome List"
 date = "2023-11-20"
-lastmod = "2025-09-28"
+lastmod = "2026-02-19"
 description= ""
 draft= false
 toc= true
@@ -74,6 +74,7 @@ tags= []
 - [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
 - [https://yobibyte.github.io/vim.html](https://yobibyte.github.io/vim.html) - He explains how he managed to get rid of all his neovim plugins.
 - [https://codeberg.org/uzu/strudel](https://codeberg.org/uzu/strudel) - Live-coding music web-based platform (Soooo cool)
+- [https://tschuehly.de/](https://tschuehly.de/) Springboot + HTMX
 
 ## Pixel editor
 
@@ -101,4 +102,7 @@ tags= []
 
 ## Database
 - [cockroachdb](https://github.com/cockroachdb/cockroach)
+
+## Misc
+- [Typst Cookbook (Unofficial)](https://sitandr.github.io/typst-examples-book/book/)
 

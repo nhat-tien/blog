@@ -1,10 +1,9 @@
 ---
 title: "/dev/null trong linux"
 date: 2024-04-24
-lastmod: 2024-04-24
+lastmod: 2026-02-19
 description:
 img:
-stage: seedling
 draft: false
 toc: false
 tags:
@@ -39,5 +38,5 @@ Another way:
 `2>&1`: redirect stderr(2) to stdout(1). We use &1 to mention to the shell that the destination file is a file descriptor and not a file name.
 
 ```bash
-cat --INCORRECT_OPTION > dev/null 2>&1
+cat --INCORRECT_OPTION > /dev/null 2>&1
 ```

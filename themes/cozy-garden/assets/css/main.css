@@ -1,6 +1,6 @@
 /*
 *  --------     FONT      -------
-*/ 
+*/
 
 @font-face {
   font-family: "Cascadia Code";
@@ -1159,6 +1159,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 }
 
 #search-query {
@@ -1399,4 +1400,8 @@ iframe {
 figure {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.tag-container {
+  padding: 0 1rem;
 }
