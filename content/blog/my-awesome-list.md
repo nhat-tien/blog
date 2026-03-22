@@ -46,6 +46,7 @@ tags= []
 
 - [https://matklad.github.io/](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 - [https://www.dogeystamp.com/](https://www.dogeystamp.com/)
+- [https://stephenjayakar.com/](https://stephenjayakar.com/)
 
 ## Chia sẻ kiến thức
 
@@ -105,4 +106,6 @@ tags= []
 
 ## Misc
 - [Typst Cookbook (Unofficial)](https://sitandr.github.io/typst-examples-book/book/)
+- [https://wiki.r-selfhosted.com/](https://wiki.r-selfhosted.com/)
+- [https://sebastianraschka.com/llm-architecture-gallery/](https://sebastianraschka.com/llm-architecture-gallery/)
 

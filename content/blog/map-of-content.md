@@ -23,5 +23,4 @@ tags = []
 - [Hi!, How have you been?](/blog/now)
 
 ## Misc
-- [My digital notebook](https://nhat-tien.github.io/notes)
 - [My Awesome List](/blog/my-awesome-list)

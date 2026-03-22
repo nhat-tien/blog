@@ -6,12 +6,12 @@ description = ""
 tags = [
     "thought"
 ]
-draft = true 
+draft = true
 +++
 
 I don't know how to say it. But I want to improve myself.
 
-Purpose: 
+Purpose:
 - Feel better
 
 What would I do:
@@ -20,5 +20,6 @@ What would I do:
 ## Become cracked at Programming
 ## Enjoy life
 ## Get out of debt
-  
+
+
 

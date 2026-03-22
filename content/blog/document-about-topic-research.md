@@ -6,12 +6,12 @@ side_toc = true
 description = ""
 math = true
 tags = [ ]
-draft = false 
+draft = true
 image = ""
 +++
 
-Em không tìm thấy có dự án hay bài báo nghiên cứu giống với đề tài của em, 
-nên em chỉ tìm được những bài nói về mỗi khía cạnh của đề tài: 
+Em không tìm thấy có dự án hay bài báo nghiên cứu giống với đề tài của em,
+nên em chỉ tìm được những bài nói về mỗi khía cạnh của đề tài:
 **Declarative**, **Functional Programming** và **FCIS**[^FCIS]
 
 ## Declarative In Programming - Tính khai báo trong lập trình
@@ -29,14 +29,14 @@ for i in range(1, 11):      # bước 1: lặp từ 1 đến 10
 print(total)                 # bước 4: in ra kết quả
 ```
 
-lập trình khai báo 
+lập trình khai báo
 ```python
 # Python ví dụ khai báo
 total = sum(i for i in range(1, 11) if i % 2 == 0)
 print(total)
 ```
 
-Ở cách này, chúng ta mô tả về mặt trừu tượng ta muốn tổng (`sum`) 
+Ở cách này, chúng ta mô tả về mặt trừu tượng ta muốn tổng (`sum`)
 các số chẵn (`if i % 2 == 0`) từ 1 đến 10 (`i for i in range(1, 11)`).
 
 Ngôn ngữ khai báo phổ biến nhất phải nói đến SQL:
@@ -45,14 +45,14 @@ Ngôn ngữ khai báo phổ biến nhất phải nói đến SQL:
 SELECT * from `user` as u WHERE u.id = 3;
 ```
 
-Nhìn vào ta nhìn thấy ngay kết quả mong đợi của câu lệnh và nó không hề thể 
+Nhìn vào ta nhìn thấy ngay kết quả mong đợi của câu lệnh và nó không hề thể
 hiện cách database thực hiện nó như thế nào.
 
 Chủ đề này được nhiều bài nghiên cứu tiếp cận theo nhiều cách.
 
-Một bài nghiên cứu[^1] đưa ra giải pháp kết hợp giữa Lập trình Khai báo và tạo chương trình 
-dựa trên template (Template based Program) vào việc phát triển RESTful API. Họ chứng minh 
-rằng **áp dụng nguyên lí lập trình khai báo đã giảm được sự phức tạp của coding thủ công và nâng 
+Một bài nghiên cứu[^1] đưa ra giải pháp kết hợp giữa Lập trình Khai báo và tạo chương trình
+dựa trên template (Template based Program) vào việc phát triển RESTful API. Họ chứng minh
+rằng **áp dụng nguyên lí lập trình khai báo đã giảm được sự phức tạp của coding thủ công và nâng
 cao khả năng bảo trì của hệ thống API**. <mark>Sản phẩm nghiên cứu sử dụng YAML để khai báo
 các thành phần của hệ thống</mark> (router và database scheme).
 
@@ -70,15 +70,15 @@ công cụ thông thường**, đồng thời nâng cao chất lượng bảo m�
 sử dụng nhờ vào việc tái sử dụng các khối xây dựng đã được kiểm
 chứng. Họ <mark>sử dụng JSON và một ngôn ngữ có cú pháp giống HTML</mark>.
 
-Còn đối với đề tài của em, em chọn thiết kế một *ngôn ngữ lập trình hàm* để đạt 
-được tính khai báo trong lập trình khai báo. 
+Còn đối với đề tài của em, em chọn thiết kế một *ngôn ngữ lập trình hàm* để đạt
+được tính khai báo trong lập trình khai báo.
 
 ## Functional Programming - Lập Trình Hàm
 
-Functional Programming (FP) là một mô hình lập trình, có bốn trụ cột triết lý nền tảng 
+Functional Programming (FP) là một mô hình lập trình, có bốn trụ cột triết lý nền tảng
 của mô hình này phân biệt nó với các mô hình khác.
 
-- *Hàm thuần túy (pure function) là những hàm mà khi thực thi nó không tạo 
+- *Hàm thuần túy (pure function) là những hàm mà khi thực thi nó không tạo
 ra bất kì một hiệu ứng phụ (side effect) nào*.
 
 - *Tính bất biến của dữ liệu là quan trọng nhất*.
@@ -87,7 +87,7 @@ ra bất kì một hiệu ứng phụ (side effect) nào*.
 
 - *Tư duy khai báo, mô tả điều mong muốn hơn là liệt kê các bước thực hiện.*
 
-Bởi vì những triết lý trên, những ngôn ngữ lập trình hàm thường được đánh giá là code 
+Bởi vì những triết lý trên, những ngôn ngữ lập trình hàm thường được đánh giá là code
 dễ đọc, dễ kiểm thử và ít lỗi hơn, đặc biệt trong môi trường đa luồng hoặc bất đồng bộ.
 
 Những ngôn ngữ lập trình hàm nổi tiếng là F#, Haskell, Elixir, Elm.
@@ -108,16 +108,16 @@ giải pháp cân bằng giữa độ tin cậy và tính phổ biến.
 
 ## Functional Core Imperative Shell
 
-Functional Core Imperative Shell là một mẫu thiết kế kiến trúc phần mềm. Trong đó, phần mềm được 
-chia thành hai phần. Phần lõi (Core) chứa bussiness logic, được viết code theo hướng 
-lập trình hàm nhằm giảm thiểu lỗi, dễ kiểm thử. 
-Phần vỏ (Shell) xử lí các tác vụ IO, Database, HTTP request/response. 
+Functional Core Imperative Shell là một mẫu thiết kế kiến trúc phần mềm. Trong đó, phần mềm được
+chia thành hai phần. Phần lõi (Core) chứa bussiness logic, được viết code theo hướng
+lập trình hàm nhằm giảm thiểu lỗi, dễ kiểm thử.
+Phần vỏ (Shell) xử lí các tác vụ IO, Database, HTTP request/response.
 
 ![](/images/flow.png "Mô hình FCIS")
 
 Khái niệm này thì em không tìm được bài nghiên cứu, chỉ có từ nhiều bài viết, blog.
 
-Trong sách *Clean Architecture*[^ca] của Uncle Bob tuy không trực tiếp đề cập đến khái niệm này, 
+Trong sách *Clean Architecture*[^ca] của Uncle Bob tuy không trực tiếp đề cập đến khái niệm này,
 nhưng mô hình FCIS cũng rất phù hợp triết lý *kiến trúc sạch* mà ông theo đuổi. Đó là sự tách biệt giữa bussiness logic và framework.
 
 Em tìm được một bài nói khá hay trên youtube. Đây là bài thuyết trình của Scott Wlaschin tại
@@ -135,7 +135,7 @@ hội thảo NDC. [Link youtube](https://www.youtube.com/watch?v=P1vES9AgfC4&t=3
 #### Phát triển Web Service Application đóng vai trò là Imperative Shell, phụ thuộc vào Core
 
 - Xây dựng dựa trên framework Axum - ngôn ngữ Rust, rất mạnh về hiệu năng.
-[Kết quả Benchmark](https://www.techempower.com/benchmarks/#section=data-r23) 
+[Kết quả Benchmark](https://www.techempower.com/benchmarks/#section=data-r23)
 cho thấy axum luôn đứng top so với các framework truyền thống trong bài kiểm tra chịu tải.
 - Sử dụng ngôn ngữ Angi như một ngôn ngữ nhúng (embedded language).
 
@@ -147,7 +147,7 @@ cho thấy axum luôn đứng top so với các framework truyền thống trong
 
 - Mà là runtime nhúng bên trong server.
 
-[Link dự án đang được triển khai trên Github](https://github.com/nhat-tien/angi). Chi tiết triển khai kỹ thuật sẽ được cập nhật trên Github. 
+[Link dự án đang được triển khai trên Github](https://github.com/nhat-tien/angi). Chi tiết triển khai kỹ thuật sẽ được cập nhật trên Github.
 
 ![](/images/angi.png "Minh họa đơn giản flow hoạt động của phần mềm")
 
@@ -157,7 +157,7 @@ cho thấy axum luôn đứng top so với các framework truyền thống trong
 ### Ưu điểm
 
 - **Về mặt hiệu năng**: Tận dụng được sức mạnh của Axum - ngôn ngữ Rust, rất mạnh về hiệu năng.
-[Kết quả Benchmark](https://www.techempower.com/benchmarks/#section=data-r23) 
+[Kết quả Benchmark](https://www.techempower.com/benchmarks/#section=data-r23)
 cho thấy axum luôn đứng top so với các framework truyền thống trong bài kiểm tra chịu tải.
 - **Về mặt phát triển ứng dụng**: triển khai kiến trúc FCIS, functional code logic nên code ít, ít bug, dễ bảo trì, dễ kiểm thử.
 
@@ -180,12 +180,12 @@ cho thấy axum luôn đứng top so với các framework truyền thống trong
 
 Những sản phẩm này không trực tiếp triển khai pattern FCIS, nhưng nó truyền cảm hứng cho em thiết kế một hệ thống tương tự
 
-### Wasp 
+### Wasp
 ![wasp](/images/1/wasp.png)
 
 [Wasp](https://wasp.sh/) là một framework giúp xây dựng fullstack web
 
-- Nó sử dụng một ngôn ngữ DSL khá giống JSON. 
+- Nó sử dụng một ngôn ngữ DSL khá giống JSON.
 - Công nghệ đằng sau: React, NodeJs, Prisma.
 - Tuy nhiên DSL không trực tiếp xử lí logic, phải dùng custom script bằng Javascript.
 
@@ -193,17 +193,17 @@ Những sản phẩm này không trực tiếp triển khai pattern FCIS, nhưng
 
 ![nixos](/images/1/nixos.png)
 
-[NixOS](https://nixos.org/) là một hệ điều hành phân phối của Linux, tập trung vào tính khai 
+[NixOS](https://nixos.org/) là một hệ điều hành phân phối của Linux, tập trung vào tính khai
 báo, khả năng tái sản xuất (reproducible).
 
-- Sử dụng ngôn ngữ Nix (lập trình khai báo, lập trình hàm) để cấu hình mọi thứ, từ hệ thống đến 
+- Sử dụng ngôn ngữ Nix (lập trình khai báo, lập trình hàm) để cấu hình mọi thứ, từ hệ thống đến
 phần mềm.
 
 
 ### Neovim
 ![neovim](/images/1/neovim.png)
 
-[Neovim](https://neovim.io/) là trình editor nổi tiếng với khả năng mở rộng vô hạn nhờ vào cộng 
+[Neovim](https://neovim.io/) là trình editor nổi tiếng với khả năng mở rộng vô hạn nhờ vào cộng
 đồng phát triển plugin đông đảo.
 
 - Sử dụng lua là ngôn ngữ cấu hình.
@@ -219,7 +219,7 @@ phần mềm.
 
 ![terraform](/images/1/terraform.png)
 
-[Terraform](https://developer.hashicorp.com/terraform) là một tool sử dụng Terraform - ngôn 
+[Terraform](https://developer.hashicorp.com/terraform) là một tool sử dụng Terraform - ngôn
 ngữ cấu hình gần giống JSON - để cấu hình cơ sở hạ tầng cloud.
 
 [^FCIS]: Functional Core Imperative Shell
