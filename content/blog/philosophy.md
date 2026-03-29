@@ -2,9 +2,9 @@
 title: 📖 Triết học
 date: 2023-09-19
 lastmod: 2023-09-19
-description: 
+description:
 stage: seedling
-draft: false
+draft: true
 toc: true
 tags:
   - philosophy

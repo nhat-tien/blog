@@ -24,7 +24,7 @@ defaultContentLanguage = 'en'
   dateFormat = "Jan 02, 2006"
   logo = "/images/blue-mouse.webp"
   description = "personal blog of Nhat Tien"
-  math = false 
+  math = false
   [params.header]
     menu = [
       { label = "About", href = "/about" },

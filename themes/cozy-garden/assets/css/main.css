@@ -69,6 +69,7 @@
   --theme-selector-bg: rgb(165, 247, 180);
   --post-bg-color: #ffffff;
   --blockquote-bg-color: #dbf1df;
+  --margin-content: 1rem;
   interpolate-size: allow-keywords;
 }
 
@@ -163,8 +164,8 @@ h5 {
   margin: 1em 0 0.3em 0;
   color: var(--heading_color);
   font-weight: 600;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--margin-content);
+  padding-right: var(--margin-content);
   /*word-spacing: -4px;*/
 }
 
@@ -1051,6 +1052,11 @@ footer p {
 /*
 *    ----- TOC ------
 */
+
+aside {
+  padding-left: var(--margin-content);
+  padding-right: var(--margin-content);
+}
 
 .toc {
   background-color: var(--toc-bg-clr);

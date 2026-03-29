@@ -4,7 +4,7 @@ date: 2023-09-22
 lastmod: 2023-09-22
 description: VST, plugin music
 stage: seedling
-draft: false
+draft: true
 toc: true
 tags:
   - music
