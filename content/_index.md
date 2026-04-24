@@ -3,9 +3,9 @@ title = "Home"
 description = "personal blog of Nhat Tien"
 +++
 
-# Hi 
+# Hi
 
-Welcome to my small corner of the Internet. This is just my personal website, which I use to practice English and write about various topics. These things might not be very interesting but I hope they are somehow useful to you.
+Welcome to my small corner of the Internet. This is just my personal website and I write about various topics. These things might not be very interesting but I hope they are somehow useful to you.
 
 ## Map of Content
-I have a page that contains all my collections, series, and things I want to highlight it. [Map of Content](/blog/map-of-content) 
+I have a page that contains all my collections, series, and things I want to highlight it. [Map of Content](/blog/map-of-content)

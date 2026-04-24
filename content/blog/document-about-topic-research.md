@@ -10,10 +10,6 @@ draft = true
 image = ""
 +++
 
-Em không tìm thấy có dự án hay bài báo nghiên cứu giống với đề tài của em,
-nên em chỉ tìm được những bài nói về mỗi khía cạnh của đề tài:
-**Declarative**, **Functional Programming** và **FCIS**[^FCIS]
-
 ## Declarative In Programming - Tính khai báo trong lập trình
 
 Lập trình Khai báo là một kiểu viết chương trình theo hướng **mô tả** kết quả mà chương trình cần đạt, hơn là **trình bày từng bước** chương trình thực hiện như trong lập trình mệnh lệnh (Imperative Programming).
