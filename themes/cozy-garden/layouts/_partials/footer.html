@@ -48,14 +48,14 @@
   {{end}}
 </div>
 <div class="footer__copyright">
-  <p>Copyleft</p> 
-  {{- partial "icon/copyleft.html" . -}}
-  	<!-- <p>&copy;</p> -->
-  <p><span id="copyright-year">must be a current year, or else there is a bug :)))</span>&nbsp;Nhat Tien</p>
+  <!-- <p>Copyleft</p>  -->
+  <!-- {{- partial "icon/copyleft.html" . -}} -->
+  	<p>&copy; <span id="copyright-year">must be a current year, or else there is a bug :)))</span>&nbsp;L.D.Nhat Tien</p>
+  <p>Available under <a class="link" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
 </div>
-<div class="footer__powered">
-  <p>Powered by <a class="link" href="https://gohugo.io/" target="_blank">Hugo</a></p>
-</div>
+<!-- <div class="footer__powered"> -->
+<!--   <p>Powered by <a class="link" href="https://gohugo.io/" target="_blank">Hugo</a></p> -->
+<!-- </div> -->
 </footer>
 <script>
   document.querySelector("#copyright-year").innerText = (new Date()).getFullYear();

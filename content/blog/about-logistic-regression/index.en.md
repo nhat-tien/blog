@@ -5,16 +5,16 @@ lastmod = "2025-07-17"
 side_toc = true
 description = ""
 math = true
-tags = [ 
+tags = [
     "machine learning"
 ]
-draft = false 
+draft = true
 image = "https://images.unsplash.com/photo-1648201637025-1c77b9be3013?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 +++
 
 This article will show you
 
-## Just a bit of math 
+## Just a bit of math
 
 ### What is Odd?
 
@@ -33,11 +33,11 @@ For example, if the probability of rain is 0.75 (or 75%), the probability of no 
 ### What is Odd Ratios
 
 
-## Implement in program 
+## Implement in program
 
-## How to enhance 
+## How to enhance
 
-### 
+###
 
 $$
   \sigma(z) = \frac{1}{1 + e^{-z}}
@@ -47,4 +47,4 @@ $$
 
 ### Youtube video
 
-- [Machine Learning Cơ Bản | Thuật Toán Hồi Quy Logistic (Logistic Regression)](https://www.youtube.com/watch?v=0OEkXMAnKu4) 
+- [Machine Learning Cơ Bản | Thuật Toán Hồi Quy Logistic (Logistic Regression)](https://www.youtube.com/watch?v=0OEkXMAnKu4)

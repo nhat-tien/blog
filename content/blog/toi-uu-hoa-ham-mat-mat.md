@@ -9,7 +9,7 @@ tags = [
     "machine learning",
     "vietnamese"
 ]
-draft = false
+draft = true
 +++
 
 
@@ -25,7 +25,7 @@ $$
   \textbf{w}_{new} = \textbf{w}_{old} - \alpha \cdot \nabla J(\textbf{w})
 $$
 
-Với: 
+Với:
 - \(\textbf{w}\) : vector hệ số.
 - \(\alpha\) : tốc độ học (learning rate).
 - \(\nabla J(\textbf{w})\) : đạo hàm của loss function theo hệ số.
@@ -41,9 +41,9 @@ $$
 tính đạo hàm, áp dụng Chain Rule:
 
 $$
-\frac{\partial J(\textbf{w}; \textbf{x}_i, y_i)}{\partial \textbf{w}} = 
-\frac{\partial J(\textbf{w}; \textbf{x}_i, y_i)}{\partial \hat{y}} 
-\cdot \frac{\partial \hat{y}}{\partial z} 
+\frac{\partial J(\textbf{w}; \textbf{x}_i, y_i)}{\partial \textbf{w}} =
+\frac{\partial J(\textbf{w}; \textbf{x}_i, y_i)}{\partial \hat{y}}
+\cdot \frac{\partial \hat{y}}{\partial z}
 \cdot \frac{\partial z}{\partial \textbf{w}}
 $$
 
@@ -57,7 +57,7 @@ Ta tính từng phần
 
 $$
 \begin{align*}
-\frac{\partial J(\textbf{w}; \textbf{x}_i, y_i)}{\partial \hat{y}} 
+\frac{\partial J(\textbf{w}; \textbf{x}_i, y_i)}{\partial \hat{y}}
 &= - \frac{y}{\hat{y}} + \frac{1-y}{1-\hat{y}} \\\\
 \frac{\partial \hat{y}}{\partial z} &= \frac{e^{-z}}{(1 + e^{-z})^2} =\hat{y}(1 - \hat{y}) \\\\
 \frac{\partial z}{\partial \textbf{w}} &= \textbf{x}

@@ -68,7 +68,7 @@
   --star-this-repo-fg: #000;
   --theme-selector-bg: rgb(165, 247, 180);
   --post-bg-color: #ffffff;
-  --blockquote-bg-color: #dbf1df;
+  --blockquote-bg-color: #f1f1f1;
   --margin-content: 1rem;
   interpolate-size: allow-keywords;
 }
@@ -180,6 +180,7 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
+  margin: 1.5em 0 1em 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -388,6 +389,8 @@ code {
 blockquote {
   padding: 5px;
   margin-top: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
   border-left: 4px solid var(--link_color);
   background-color: var(--blockquote-bg-color);
 }
@@ -760,10 +763,11 @@ footer p {
 
 .footer__copyright {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-items: center;
-  gap: 5px;
+  gap: 2px;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .footer__powered {

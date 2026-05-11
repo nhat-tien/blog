@@ -5,16 +5,16 @@ lastmod = "2025-08-23"
 side_toc = true
 description = ""
 math = true
-tags = [ 
+tags = [
     "machine learning"
 ]
-draft = false 
+draft = true
 image = "https://images.unsplash.com/photo-1648201637025-1c77b9be3013?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 +++
 
 ## Odds là gì?
 
-Odds là **tỉ số giữa xác suất xảy ra với xác xuất không xảy ra** của một biến cố mà chúng ta cần xét 
+Odds là **tỉ số giữa xác suất xảy ra với xác xuất không xảy ra** của một biến cố mà chúng ta cần xét
 
 Cho \(p\) là xác suất xảy ra của biến cố, ta được Odds của biến cố
 
@@ -59,13 +59,13 @@ gắng nghiên cứu (ta có thể xác định một ngưỡng cố định đ�
 từ xác suất sang biến nhị phân như \(p > 0.5\) thì sẽ là 1 và
 ngược lại là 0).
 
-Ví dụ trong nghiên cứu y khoa, người ta muốn dự đoán được người 
-bệnh có nguy cơ bị gãy xương, các chuyên gia sẽ tiến hành khảo 
+Ví dụ trong nghiên cứu y khoa, người ta muốn dự đoán được người
+bệnh có nguy cơ bị gãy xương, các chuyên gia sẽ tiến hành khảo
 sát trên số lượng lớn bệnh nhân. Họ thu thập thông tin về các chỉ
 số như độ tuổi, BMI, mật độ chất khoáng trong xương,... và tình trạng thực
 tế rằng họ đã từng xảy ra tình trạng gãy xương chưa. Biến \(Y\) đại
 diện cho khả năng người được phỏng vấn có nguy cơ gãy xương trong
-tương lai, biến \(X\) đại diện cho những tham số như độ tuổi, BMI, vv... 
+tương lai, biến \(X\) đại diện cho những tham số như độ tuổi, BMI, vv...
 mà người ta tin rằng nó có góp phần vào nguy cơ gãy xương. Mục
 tiêu của hồi qui logistic là tìm ra phương trình đưa ra dự đoán chính
 xác nhất giá trị của \(Y\) tương ứng với giá trị \(X\).
@@ -73,9 +73,9 @@ xác nhất giá trị của \(Y\) tương ứng với giá trị \(X\).
 Biến \(Y\) là xác suất để thu được một giá trị cụ thể của một
 biến định tính. Trong ví dụ trên, giá trị của biến định tính là "gãy
 xương" và "không gãy xương". Biến \(Y\) sẽ là xác suất bệnh nhân bị "gãy
-xương", biến xác suất này sẽ có giá trị từ \(0\) đến \(1\). Tuy nhiên, 
-khoảng giá trị \([0, 1]\) của xác suất không phù hợp để thực hiện hồi qui, 
-ta cần một đại lượng có khoảng giá trị \([-\infty, \infty]\) để đại diện. Logarit tự nhiên của 
+xương", biến xác suất này sẽ có giá trị từ \(0\) đến \(1\). Tuy nhiên,
+khoảng giá trị \([0, 1]\) của xác suất không phù hợp để thực hiện hồi qui,
+ta cần một đại lượng có khoảng giá trị \([-\infty, \infty]\) để đại diện. Logarit tự nhiên của
 Odds (\(\log(Odds)\)) phù hợp điều kiện này. Ta được phương trình sau:
 
 $$
@@ -92,32 +92,32 @@ Mục tiêu của chúng ta bây giờ là tìm ra bộ giá trị \(\beta\) (\(
 
 Với hệ số \(\textbf{w} = [\beta_0, \beta_1, ..., \beta_m]\) ta đã tìm được sau
 quá trình huấn luyện mô hình (chúng ta sẽ bàn đến cách thực hiện ở
-mục sau), đây là bộ giá trị tối ưu nhất. Chúng ta nhân vô hướng hệ số với 
+mục sau), đây là bộ giá trị tối ưu nhất. Chúng ta nhân vô hướng hệ số với
 một điểm dữ liệu quan sát mới \(\textbf{x} = [x_1, x_2, ..., x_m]\), được kết quả là \(z\)
 
 $$
  \textbf{w}^T\textbf{x} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + ... + \beta_m x_m = z
 $$
 
-Đưa giá trị \(z\) vào hàm **sigmod**, ta được kết quả là p có giá trị 
-trong khoảng \([0, 1]\), thể hiện xác suất có xảy ra biến cố 
+Đưa giá trị \(z\) vào hàm **sigmod**, ta được kết quả là p có giá trị
+trong khoảng \([0, 1]\), thể hiện xác suất có xảy ra biến cố
 
 $$
   \sigma(z) = \frac{1}{1 + e^{-z}} = p
 $$
 
-Từ đó, ta xác định điểm dữ liệu quan sát được đó 
+Từ đó, ta xác định điểm dữ liệu quan sát được đó
 thuộc về lớp phân loại 0 hay 1 (với ngưỡng đặt trước là \(p > 0.5\) thì thuộc lớp 1 và ngược lại)
 
 ### Cách tìm ra hàm Sigmod
 
-Ta có 
+Ta có
 
 $$
 \begin{gather*}
 \log(Odds) = \log(\frac{p}{1 - p}) = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + ... + \beta_m x_m \\\\
 \Leftrightarrow \log(\frac{p}{1 - p}) = z \\\\
-\Leftrightarrow \frac{p}{1 - p} = e^z \\\\ 
+\Leftrightarrow \frac{p}{1 - p} = e^z \\\\
 \Leftrightarrow p = e^z(1 - p) \\\\
 \Leftrightarrow p = e^z - e^zp \\\\
 \Leftrightarrow p (1 + e^z) = e^z \\\\
@@ -126,7 +126,7 @@ $$
 \end{gather*}
 $$
 
-Đây chính là hàm **Sigmod** 
+Đây chính là hàm **Sigmod**
 
 $$
   \sigma(z) = \frac{1}{1 + e^{-z}} = p
@@ -137,7 +137,7 @@ $$
 ### Likelihood function
 
 Ta biết rằng xác suất để một điểm dữ liệu \(\textbf{x}\) được phân vào lớp 1
-là \(\sigma(\textbf{w}^T\textbf{x})\), và phân vào lớp 0 là 
+là \(\sigma(\textbf{w}^T\textbf{x})\), và phân vào lớp 0 là
 \(1 - \sigma(\textbf{w}^T\textbf{x})\). Với mỗi điểm dữ liệu huấn luyện (đã biết đầu ra \(y\)),
 ta có được biểu thức sau:
 
@@ -163,7 +163,7 @@ Muốn mô hình xây dựng được gần với dữ liệu đã cho nhất, t
 đạt giá trị cao nhất. Bài toán đi tìm tham số để mô hình gần giống với dữ liệu nhất gọi là bài toán
 *maximum likelihood estimation*.
 
-Giả sử các điểm dữ liệu là các biến cố độc lập, theo quy tắc nhân xác suất, 
+Giả sử các điểm dữ liệu là các biến cố độc lập, theo quy tắc nhân xác suất,
 ta tính được likelihood trên tất cả các điểm dữ liệu
 
 $$
@@ -173,7 +173,7 @@ $$
 Tuy nhiên có những lý do sau đây khiến chúng ta không làm việc trực tiếp trên likelihood function:
 - Tính toán phức tạp do likelihood function là tích các xác suất
 - Tích của nhiều số hạng nhỏ hơn 1 sẽ cho ra một số quá nhỏ, dẫn đến sai số trong tính toán
-- Trong lĩnh vực machine learning, người ta thường đi tìm tham số theo hướng giải bài toán cực tiểu. 
+- Trong lĩnh vực machine learning, người ta thường đi tìm tham số theo hướng giải bài toán cực tiểu.
 
 Một phương pháp thay thế cho *maximum likelihood estimation* đó là *minimize log-loss*
 
@@ -193,7 +193,7 @@ $$
 
 ### Youtube video
 
-- [Machine Learning Cơ Bản | Thuật Toán Hồi Quy Logistic (Logistic Regression)](https://www.youtube.com/watch?v=0OEkXMAnKu4) 
+- [Machine Learning Cơ Bản | Thuật Toán Hồi Quy Logistic (Logistic Regression)](https://www.youtube.com/watch?v=0OEkXMAnKu4)
 
 ## References
 - [Logistic Regression | Machine Learning cơ bản](https://machinelearningcoban.com/2017/01/27/logisticregression/)
