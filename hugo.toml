@@ -5,10 +5,14 @@ assetDir='assets'
 title = "Nhat Tien"
 enableRobotsTXT = true
 enableEmoji = true
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+# disableKinds = ["taxonomy"]
+# ignoreErrors = ["error-disable-taxonomy"]
 buildFuture = true
 defaultContentLanguage = 'en'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
 
 [languages]
   [languages.en]
@@ -28,14 +32,14 @@ defaultContentLanguage = 'en'
   [params.header]
     menu = [
       { label = "About", href = "/about" },
-      { label = "Tags", href = "/tag" },
-      { label = "Blog", href = "/blog" }
+      { label = "Explore", href = "/explore" },
+      { label = "Archive", href = "/blog" }
     ]
   [params.footer]
     github = "https://github.com/nhat-tien"
     linkedin = "https://www.linkedin.com/in/ledntien"
     rss = "/index.xml"
-    twtxt = "/twtxt.txt"
+    # twtxt = "/twtxt.txt"
     starThisRepoUrl = "https://github.com/nhat-tien/blog"
     highlights = [
       { label = "Map Of Content", href = "/blog/map-of-content/" },
@@ -44,7 +48,7 @@ defaultContentLanguage = 'en'
     nav = [
       { label = "About", href = "/about" },
       { label = "Now", href = "/blog/now" },
-      { label = "Tags", href = "/tag" },
+      { label = "Explore", href = "/explore" },
       { label = "Archive", href = "/blog" }
     ]
   [params.twtxt]
@@ -72,7 +76,7 @@ defaultContentLanguage = 'en'
 
 [permalinks]
   blog = "/blog/:contentbasename/"
-  tags = "/tag/:slug"
+  tags = "/tags/:slug"
   [permalinks.section]
     blog = '/blog/'
 

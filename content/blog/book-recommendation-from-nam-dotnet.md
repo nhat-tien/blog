@@ -28,8 +28,8 @@ Cre: Nam .NET (youtube: hoc lap trinh cung Nam)
 
 📕 Thuật toán:
 - Algorithms, Robert Sedgewick và Kevin Wayne: đây là bộ sách gối đầu giường của mình khi còn là sinh viên, mình đọc và tham khảo rất nhiều khi học, các thuật toán trong đây cũng là những bài tập mình làm khi luyện code. Có thể nói đây là cuốn sách mình khuyến khích các bạn nên đọc, bất kể bạn đang học ngôn ngữ hay nền tảng gì, sách này có bản dịch tiếng Việt.
- 
-📕 Networking, TCP/IP và HTTP: 
+
+📕 Networking, TCP/IP và HTTP:
 - TCP/IP Illustrated, W. Richard Stevens (3 tập): Bộ sách về TCP/IP phải nói là đỉnh của đỉnh, mình từng có bản giấy của bộ này nhưng nay không biết thất lạc đâu rồi :(.
 - https://openid.net/: Trang web của OpenID Foundation, mình hầu như chỉ đọc tài liệu về OpenId connect ở đây.
 - Các RFC, HTTP 1/2/3, OAuth2 và các chuẩn về web: RFC là các quy ước, đặc tả mà các nhà phát triển hay sản xuất công nghiệp tuân theo để đảm bảo tính đồng bộ và tương thích, vì vậy đọc các RFC cũng đồng nghĩa với việc bạn đang đọc các tài liệu mà các chuyên gia trên thế giới đọc để tạo ra các sản phẩm bạn đang dùng. Ban đầu chưa quen sẽ hơi khó tiếp thu, nhưng một khi đã quen rồi bạn sẽ ... nghiện 😅.

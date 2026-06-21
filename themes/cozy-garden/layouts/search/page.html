@@ -9,3 +9,4 @@
 {{ $searchScriptUrl := resources.Get "js/search.js" | minify | fingerprint}}
 <script src="{{ $searchScriptUrl.Permalink }}"></script>
 {{ end }}
+

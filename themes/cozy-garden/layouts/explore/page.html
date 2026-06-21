@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main>
+  <h2>Tags</h2>
+  <div class="tag-container">
+    {{ range .Site.Taxonomies.tags.ByCount }}
+  <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}<span class="tag-count">{{.Count}}</span></a>&nbsp;
+    {{ end }}
+  </div>
+
+  <h2>Categories</h2>
+  <div class="tag-container">
+    {{ range .Site.Taxonomies.categories.ByCount }}
+  <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}<span class="tag-count">{{.Count}}</span></a>&nbsp;
+    {{ end }}
+  </div>
+</main>
+{{ end }}
+
+

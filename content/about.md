@@ -14,7 +14,7 @@ main = true
 <p style="text-align: center">🎶 <i>Country road, take me home...</i></p>
 
 ## TL;DR
-I'm a happy nerd
+I'm a ~happy~ nerd
 
 ## FAQs
 ### Who are you?
@@ -45,10 +45,7 @@ Well...there are a few reasons why I didn't put much effort into designing this 
 </div>
 
 ## Projects OSS
-- [Angi](https://github.com/nhat-tien/angi) - An experimental language for building declarative backends
-- [Graph Theory Visualization](https://github.com/nhat-tien/graph-theory) - A Tauri app help student learn about graph theory intuitively.
-
-
+- [ComtamOSS](https://github.com/ComtamOSS), the collection of my project
 ## Social links
 - [Github](https://github.com/nhat-tien/)
 - [Codeberg](https://codeberg.org/nhat-tien)
@@ -58,6 +55,7 @@ Well...there are a few reasons why I didn't put much effort into designing this 
 ## Contact
 
 You can get in touch with me via Issues of this Github repo.
+
 
 
 
